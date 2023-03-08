@@ -16,7 +16,7 @@
                     </div><!--end col-->
 
                     <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                        <img src="images/illustrator/Startup_SVG.svg" alt="">
+                        <img src="~/assets/images/illustrator/Startup_SVG.svg" alt="">
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
@@ -28,27 +28,27 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="images/client/amazon.svg" class="avatar avatar-ex-sm" alt="">
+                        <img src="~/assets/images/client/amazon.svg" class="avatar avatar-ex-sm" alt="">
                     </div><!--end col-->
 
                     <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="images/client/google.svg" class="avatar avatar-ex-sm" alt="">
+                        <img src="~/assets/images/client/google.svg" class="avatar avatar-ex-sm" alt="">
                     </div><!--end col-->
                     
                     <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="images/client/lenovo.svg" class="avatar avatar-ex-sm" alt="">
+                        <img src="~/assets/images/client/lenovo.svg" class="avatar avatar-ex-sm" alt="">
                     </div><!--end col-->
                     
                     <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="images/client/paypal.svg" class="avatar avatar-ex-sm" alt="">
+                        <img src="~/assets/images/client/paypal.svg" class="avatar avatar-ex-sm" alt="">
                     </div><!--end col-->
                     
                     <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="images/client/shopify.svg" class="avatar avatar-ex-sm" alt="">
+                        <img src="~/assets/images/client/shopify.svg" class="avatar avatar-ex-sm" alt="">
                     </div><!--end col-->
                     
                     <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="images/client/spotify.svg" class="avatar avatar-ex-sm" alt="">
+                        <img src="~/assets/images/client/spotify.svg" class="avatar avatar-ex-sm" alt="">
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
@@ -69,7 +69,7 @@
 
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6 mt-4 pt-2">
-                        <img src="images/illustrator/SEO_SVG.svg" alt="">
+                        <img src="~/assets/images/illustrator/SEO_SVG.svg" alt="">
                     </div><!--end col-->
 
                     <div class="col-lg-7 col-md-6 mt-4 pt-2">
@@ -105,7 +105,7 @@
                     <div class="col-lg-5 col-md-6 order-1 order-md-2">
                         <div class="card rounded border-0 shadow ms-lg-5">
                             <div class="card-body">
-                                <img src="images/illustrator/Mobile_notification_SVG.svg" alt="">
+                                <img src="~/assets/images/illustrator/Mobile_notification_SVG.svg" alt="">
 
                                 <div class="content mt-4 pt-2">
                                     <form>
@@ -115,7 +115,7 @@
                                                     <label class="form-label">نام : <span class="text-danger">*</span></label>
                                                     <div class="form-icon position-relative">
                                                         <i data-feather="user" class="fea icon-sm icons"></i>
-                                                        <input type="text" class="form-control ps-5" placeholder="نام" name="name" required="">
+                                                        <input type="text" class="form-control ps-5" placeholder="نام" name="name" required>
                                                     </div>
                                                 </div>
                                             </div><!--end col-->
@@ -125,7 +125,7 @@
                                                     <label class="form-label">ایمیل :<span class="text-danger">*</span></label>
                                                     <div class="form-icon position-relative">
                                                         <i data-feather="mail" class="fea icon-sm icons"></i>
-                                                        <input type="email" class="form-control ps-5" placeholder="ایمیل" name="email" required="">
+                                                        <input type="email" class="form-control ps-5" placeholder="ایمیل" name="email" required>
                                                     </div>
                                                 </div>
                                             </div><!--end col-->
@@ -135,7 +135,7 @@
                                                     <label class="form-label">رمز عبور :  <span class="text-danger">*</span></label>
                                                     <div class="form-icon position-relative">
                                                         <i data-feather="key" class="fea icon-sm icons"></i>
-                                                        <input type="password" class="form-control ps-5" placeholder="رمز عبور " required="">
+                                                        <input type="password" class="form-control ps-5" placeholder="رمز عبور " required>
                                                     </div>
                                                 </div>
                                             </div><!--end col-->
@@ -174,7 +174,7 @@
                         <div class="tiny-three-item">
                             <div class="tiny-slide text-center">
                                 <div class="client-testi rounded shadow m-2 p-4">
-                                    <img src="images/client/amazon.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
+                                    <img src="~/assets/images/client/amazon.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
                                     <p class="text-muted mt-4">" به نظر می رسد که تنها تکه هایی از متن اصلی در متن لورم اپیسوم که امروزه استفاده می شود باقی مانده است. "</p>
                                     <h6 class="text-primary">- توماس لوری</h6>
                                 </div>
@@ -182,7 +182,7 @@
 
                             <div class="tiny-slide text-center">
                                 <div class="client-testi rounded shadow m-2 p-4">
-                                    <img src="images/client/google.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
+                                    <img src="~/assets/images/client/google.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
                                     <p class="text-muted mt-4">" به نظر می رسد که تنها تکه هایی از متن اصلی در متن لورم اپیسوم که امروزه استفاده می شود باقی مانده است. "</p>
                                     <h6 class="text-primary">- کارلوس</h6>
                                 </div>
@@ -190,7 +190,7 @@
 
                             <div class="tiny-slide text-center">
                                 <div class="client-testi rounded shadow m-2 p-4">
-                                    <img src="images/client/lenovo.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
+                                    <img src="~/assets/images/client/lenovo.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
                                     <p class="text-muted mt-4">" به نظر می رسد که تنها تکه هایی از متن اصلی در متن لورم اپیسوم که امروزه استفاده می شود باقی مانده است. "</p>
                                     <h6 class="text-primary">- باباکارما</h6>
                                 </div>
@@ -198,7 +198,7 @@
 
                             <div class="tiny-slide text-center">
                                 <div class="client-testi rounded shadow m-2 p-4">
-                                    <img src="images/client/paypal.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
+                                    <img src="~/assets/images/client/paypal.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
                                     <p class="text-muted mt-4">" به نظر می رسد که تنها تکه هایی از متن اصلی در متن لورم اپیسوم که امروزه استفاده می شود باقی مانده است. "</p>
                                     <h6 class="text-primary">- جیل شبی</h6>
                                 </div>
@@ -206,7 +206,7 @@
 
                             <div class="tiny-slide text-center">
                                 <div class="client-testi rounded shadow m-2 p-4">
-                                    <img src="images/client/shopify.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
+                                    <img src="~/assets/images/client/shopify.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
                                     <p class="text-muted mt-4">" به نظر می رسد که تنها تکه هایی از متن اصلی در متن لورم اپیسوم که امروزه استفاده می شود باقی مانده است. "</p>
                                     <h6 class="text-primary">- دین لوس</h6>
                                 </div>
@@ -214,7 +214,7 @@
 
                             <div class="tiny-slide text-center">
                                 <div class="client-testi rounded shadow m-2 p-4">
-                                    <img src="images/client/spotify.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
+                                    <img src="~/assets/images/client/spotify.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
                                     <p class="text-muted mt-4">" به نظر می رسد که تنها تکه هایی از متن اصلی در متن لورم اپیسوم که امروزه استفاده می شود باقی مانده است. "</p>
                                     <h6 class="text-primary">- چری استین </h6>
                                 </div>
@@ -368,7 +368,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                         <a href="#" class="logo-footer">
-                            <img src="images/logo-light.png" height="24" alt="">
+                            <img src="~/assets/images/logo-light.png" height="24" alt="">
                         </a>
                         <p class="mt-4">کار با لنـدریــک را شروع کنید که می تواند همه چیزهایی را که برای ایجاد آگاهی ، ایجاد ترافیک ، اتصال به آن نیاز دارید فراهم کند.</p>
                         <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
@@ -434,17 +434,17 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="text-sm-start">
-                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> لنـدریــک. طراحی شده با  <i class="mdi mdi-heart text-danger"></i> توسط  <a href="https://www.rtl-theme.com/author/tn_plugin/" target="_blank" class="text-reset">جعفر عباسی </a>.</p>
+                            <p class="mb-0">© {{ new Date().getFullYear() }} لنـدریــک. طراحی شده با  <i class="mdi mdi-heart text-danger"></i> توسط  <a href="https://www.rtl-theme.com/author/tn_plugin/" target="_blank" class="text-reset">جعفر عباسی </a>.</p>
                         </div>
                     </div><!--end col-->
 
                     <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <ul class="list-unstyled text-sm-end mb-0">
-                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/payments/american-ex.png" class="avatar avatar-ex-sm" title="آمریکن اکسپرس" alt=""></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/payments/discover.png" class="avatar avatar-ex-sm" title="کشف کردن" alt=""></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/payments/master-card.png" class="avatar avatar-ex-sm" title="مستر کارت" alt=""></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/payments/paypal.png" class="avatar avatar-ex-sm" title="پی پال" alt=""></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/payments/visa.png" class="avatar avatar-ex-sm" title="ویزا" alt=""></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="~/assets/images/payments/american-ex.png" class="avatar avatar-ex-sm" title="آمریکن اکسپرس" alt=""></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="~/assets/images/payments/discover.png" class="avatar avatar-ex-sm" title="کشف کردن" alt=""></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="~/assets/images/payments/master-card.png" class="avatar avatar-ex-sm" title="مستر کارت" alt=""></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="~/assets/images/payments/paypal.png" class="avatar avatar-ex-sm" title="پی پال" alt=""></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><img src="~/assets/images/payments/visa.png" class="avatar avatar-ex-sm" title="ویزا" alt=""></a></li>
                         </ul>
                     </div><!--end col-->
                 </div><!--end row-->

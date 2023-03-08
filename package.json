@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "nuxt": "^3.2.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "tiny-slider": "^2.9.4"
   }
 }
