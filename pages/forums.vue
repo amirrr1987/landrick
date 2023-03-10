@@ -220,7 +220,7 @@
                                                     <label class="form-label">ایمیل شما <span class="text-danger">*</span></label>
                                                     <div class="form-icon position-relative">
                                                         <i data-feather="user" class="fea icon-sm icons"></i>
-                                                        <input type="email" class="form-control ps-5" placeholder="ایمیل" name="email" required="">
+                                                        <input type="email" class="form-control ps-5" placeholder="ایمیل" name="email" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -230,7 +230,7 @@
                                                     <label class="form-label">رمز عبور  <span class="text-danger">*</span></label>
                                                     <div class="form-icon position-relative">
                                                         <i data-feather="key" class="fea icon-sm icons"></i>
-                                                        <input type="password" class="form-control ps-5" placeholder="رمز عبور " required="">
+                                                        <input type="password" class="form-control ps-5" placeholder="رمز عبور " required>
                                                     </div>
                                                 </div>
                                             </div>

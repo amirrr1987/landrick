@@ -892,7 +892,7 @@
                                         <div class="row">
                                             <div class="col-lg-6 col-12 mt-4 pt-2">
                                                 <div class="card shadow rounded border-0 overflow-hidden">
-                                                    <img src="images/blog/01.jpg" class="img-fluid" alt="">
+                                                    <img src="~/assets/images/blog/01.jpg" class="img-fluid" alt="">
                                                     <div class="card-body">
                                                         <h5 class="card-title">لنـدریــک : قالب چند منظوره شرکتی و نرم افزار</h5>
                                                         <p class="text-muted">به دلیل استفاده گسترده از آن به عنوان متن پر کننده برای طرح بندی, غیرقابل خواندن از اهمیت زیادی برخوردار است</p>
@@ -907,7 +907,7 @@
                                                         <p class="text-muted">به دلیل استفاده گسترده از آن به عنوان متن پر کننده برای طرح بندی, غیرقابل خواندن از اهمیت زیادی برخوردار است</p>
                                                         <a href="javascript:void(0)" class="text-primary">ادامه مطلب  <i class="uil uil-angle-left-b align-middle"></i></a>
                                                     </div>
-                                                    <img src="images/blog/01.jpg" class="img-fluid" alt="">
+                                                    <img src="~/assets/images/blog/01.jpg" class="img-fluid" alt="">
                                                 </div>
                                             </div><!--end col-->
                                         </div>
@@ -929,7 +929,7 @@
                                                 <div class="card shadow rounded border-0 overflow-hidden">
                                                     <div class="row g-0">
                                                         <div class="col-md-5">
-                                                            <img src="images/work/14.jpg" class="img-fluid" alt="...">
+                                                            <img src="~/assets/images/work/14.jpg" class="img-fluid" alt="...">
                                                         </div>
                                                         <div class="col-md-7">
                                                             <div class="card-body">
@@ -1046,7 +1046,7 @@
                                     <div class="p-4">
                                         <div class="custom-control custom-radio custom-control-inline">
                                             <div class="form-check mb-0">
-                                                <input class="form-check-input" checked type="radio" checked name="flexRadioDefault" id="flexRadioDefault1">
+                                                <input class="form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                                 <label class="form-check-label" for="flexRadioDefault1">بله </label>
                                             </div>
                                         </div>
@@ -1208,11 +1208,11 @@
                                     </div>
                                     <div class="p-4">
                                         <h6 class="text-muted mb-4 pb-2">مثال: <code class="text-danger">&lt;img src="images/home/01.jpg" class="img-fluid avatar avatar-ex-sm rounded"&gt;</code></h6>
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-ex-sm me-2 rounded" alt="">
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-md-sm me-2 rounded" alt="">
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-small me-2 rounded" alt="">
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-medium me-2 rounded" alt="">
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-large mt-3 mt-sm-0 me-2 rounded" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-ex-sm me-2 rounded" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-md-sm me-2 rounded" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-small me-2 rounded" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-medium me-2 rounded" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-large mt-3 mt-sm-0 me-2 rounded" alt="">
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -1225,11 +1225,11 @@
                                     </div>
                                     <div class="p-4">
                                         <h6 class="text-muted mb-4 pb-2">مثال: <code class="text-danger">&lt;img src="images/home/01.jpg" class="img-fluid avatar avatar-ex-sm rounded-circle"&gt;</code></h6>
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-ex-sm me-2 rounded-circle" alt="">
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-md-sm me-2 rounded-circle" alt="">
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-small me-2 rounded-circle" alt="">
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-medium me-2 rounded-circle" alt="">
-                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-large mt-3 mt-sm-0 me-2 rounded-circle" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-ex-sm me-2 rounded-circle" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-md-sm me-2 rounded-circle" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-small me-2 rounded-circle" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-medium me-2 rounded-circle" alt="">
+                                        <img src="~/assets/images/client/05.jpg" class="img-fluid avatar avatar-large mt-3 mt-sm-0 me-2 rounded-circle" alt="">
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -1400,7 +1400,7 @@
                                                     <div class="container-fluid px-0">
                                                         <div class="row align-items-center g-0">
                                                             <div class="col-lg-6 col-md-5">
-                                                                <img src="images/course/online/ab02.jpg" class="img-fluid" alt="">
+                                                                <img src="~/assets/images/course/online/ab02.jpg" class="img-fluid" alt="">
                                                             </div><!--end col-->
                                                             <div class="col-lg-6 col-md-7">
                                                                 <form class="login-form p-4">
@@ -1525,7 +1525,7 @@
                                             <div class="modal-content rounded shadow border-0">
                                                 <div class="modal-body py-5">
                                                     <div class="text-center">
-                                                        <img src="images/shop/cart.png" class="avatar avatar-medium rounded-circle shadow" alt="">
+                                                        <img src="~/assets/images/shop/cart.png" class="avatar avatar-medium rounded-circle shadow" alt="">
                                                         <div class="mt-4">
                                                             <h4>سبد خرید شما خالی هست.</h4>
                                                             <p class="text-muted">به نظر می رسد شما هنوز انتخاب خود را انجام نداده اید...</p>
@@ -1626,10 +1626,10 @@
                                         <i class="mdi mdi-silverware-fork-knife h4 me-2"></i>
                                         <h6 class="mt-4">آیکن های Flaticon</h6>
                                         <p class="text-muted">آیکن های Flaticon وجود دارد و می توانید تمام اطلاعات آیکون ها را از اینجا دریافت کنید: <a href="https://www.flaticon.com/packs/basic-icon" target="_blank"><code class="text-primary">https://www.flaticon.com/packs/basic-icon</code></a></p>
-                                        <img src="images/icon/Email.svg" height="50" class="me-3" alt="">
-                                        <img src="images/icon/bitcoin.svg" height="50" class="me-3" alt="">
-                                        <img src="images/icon/calendar.svg" height="50" class="me-3" alt="">
-                                        <img src="images/icon/location.svg" height="50" class="me-3" alt="">
+                                        <img src="~/assets/images/icon/Email.svg" height="50" class="me-3" alt="">
+                                        <img src="~/assets/images/icon/bitcoin.svg" height="50" class="me-3" alt="">
+                                        <img src="~/assets/images/icon/calendar.svg" height="50" class="me-3" alt="">
+                                        <img src="~/assets/images/icon/location.svg" height="50" class="me-3" alt="">
                                         <h6 class="mt-4">Iconscout (Unicons) آیکن های</h6>
                                         <p class="text-muted">1100+ Iconscout (Icons) آیکن های وجود دارد و می توانید تمام اطلاعات آیکون ها را از اینجا دریافت کنید: <a href="https://iconscout.com/unicons" target="_blank"><code class="text-primary">https://www.flaticon.com/packs/basic-icon</code></a></p>
                                         <h6 class="text-muted mb-4 pb-2">مثال: <code class="text-danger"><br>&lt;span class="h3 text-primary me-2"&gt;<br>&nbsp; &lt;i class="uil uil-0-plus"&gt;&lt;/i&gt;<br>&lt;/span&gt;</code></h6>
