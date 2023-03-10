@@ -161,7 +161,6 @@
                 </div>
             </div><!--end col-->
         </div><!--end row-->
-        </div><!--end container-->
     </section><!--end section-->
     <!-- End contact -->
 </template>

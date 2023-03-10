@@ -78,7 +78,6 @@
                 </div>
             </div><!--end col-->
         </div><!--end row-->
-        </div><!--end container-->
 
         <div class="container mt-100 mt-60">
             <div class="row align-items-center">
