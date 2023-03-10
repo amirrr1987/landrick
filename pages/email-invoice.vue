@@ -1,41 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-    
-<head>
-        <meta charset="utf-8" />   <title>لندریک  - قالب چندمنظوره ای مدرن html</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
-        <meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
-        <meta name="author" content="JafarAbbasi" />
-        <meta name="email" content="jabasi26@gmail.com" />
-        <meta name="website" content="https://www.rtl-theme.com/author/tn_plugin/" />
-        <meta name="Version" content="v3.2.1" />
-        <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <!-- Icons -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="unicons.iconscout.com/release/v3.0.6/css/line.css">
-        <!-- Main Css -->
-        <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
-    </head>
-
-    <body>
-        <!-- Loader -->
-        <!-- <div id="preloader">
-            <div id="status">
-                <div class="spinner">
-                    <div class="double-bounce1"></div>
-                    <div class="double-bounce2"></div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Loader -->
-
+<template>
         <!-- شوع آن -->
         <div style="margin-top: 50px;">
             <table cellpadding="0" cellspacing="0" style="direction: rtl; text-align: right; font-size: 15px; font-weight: 400; max-width: 600px; border: none; margin: 0 auto; border-radius: 6px; overflow: hidden; background-color: #fff; box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);">
@@ -44,7 +7,6 @@
                         <th scope="col"><img src="images/logo-light.png" height="24" alt=""></th>
                     </tr>
                 </thead>
-
                 <tbody>
                     <tr>
                         <td style="padding: 24px 24px 0;">
@@ -70,7 +32,6 @@
                             </table>
                         </td>
                     </tr>
-                    
                     <tr>
                         <td style="padding: 24px;">
                             <div style="display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 6px; box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);">
@@ -98,7 +59,6 @@
                                             <td style="text-align: left; padding: 12px; border-top: 1px solid #dee2e6;">توسعه وب</td>
                                             <td style="text-align: end; padding: 12px; border-top: 1px solid #dee2e6;">139900 تومان</td>
                                         </tr>
-
                                         <tr style="background-color: rgba(47, 85, 212, 0.2); color: #2f55d4; overflow-x: hidden;">
                                             <th scope="row" style="text-align: left; padding: 12px; border-top: 1px solid rgba(47, 85, 212, 0.2);">مجموع </th>
                                             <td colspan="2" style="text-align: end; font-weight: 700; font-size: 18px; padding: 12px; border-top: 1px solid rgba(47, 85, 212, 0.2);">541000 تومان</td>
@@ -108,16 +68,17 @@
                             </div>
                         </td>
                     </tr>
-
                     <tr>
                         <td style="padding: 16px 8px; color: #8492a6; background-color: #f8f9fc; text-align: center;">
-                            © <script>document.write(new Date().getFullYear())</script> لندریک.
+                            © {{ new Date().getFullYear() }} لندریک.
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <!-- پایان آن -->
-    </body>
-
-</html>
+</template>
+<script setup lang="ts">
+</script>
+<style scoped>
+</style>
