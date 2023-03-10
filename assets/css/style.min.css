@@ -3,7 +3,7 @@
     font-family: IRANSansfanum;
     font-style: normal;
     font-weight: 900;
-    src: url('./fonts/iransansfanum/eot/IRANSansWeb_Black.eot');
+    src: url('/fonts/iransansfanum/eot/IRANSansWeb_Black.eot');
     src: url('./fonts/iransansfanum/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),
         /* IE6-8 */
         url('./fonts/iransansfanum/woff2/IRANSansWeb_Black.woff2') format('woff2'),
