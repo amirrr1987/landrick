@@ -516,6 +516,11 @@
 <script setup lang="ts">
 import bgImage from '~/assets/images/seo/cta.png'
 import seoBgImage from '~/assets/images/seo/bg.png'
+
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
-<style scoped></style>
+<style></style>

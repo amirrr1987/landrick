@@ -567,6 +567,12 @@
   <!-- Client End -->
 </template>
 
-<script setup lang="ts"></script>
 
-<style scoped></style>
+<script setup lang="ts">
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+</script>
+
+<style></style>
+
