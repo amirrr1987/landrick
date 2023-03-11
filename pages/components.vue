@@ -1,1964 +1,3489 @@
 <template>
-    <!-- Hero Start -->
-    <section class="bg-half bg-light d-table w-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 text-center">
-                    <div class="page-next-level">
-                        <h4 class="title"> اجزاء </h4>
-                        <div class="page-next">
-                            <nav aria-label="breadcrumb" class="d-inline-block">
-                                <ul class="breadcrumb bg-white rounded shadow mb-0">
-                                    <li class="breadcrumb-item"><a href="index.html">لنـدریـک </a></li>
-                                    <li class="breadcrumb-item"><a href="#">مستند </a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">اجزاء </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div> <!--end col-->
-            </div><!--end row-->
-        </div> <!--end container-->
-    </section><!--end section-->
-    <!-- Hero End -->
-    <!-- Shape Start -->
-    <div class="position-relative">
-        <div class="shape overflow-hidden text-white">
-            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-            </svg>
-        </div>
-    </div>
-    <!--Shape End-->
-    <!-- Start -->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-12 d-none d-md-block">
-                    <div class="sticky-bar bg-light rounded shadow">
-                        <ul class="list-unstyled sidebar-nav mb-0" id="navmenu-nav">
-                            <li class="navbar-item"><a href="#typography" class="navbar-link">عنوان تایپوگرافی</a></li>
-                            <li class="navbar-item"><a href="#display" class="navbar-link">عنوان نمایش</a></li>
-                            <li class="navbar-item"><a href="#bg-colors" class="navbar-link">رنگ پس زمینه</a></li>
-                            <li class="navbar-item"><a href="#text-colors" class="navbar-link">رنگ متن</a></li>
-                            <li class="navbar-item"><a href="#buttons" class="navbar-link">دکمه </a></li>
-                            <li class="navbar-item"><a href="#dropdowns" class="navbar-link">دراپ</a></li>
-                            <li class="navbar-item"><a href="#badges" class="navbar-link">نشانه ها</a></li>
-                            <li class="navbar-item"><a href="#alerts" class="navbar-link">هشدار</a></li>
-                            <li class="navbar-item"><a href="#accordions" class="navbar-link">آکاردئون</a></li>
-                            <li class="navbar-item"><a href="#cards" class="navbar-link">کارت ها</a></li>
-                            <li class="navbar-item"><a href="#forms" class="navbar-link">فرم ها</a></li>
-                            <li class="navbar-item"><a href="#checkboxes" class="navbar-link">چک باکس ها</a></li>
-                            <li class="navbar-item"><a href="#radio-buttons" class="navbar-link">دکمه رادیو </a></li>
-                            <li class="navbar-item"><a href="#switches" class="navbar-link">دکمه سوئیچ </a></li>
-                            <li class="navbar-item"><a href="#select-box" class="navbar-link">فرم انتخاب جعبه</a></li>
-                            <li class="navbar-item"><a href="#subscribe-forms" class="navbar-link">اشتراک فرم ها</a></li>
-                            <li class="navbar-item"><a href="#map" class="navbar-link">نقشه گوگل</a></li>
-                            <li class="navbar-item"><a href="#breadcrumbs" class="navbar-link">Breadcrumbs</a></li>
-                            <li class="navbar-item"><a href="#pagination" class="navbar-link">صفحه ساز</a></li>
-                            <li class="navbar-item"><a href="#avatar" class="navbar-link">آواتار</a></li>
-                            <li class="navbar-item"><a href="#nav-tabs" class="navbar-link">زبانه ها</a></li>
-                            <li class="navbar-item"><a href="#progressbar" class="navbar-link">نوار پیشرفت</a></li>
-                            <li class="navbar-item"><a href="#tooltips" class="navbar-link">نکات راهنما</a></li>
-                            <li class="navbar-item"><a href="#modals" class="navbar-link">مودال</a></li>
-                            <li class="navbar-item"><a href="#tables" class="navbar-link">جداول</a></li>
-                            <li class="navbar-item"><a href="#blockquotes" class="navbar-link">نقل قول ها</a></li>
-                            <li class="navbar-item"><a href="#icons" class="navbar-link">آیکنها</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-8 col-12 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                    <div class="row row-cols-1 ms-lg-2">
-                        <!-- عنوان تایپوگرافی Start -->
-                        <div class="col" id="typography">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> عنوان تایپوگرافی </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                            class="text-danger">&lt;h1&gt; H1. عنوان بوت استرپ &lt;/h1&gt;</code></h6>
-                                    <h1>H1. عنوان بوت استرپ</h1>
-                                    <h2>H2. عنوان بوت استرپ</h2>
-                                    <h3>H3. عنوان بوت استرپ</h3>
-                                    <h4>H4. عنوان بوت استرپ</h4>
-                                    <h5>H5. عنوان بوت استرپ</h5>
-                                    <h6 class="mb-0">H6. عنوان بوت استرپ</h6>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- عنوان تایپوگرافی End -->
-                        <!-- عنوان نمایش Start -->
-                        <div class="col mt-4 pt-2" id="display">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> عنوان نمایش </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                            class="text-danger">&lt;p class="display-1"&gt; Display 1 &lt;/p&gt;</code></h6>
-                                    <p class="display-1">نمایش 1</p>
-                                    <p class="display-2">نمایش 2</p>
-                                    <p class="display-3">نمایش 3</p>
-                                    <p class="display-4 mb-0">نمایش 4</p>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Display Button End -->
-                        <!-- BG Color Start -->
-                        <div class="col mt-4 pt-2" id="bg-colors">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> رنگ پس زمینه </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;div class="bg-primary"&gt; قالب نرم افزار و ساس لنـدریــک &lt;/div&gt;</code>
-                                    </h6>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-primary">
-                                        <p class="avatar avatar-small bg-primary rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-secondary">
-                                        <p class="avatar avatar-small bg-secondary rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-success">
-                                        <p class="avatar avatar-small bg-success rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-danger">
-                                        <p class="avatar avatar-small bg-danger rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-warning">
-                                        <p class="avatar avatar-small bg-warning rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-info">
-                                        <p class="avatar avatar-small bg-info rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-light">
-                                        <p class="avatar avatar-small bg-light rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-white">
-                                        <p class="avatar avatar-small bg-white border rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-dark">
-                                        <p class="avatar avatar-small bg-dark rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-muted">
-                                        <p class="avatar avatar-small bg-muted rounded mb-0"></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- BG Color End -->
-                        <!-- BG Color Start -->
-                        <div class="col mt-4 pt-2" id="bg-colors">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> رنگ پس زمینه نرم افزار </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;div class="bg-soft-primary"&gt; قالب نرم افزار و ساس لنـدریــک &lt;/div&gt;</code>
-                                    </h6>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-primary">
-                                        <p class="avatar avatar-small bg-soft-primary rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-secondary">
-                                        <p class="avatar avatar-small bg-soft-secondary rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-success">
-                                        <p class="avatar avatar-small bg-soft-success rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-danger">
-                                        <p class="avatar avatar-small bg-soft-danger rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-warning">
-                                        <p class="avatar avatar-small bg-soft-warning rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-info">
-                                        <p class="avatar avatar-small bg-soft-info rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-light">
-                                        <p class="avatar avatar-small bg-soft-light rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-white">
-                                        <p class="avatar avatar-small bg-soft-white border rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-dark">
-                                        <p class="avatar avatar-small bg-soft-dark rounded mb-0"></p>
-                                    </div>
-                                    <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
-                                        title=".bg-soft-muted">
-                                        <p class="avatar avatar-small bg-soft-muted rounded mb-0"></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- BG Color End -->
-                        <!-- Text Color Start -->
-                        <div class="col mt-4 pt-2" id="text-colors">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> رنگ متن </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                            class="text-danger">&lt;div class="text-primary"&gt; قالب نرم افزار و ساس لنـدریــک &lt;/div&gt;</code>
-                                    </h6>
-                                    <h6 class="text-primary">.text-primary</h6>
-                                    <h6 class="text-secondary">.text-secondary</h6>
-                                    <h6 class="text-success">.text-success</h6>
-                                    <h6 class="text-danger">.text-danger</h6>
-                                    <h6 class="text-warning">.text-warning</h6>
-                                    <h6 class="text-info">.text-info</h6>
-                                    <h6 class="text-light bg-dark">.text-light</h6>
-                                    <h6 class="text-white bg-dark">.text-white</h6>
-                                    <h6 class="text-white-50 bg-dark">.text-white-50</h6>
-                                    <h6 class="text-dark mb-0">.text-dark</h6>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Text Color End -->
-                        <!-- Buttons Start -->
-                        <div class="col mt-4 pt-2" id="buttons">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">دکمه ها </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-primary"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-primary mt-2 me-2">اولیه </a>
-                                    <a href="javascript:void(0)" class="btn btn-secondary mt-2 me-2">ثانویه </a>
-                                    <a href="javascript:void(0)" class="btn btn-success mt-2 me-2">موفقیت </a>
-                                    <a href="javascript:void(0)" class="btn btn-danger mt-2 me-2">اخطار </a>
-                                    <a href="javascript:void(0)" class="btn btn-info mt-2 me-2">اطلاعات </a>
-                                    <a href="javascript:void(0)" class="btn btn-warning mt-2 me-2">خطر </a>
-                                    <a href="javascript:void(0)" class="btn btn-light mt-2 me-2">روشن </a>
-                                    <a href="javascript:void(0)" class="btn btn-dark mt-2 me-2">تیره </a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Buttons End -->
-                        <!-- Buttons Pill Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">دکمه های قرص </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-pills btn-primary"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-primary mt-2 me-2">اولیه </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-secondary mt-2 me-2">ثانویه </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-success mt-2 me-2">موفقیت </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-danger mt-2 me-2">اخطار </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-info mt-2 me-2">اطلاعات </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-warning mt-2 me-2">خطر </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-light mt-2 me-2">روشن </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-dark mt-2 me-2">تیره </a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Buttons Pill End -->
-                        <!-- Buttons Start -->
-                        <div class="col mt-4 pt-2" id="buttons">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">دکمه نرم افزار </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-soft-primary"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-soft-primary mt-2 me-2">اولیه </a>
-                                    <a href="javascript:void(0)" class="btn btn-soft-secondary mt-2 me-2">ثانویه </a>
-                                    <a href="javascript:void(0)" class="btn btn-soft-success mt-2 me-2">موفقیت </a>
-                                    <a href="javascript:void(0)" class="btn btn-soft-danger mt-2 me-2">اخطار </a>
-                                    <a href="javascript:void(0)" class="btn btn-soft-info mt-2 me-2">اطلاعات </a>
-                                    <a href="javascript:void(0)" class="btn btn-soft-warning mt-2 me-2">خطر </a>
-                                    <a href="javascript:void(0)" class="btn btn-soft-light mt-2 me-2">روشن </a>
-                                    <a href="javascript:void(0)" class="btn btn-soft-dark mt-2 me-2">تیره </a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Buttons End -->
-                        <!-- Buttons Pill Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">دکمه های پیل سافت</h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-pills btn-soft-primary"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-soft-primary mt-2 me-2">اولیه </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-soft-secondary mt-2 me-2">ثانویه
-                                    </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-soft-success mt-2 me-2">موفقیت
-                                    </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-soft-danger mt-2 me-2">اخطار </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-soft-info mt-2 me-2">اطلاعات </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-soft-warning mt-2 me-2">خطر </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-soft-light mt-2 me-2">روشن </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-soft-dark mt-2 me-2">تیره </a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Buttons Pill End -->
-                        <!-- Buttons Outline Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">طرح کلی دکمه ها </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-outline-primary"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary mt-2 me-2">اولیه </a>
-                                    <a href="javascript:void(0)" class="btn btn-outline-secondary mt-2 me-2">ثانویه </a>
-                                    <a href="javascript:void(0)" class="btn btn-outline-success mt-2 me-2">موفقیت </a>
-                                    <a href="javascript:void(0)" class="btn btn-outline-danger mt-2 me-2">اخطار </a>
-                                    <a href="javascript:void(0)" class="btn btn-outline-info mt-2 me-2">اطلاعات </a>
-                                    <a href="javascript:void(0)" class="btn btn-outline-warning mt-2 me-2">خطر </a>
-                                    <a href="javascript:void(0)" class="btn btn-outline-light mt-2 me-2">روشن </a>
-                                    <a href="javascript:void(0)" class="btn btn-outline-dark mt-2 me-2">تیره </a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Buttons Outline End -->
-                        <!-- دکمه ها طرح قرص Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">دکمه ها طرح قرص</h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-outline-primary"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-outline-primary mt-2 me-2">اولیه
-                                    </a>
-                                    <a href="javascript:void(0)"
-                                        class="btn btn-pills btn-outline-secondary mt-2 me-2">ثانویه </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-outline-success mt-2 me-2">موفقیت
-                                    </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-outline-danger mt-2 me-2">اخطار
-                                    </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-outline-info mt-2 me-2">اطلاعات
-                                    </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-outline-warning mt-2 me-2">خطر
-                                    </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-outline-light mt-2 me-2">روشن </a>
-                                    <a href="javascript:void(0)" class="btn btn-pills btn-outline-dark mt-2 me-2">تیره </a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- دکمه ها طرح قرص End -->
-                        <!-- Button Icons Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">آیکن دکمه ها </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-icon btn-primary"&gt;&lt;i data-feather="facebook" class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-info mt-2"><i
-                                            data-feather="twitter" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-danger mt-2"><i
-                                            data-feather="youtube" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-success mt-2"><i
-                                            data-feather="gitlab" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-secondary mt-2"><i
-                                            data-feather="linkedin" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-warning mt-2"><i
-                                            data-feather="github" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-info mt-2"><i data-feather="star"
-                                            class="icons"></i></a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Button Icons End -->
-                        <!-- Outline Button Icons Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">آیکن دکمه های خطی </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-icon btn-outline-primary"&gt;&lt;i data-feather="facebook" class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-outline-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-outline-info mt-2"><i
-                                            data-feather="twitter" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-outline-danger mt-2"><i
-                                            data-feather="youtube" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-outline-success mt-2"><i
-                                            data-feather="gitlab" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-outline-secondary mt-2"><i
-                                            data-feather="linkedin" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-outline-warning mt-2"><i
-                                            data-feather="github" class="icons"></i></a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Outline Button Icons End -->
-                        <!-- نمادهای قرص دکمه ای Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">نمادهای قرص دکمه ای</h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-icon btn-pills btn-primary"&gt;&lt;i data-feather="facebook" class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-info mt-2"><i
-                                            data-feather="twitter" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-danger mt-2"><i
-                                            data-feather="youtube" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-success mt-2"><i
-                                            data-feather="gitlab" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-secondary mt-2"><i
-                                            data-feather="linkedin" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-warning mt-2"><i
-                                            data-feather="github" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-danger mt-2"><i
-                                            data-feather="heart" class="icons"></i></a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- نمادهای قرص دکمه ای End -->
-                        <!-- طرح کلی نمادهای قرص دکمه ای Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">طرح کلی نمادهای قرص دکمه ای</h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-icon btn-pills btn-outline-primary"&gt;&lt;i data-feather="facebook" class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-info mt-2"><i
-                                            data-feather="twitter" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-danger mt-2"><i
-                                            data-feather="youtube" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-success mt-2"><i
-                                            data-feather="gitlab" class="icons"></i></a>
-                                    <a href="javascript:void(0)"
-                                        class="btn btn-icon btn-pills btn-outline-secondary mt-2"><i data-feather="linkedin"
-                                            class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-warning mt-2"><i
-                                            data-feather="github" class="icons"></i></a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- طرح کلی نمادهای قرص دکمه ای End -->
-                        <!-- Button Sizing Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">اندازه دکمه </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-primary btn-sm"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-sm btn-primary mt-2 me-2">کوچک </a>
-                                    <a href="javascript:void(0)" class="btn btn-sm btn-pills btn-primary mt-2 me-2">کوچک
-                                    </a>
-                                    <a href="javascript:void(0)" class="btn btn-sm btn-outline-primary mt-2 me-2">کوچک </a>
-                                    <a href="javascript:void(0)"
-                                        class="btn btn-sm btn-pills btn-outline-primary mt-2 me-2">کوچک </a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-sm btn-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-sm btn-pills btn-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-sm btn-outline-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)"
-                                        class="btn btn-icon btn-sm btn-pills btn-outline-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <h6 class="text-muted mb-2 mt-4 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="btn btn-primary btn-lg"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="btn btn-lg btn-primary mt-2 me-2">بزرگ </a>
-                                    <a href="javascript:void(0)" class="btn btn-lg btn-pills btn-primary mt-2 me-2">بزرگ
-                                    </a>
-                                    <a href="javascript:void(0)" class="btn btn-lg btn-outline-primary mt-2 me-2">بزرگ </a>
-                                    <a href="javascript:void(0)"
-                                        class="btn btn-lg btn-pills btn-outline-primary mt-2 me-2">بزرگ </a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-lg btn-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-lg btn-pills btn-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)" class="btn btn-icon btn-lg btn-outline-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                    <a href="javascript:void(0)"
-                                        class="btn btn-icon btn-lg btn-pills btn-outline-primary mt-2"><i
-                                            data-feather="facebook" class="icons"></i></a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Button Sizing End -->
-                        <!-- Dropdown Start -->
-                        <div class="col mt-4 pt-2" id="dropdowns">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> دراپ داون </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <br>
-                                        <code class="text-danger">
-                                                    &lt;div class="btn-group dropdown-primary"&gt;<br>&nbsp;&nbsp;
-                                                    &lt;button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    اولیه <br>&nbsp;&nbsp;
-                                                    &lt;/button&gt;<br>&nbsp;&nbsp;
-                                                    &lt;div class="dropdown-menu"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;a class="dropdown-item" href="#"&gt;Home&lt;/a&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;a class="dropdown-item" href="#"&gt;Services&lt;/a&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;a class="dropdown-item" href="#"&gt;About us&lt;/a&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;div class="dropdown-divider"&gt;&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;a class="dropdown-item" href="#"&gt;Contact us&lt;/a&gt;<br>&nbsp;&nbsp;
-                                                    &lt;/div&gt;<br>
-                                                    &lt;/div&gt;
-                                                </code>
-                                    </h6>
-                                    <!-- Primary Dropdown -->
-                                    <div class="btn-group dropdown-primary me-2 mt-2">
-                                        <button type="button" class="btn btn-primary dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            اولیه </button>
-                                        <div class="dropdown-menu">
-                                            <a href="javascript:void(0)" class="dropdown-item">خانه </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">خدمات </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">درباره ما </a>
-                                            <div class="dropdown-divider"></div>
-                                            <a href="javascript:void(0)" class="dropdown-item">تماس با ما</a>
-                                        </div>
-                                    </div>
-                                    <!-- Primary Dropdown -->
-                                    <!-- Secondary Dropdown -->
-                                    <div class="btn-group dropdown-secondary me-2 mt-2">
-                                        <button type="button" class="btn btn-secondary dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            ثانویه </button>
-                                        <div class="dropdown-menu">
-                                            <a href="javascript:void(0)" class="dropdown-item">خانه </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">خدمات </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">درباره ما </a>
-                                            <div class="dropdown-divider"></div>
-                                            <a href="javascript:void(0)" class="dropdown-item">تماس با ما</a>
-                                        </div>
-                                    </div>
-                                    <!-- Secondary Dropdown -->
-                                    <!-- Success Dropdown -->
-                                    <div class="btn-group dropdown-success me-2 mt-2">
-                                        <button type="button" class="btn btn-success dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            موفقیت </button>
-                                        <div class="dropdown-menu">
-                                            <a href="javascript:void(0)" class="dropdown-item">خانه </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">خدمات </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">درباره ما </a>
-                                            <div class="dropdown-divider"></div>
-                                            <a href="javascript:void(0)" class="dropdown-item">تماس با ما</a>
-                                        </div>
-                                    </div>
-                                    <!-- Success Dropdown -->
-                                    <!-- Warning Dropdown -->
-                                    <div class="btn-group dropdown-warning me-2 mt-2">
-                                        <button type="button" class="btn btn-warning dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            اخطار </button>
-                                        <div class="dropdown-menu">
-                                            <a href="javascript:void(0)" class="dropdown-item">خانه </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">خدمات </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">درباره ما </a>
-                                            <div class="dropdown-divider"></div>
-                                            <a href="javascript:void(0)" class="dropdown-item">تماس با ما</a>
-                                        </div>
-                                    </div>
-                                    <!-- Warning Dropdown -->
-                                    <!-- Info Dropdown -->
-                                    <div class="btn-group dropdown-info me-2 mt-2">
-                                        <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">
-                                            اطلاعات </button>
-                                        <div class="dropdown-menu">
-                                            <a href="javascript:void(0)" class="dropdown-item">خانه </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">خدمات </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">درباره ما </a>
-                                            <div class="dropdown-divider"></div>
-                                            <a href="javascript:void(0)" class="dropdown-item">تماس با ما</a>
-                                        </div>
-                                    </div>
-                                    <!-- Info Dropdown -->
-                                    <!-- Danger Dropdown -->
-                                    <div class="btn-group dropdown-danger me-2 mt-2">
-                                        <button type="button" class="btn btn-danger dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            خطر </button>
-                                        <div class="dropdown-menu">
-                                            <a href="javascript:void(0)" class="dropdown-item">خانه </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">خدمات </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">درباره ما </a>
-                                            <div class="dropdown-divider"></div>
-                                            <a href="javascript:void(0)" class="dropdown-item">تماس با ما</a>
-                                        </div>
-                                    </div>
-                                    <!-- Danger Dropdown -->
-                                    <!-- Dark Dropdown -->
-                                    <div class="btn-group dropdown-dark me-2 mt-2">
-                                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">
-                                            تیره </button>
-                                        <div class="dropdown-menu">
-                                            <a href="javascript:void(0)" class="dropdown-item">خانه </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">خدمات </a>
-                                            <a href="javascript:void(0)" class="dropdown-item">درباره ما </a>
-                                            <div class="dropdown-divider"></div>
-                                            <a href="javascript:void(0)" class="dropdown-item">تماس با ما</a>
-                                        </div>
-                                    </div>
-                                    <!-- Dark Dropdown -->
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Dropdown End -->
-                        <!-- Badges Start -->
-                        <div class="col mt-4 pt-2" id="badges">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> مدال ها </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;span class="badge bg-primary"&gt; اولیه  &lt;/span&gt;</code>
-                                    </h6>
-                                    <span class="badge bg-primary me-2 mt-2">اولیه </span>
-                                    <span class="badge bg-secondary me-2 mt-2">ثانویه </span>
-                                    <span class="badge bg-success me-2 mt-2">موفقیت </span>
-                                    <span class="badge bg-danger me-2 mt-2">اخطار </span>
-                                    <span class="badge bg-warning me-2 mt-2">خطر </span>
-                                    <span class="badge bg-info me-2 mt-2">اطلاعات </span>
-                                    <span class="badge bg-light me-2 mt-2">روشن </span>
-                                    <span class="badge bg-dark me-2 mt-2">تیره </span>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Badges End -->
-                        <!-- Pill Badges Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> مدال های پیل</h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;span class="badge rounded-pill bg-primary"&gt; اولیه  &lt;/span&gt;</code>
-                                    </h6>
-                                    <span class="badge rounded-pill bg-primary me-2 mt-2">اولیه </span>
-                                    <span class="badge rounded-pill bg-secondary me-2 mt-2">ثانویه </span>
-                                    <span class="badge rounded-pill bg-success me-2 mt-2">موفقیت </span>
-                                    <span class="badge rounded-pill bg-danger me-2 mt-2">اخطار </span>
-                                    <span class="badge rounded-pill bg-warning me-2 mt-2">خطر </span>
-                                    <span class="badge rounded-pill bg-info me-2 mt-2">اطلاعات </span>
-                                    <span class="badge rounded-pill bg-light me-2 mt-2">روشن </span>
-                                    <span class="badge rounded-pill bg-dark me-2 mt-2">تیره </span>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Pill Badges End -->
-                        <!-- Badges Start -->
-                        <div class="col mt-4 pt-2" id="badges">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">مدال سافت </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;span class="badge bg-soft-primary"&gt; اولیه  &lt;/span&gt;</code>
-                                    </h6>
-                                    <span class="badge bg-soft-primary me-2 mt-2">اولیه </span>
-                                    <span class="badge bg-soft-secondary me-2 mt-2">ثانویه </span>
-                                    <span class="badge bg-soft-success me-2 mt-2">موفقیت </span>
-                                    <span class="badge bg-soft-danger me-2 mt-2">اخطار </span>
-                                    <span class="badge bg-soft-warning me-2 mt-2">خطر </span>
-                                    <span class="badge bg-soft-info me-2 mt-2">اطلاعات </span>
-                                    <span class="badge bg-soft-light me-2 mt-2">روشن </span>
-                                    <span class="badge bg-soft-dark me-2 mt-2">تیره </span>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Badges End -->
-                        <!-- Pill Badges Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">مدال سافتی پیل</h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;span class="badge rounded-pill bg-soft-primary"&gt; اولیه  &lt;/span&gt;</code>
-                                    </h6>
-                                    <span class="badge rounded-pill bg-soft-primary me-2 mt-2">اولیه </span>
-                                    <span class="badge rounded-pill bg-soft-secondary me-2 mt-2">ثانویه </span>
-                                    <span class="badge rounded-pill bg-soft-success me-2 mt-2">موفقیت </span>
-                                    <span class="badge rounded-pill bg-soft-danger me-2 mt-2">اخطار </span>
-                                    <span class="badge rounded-pill bg-soft-warning me-2 mt-2">خطر </span>
-                                    <span class="badge rounded-pill bg-soft-info me-2 mt-2">اطلاعات </span>
-                                    <span class="badge rounded-pill bg-soft-light me-2 mt-2">روشن </span>
-                                    <span class="badge rounded-pill bg-soft-dark me-2 mt-2">تیره </span>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Pill Badges End -->
-                        <!-- Link Badges Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> مدال لینک </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#" class="badge bg-primary"&gt; اولیه  &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void(0)" class="badge badge-link bg-primary me-2 mt-2">اولیه </a>
-                                    <a href="javascript:void(0)" class="badge badge-link bg-secondary me-2 mt-2">ثانویه </a>
-                                    <a href="javascript:void(0)" class="badge badge-link bg-success me-2 mt-2">موفقیت </a>
-                                    <a href="javascript:void(0)" class="badge badge-link bg-danger me-2 mt-2">اخطار </a>
-                                    <a href="javascript:void(0)" class="badge badge-link bg-warning me-2 mt-2">خطر </a>
-                                    <a href="javascript:void(0)" class="badge badge-link bg-info me-2 mt-2">اطلاعات </a>
-                                    <a href="javascript:void(0)" class="badge badge-link bg-light me-2 mt-2">روشن </a>
-                                    <a href="javascript:void(0)" class="badge badge-link bg-dark me-2 mt-2">تیره </a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Link Badges End -->
-                        <!-- Alert Start -->
-                        <div class="col mt-4 pt-2" id="alerts">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> هشدار </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                            class="text-danger">&lt;div class="alert alert-primary" role="alert"&gt; یک هشدار اولیه ساده - آن را بررسی کنید! &lt;/div&gt;</code>
-                                    </h6>
-                                    <div class="alert alert-primary" role="alert"> یک هشدار اولیه ساده - آن را بررسی کنید!
-                                    </div>
-                                    <div class="alert alert-secondary" role="alert"> یک هشدار ثانویه ساده - آن را بررسی
-                                        کنید!</div>
-                                    <div class="alert alert-success" role="alert"> یک هشدار موفقیت ساده - آن را بررسی کنید!
-                                    </div>
-                                    <div class="alert alert-danger" role="alert"> یک هشدار خطر ساده - آن را بررسی کنید!
-                                    </div>
-                                    <div class="alert alert-warning" role="alert"> یک هشدار هشدار ساده - آن را بررسی کنید!
-                                    </div>
-                                    <div class="alert alert-info" role="alert"> یک هشدار ساده اطلاعات - آن را بررسی کنید!
-                                    </div>
-                                    <div class="alert alert-light" role="alert"> یک هشدار نور ساده - آن را بررسی کنید!</div>
-                                    <div class="alert alert-dark mb-0" role="alert"> یک هشدار تاریک ساده - آن را بررسی کنید!
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Alert End -->
-                        <!-- Alert Links Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> لینک های هشداری </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                            class="text-danger">&lt;div class="alert alert-primary" role="alert"&gt; یک هشدار اولیه ساده با &lt;a href="#" class="alert-link"&gt;&lt;/a&gt;. &lt;/div&gt;</code>
-                                    </h6>
-                                    <div class="alert alert-primary" role="alert">یک هشدار اولیه ساده با <a
-                                            href="javascript:void(0)" class="alert-link">یک لینک </a>.</div>
-                                    <div class="alert alert-secondary" role="alert">یک هشدار ثانویه ساده با <a
-                                            href="javascript:void(0)" class="alert-link">یک لینک </a>.</div>
-                                    <div class="alert alert-success" role="alert">یک هشدار موفقیت ساده با <a
-                                            href="javascript:void(0)" class="alert-link">یک لینک </a>.</div>
-                                    <div class="alert alert-danger" role="alert">یک هشدار خطر ساده با <a
-                                            href="javascript:void(0)" class="alert-link">یک لینک </a>.</div>
-                                    <div class="alert alert-warning" role="alert">هشدار ساده هشدار با <a
-                                            href="javascript:void(0)" class="alert-link">یک لینک </a>.</div>
-                                    <div class="alert alert-info" role="alert">هشدار اطلاعات ساده با <a
-                                            href="javascript:void(0)" class="alert-link">یک لینک </a>.</div>
-                                    <div class="alert alert-light" role="alert">یک هشدار نور ساده با <a
-                                            href="javascript:void(0)" class="alert-link">یک لینک </a>.</div>
-                                    <div class="alert alert-dark mb-0" role="alert">یک هشدار تاریک ساده با <a
-                                            href="javascript:void(0)" class="alert-link">یک لینک </a>.</div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Alert Links End -->
-                        <!-- Additional Content Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> محتوای اضافی </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="alert alert-success mb-0" role="alert">
-                                        <h4 class="alert-heading">آفرین! </h4>
-                                        <p>اوه ، شما با موفقیت این پیام مهم هشدار را خواندید. این متن به عنوان مثال قرار است
-                                            کمی طولانی تر شود ، بنابراین شما می توانید ببینید که چگونه فاصله هشدار با این
-                                            نوع محتوا کار می کند.</p>
-                                        <p class="mb-0 border-top pt-3">هر زمان که نیاز داشتید ، حتماً از سرویس های حاشیه ای
-                                            برای خوب و مرتب کردن استفاده کنید.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Additional Content End -->
-                        <!-- Dismissing Alert Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> رد کردن هشدار </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <br>
-                                        <code class="text-danger">
-                                                    &lt;div class="alert alert-success alert-dismissible fade show" role="alert"&gt; <br>&nbsp; 
-                                                    &lt;strong&gt;آفرین!&lt;/strong&gt; شما با موفقیت این پیام مهم هشدار را خواندید. <br>&nbsp;    
-                                                    &lt;button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="بستن"&gt; &lt;/button&gt;<br>
-                                                    &lt;/div&gt; 
-                                                </code>
-                                    </h6>
-                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                        <strong>آفرین!</strong> شما با موفقیت این پیام مهم هشدار را خواندید.
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                            aria-label="بستن"></button>
-                                    </div>
-                                    <div class="alert alert-info alert-dismissible fade show" role="alert">
-                                        <strong>سر بالا!</strong> این هشدار به توجه شما نیاز دارد ، اما خیلی مهم نیست.
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                            aria-label="بستن"></button>
-                                    </div>
-                                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                        <strong>گوآکامول مقدس!</strong> شما باید برخی از قسمتهای زیر را بررسی کنید.
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                            aria-label="بستن"></button>
-                                    </div>
-                                    <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
-                                        <strong>آه ضربه محکم! </strong> چند مورد را تغییر دهید و دوباره ارسال کنید.
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                            aria-label="بستن"></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Dismissing Alert End -->
-                        <!-- Advanced Alert Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> هشدار پیشرفته </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <br>
-                                        <code class="text-danger">&lt;div class="alert alert-primary alert-pills" role="alert"&gt; <br>&nbsp;&nbsp;
-                                                    &lt;span class="badge rounded-pill bg-danger"&gt; جدید   &lt;/span&gt; <br>&nbsp;&nbsp;
-                                                    &lt;span class="alert-content"&gt; یک هشدار اولیه مدرن - آن را بررسی کنید! &lt;/span&gt; <br>
-                                                    &lt;/div&gt;
-                                                </code>
-                                    </h6>
-                                    <div class="d-block">
-                                        <div class="alert alert-primary alert-pills" role="alert">
-                                            <span class="badge rounded-pill bg-info me-1">جدید </span>
-                                            <span class="content"> یک هشدار اولیه مدرن - آن را بررسی کنید! <i
-                                                    class="uil uil-angle-left-b"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="d-block">
-                                        <div class="alert alert-danger alert-pills mb-0" role="alert">
-                                            <span class="badge rounded-pill bg-success me-1"> جدید </span>
-                                            <span class="content"> هشدار خطر مدرن - آن را بررسی کنید! <i
-                                                    class="uil uil-angle-left-b"></i> </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Advanced Alert End -->
-                        <!-- هشدار رئوس مطالب پیشرفته Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> هشدار رئوس مطالب پیشرفته </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <br>
-                                        <code class="text-danger">
-                                                    &lt;div class="alert alert-outline-primary alert-pills" role="alert"&gt; <br>&nbsp;&nbsp;
-                                                    &lt;span class="badge rounded-pill bg-danger"&gt; جدید   &lt;/span&gt; <br>&nbsp;&nbsp;
-                                                    &lt;span class="alert-content"&gt; یک هشدار اولیه مدرن - آن را بررسی کنید! &lt;/span&gt; <br>
-                                                    &lt;/div&gt;
-                                                </code>
-                                    </h6>
-                                    <div class="d-block">
-                                        <div class="alert alert-outline-primary alert-pills" role="alert">
-                                            <span class="badge rounded-pill bg-primary me-1">جدید </span>
-                                            <span class="content"> یک هشدار اولیه مدرن - آن را بررسی کنید! <i
-                                                    class="uil uil-angle-left-b"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="d-block">
-                                        <div class="alert alert-outline-danger alert-pills mb-0" role="alert">
-                                            <span class="badge rounded-pill bg-danger me-1"> جدید </span>
-                                            <span class="content"> هشدار خطر مدرن - آن را بررسی کنید! <i
-                                                    class="uil uil-angle-left-b"></i> </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- هشدار رئوس مطالب پیشرفته End -->
-                        <!-- Accordions Start -->
-                        <div class="col mt-4 pt-2" id="accordions">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0">آکاردئون ها </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="accordion mt-4 pt-2" id="buyingquestion">
-                                        <div class="accordion-item rounded">
-                                            <h2 class="accordion-header" id="headingOne">
-                                                <button class="accordion-button border-0 bg-light" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                    aria-expanded="true" aria-controls="collapseOne">
-                                                    چگونه کار می کند؟
-                                                </button>
-                                            </h2>
-                                            <div id="collapseOne" class="accordion-collapse border-0 collapse show"
-                                                aria-labelledby="headingOne" data-bs-parent="#buyingquestion">
-                                                <div class="accordion-body text-muted bg-white">
-                                                    تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما اکثر آنها به نوعی
-                                                    دچار تغییر شده اند.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item rounded mt-2">
-                                            <h2 class="accordion-header" id="headingTwo">
-                                                <button class="accordion-button border-0 bg-light collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                    aria-expanded="false" aria-controls="collapseTwo">
-                                                    آیا برای استفاده از لندریک به طراح نیاز دارم؟
-                                                </button>
-                                            </h2>
-                                            <div id="collapseTwo" class="accordion-collapse border-0 collapse"
-                                                aria-labelledby="headingTwo" data-bs-parent="#buyingquestion">
-                                                <div class="accordion-body text-muted bg-white">
-                                                    تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما اکثر آنها به نوعی
-                                                    دچار تغییر شده اند.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item rounded mt-2">
-                                            <h2 class="accordion-header" id="headingThree">
-                                                <button class="accordion-button border-0 bg-light collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
-                                                    برای شروع فروش چه کاری باید انجام دهم؟
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree" class="accordion-collapse border-0 collapse"
-                                                aria-labelledby="headingThree" data-bs-parent="#buyingquestion">
-                                                <div class="accordion-body text-muted bg-white">
-                                                    تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما اکثر آنها به نوعی
-                                                    دچار تغییر شده اند.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item rounded mt-2">
-                                            <h2 class="accordion-header" id="headingFour">
-                                                <button class="accordion-button border-0 bg-light collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                    aria-expanded="false" aria-controls="collapseFour">
-                                                    با دریافت سفارش چه اتفاقی می افتد؟
-                                                </button>
-                                            </h2>
-                                            <div id="collapseFour" class="accordion-collapse border-0 collapse"
-                                                aria-labelledby="headingFour" data-bs-parent="#buyingquestion">
-                                                <div class="accordion-body text-muted bg-white">
-                                                    تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما اکثر آنها به نوعی
-                                                    دچار تغییر شده اند.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Accordions End -->
-                        <!-- Card Start -->
-                        <div class="col mt-4 pt-2" id="cards">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> کارت ها </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted pb-2">کارت عمودی <br>
-                                        <code class="text-danger">
-                                                    &lt;div class="card shadow rounded border-0 overflow-hidden&gt; <br>&nbsp;&nbsp;
-                                                    &lt;img src="~/assets/images/blog/01.jpg" class="img-fluid" alt="&gt; <br>&nbsp;&nbsp;
-                                                    &lt;div class="card-body"&gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;h5 class="card-title"&gt;لنـدریــک : قالب چند منظوره شرکتی و نرم افزار&lt;/h5&gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;p class="text-muted mb-0"&gt;به دلیل استفاده گسترده از آن به عنوان متن پر کننده برای طرح بندی, غیرقابل خواندن از اهمیت زیادی برخوردار است&lt;/p&gt; <br>&nbsp;&nbsp;
-                                                    &lt;/div&gt; <br>
-                                                    &lt;/div&gt;
-                                                </code>
-                                    </h6>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12 mt-4 pt-2">
-                                            <div class="card shadow rounded border-0 overflow-hidden">
-                                                <img src="~/assets/images/blog/01.jpg" class="img-fluid" alt="">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">لنـدریــک : قالب چند منظوره شرکتی و نرم افزار
-                                                    </h5>
-                                                    <p class="text-muted">به دلیل استفاده گسترده از آن به عنوان متن پر کننده
-                                                        برای طرح بندی, غیرقابل خواندن از اهمیت زیادی برخوردار است</p>
-                                                    <a href="javascript:void(0)" class="text-primary">ادامه مطلب <i
-                                                            class="uil uil-angle-left-b align-middle"></i></a>
-                                                </div>
-                                            </div>
-                                        </div><!--end col-->
-                                        <div class="col-lg-6 col-12 mt-4 pt-2">
-                                            <div class="card shadow rounded border-0 overflow-hidden">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">لنـدریــک : قالب چند منظوره شرکتی و نرم افزار
-                                                    </h5>
-                                                    <p class="text-muted">به دلیل استفاده گسترده از آن به عنوان متن پر کننده
-                                                        برای طرح بندی, غیرقابل خواندن از اهمیت زیادی برخوردار است</p>
-                                                    <a href="javascript:void(0)" class="text-primary">ادامه مطلب <i
-                                                            class="uil uil-angle-left-b align-middle"></i></a>
-                                                </div>
-                                                <img src="~/assets/images/blog/01.jpg" class="img-fluid" alt="">
-                                            </div>
-                                        </div><!--end col-->
-                                    </div>
-                                    <div class="mt-4 pt-4 border-top">
-                                        <h6 class="text-muted pb-2">کارت افقی <br>
-                                            <code class="text-danger">
-                                                        &lt;div class="card shadow rounded border-0 overflow-hidden&gt; <br>&nbsp;&nbsp;
-                                                        &lt;img src="~/assets/images/blog/01.jpg" class="img-fluid" alt="&gt; <br>&nbsp;&nbsp;
-                                                        &lt;div class="card-body"&gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        &lt;h5 class="card-title"&gt;لنـدریــک : قالب چند منظوره شرکتی و نرم افزار&lt;/h5&gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        &lt;p class="text-muted mb-0"&gt;به دلیل استفاده گسترده از آن به عنوان متن پر کننده برای طرح بندی, غیرقابل خواندن از اهمیت زیادی برخوردار است&lt;/p&gt; <br>&nbsp;&nbsp;
-                                                        &lt;/div&gt; <br>
-                                                        &lt;/div&gt;
-                                                    </code>
-                                        </h6>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 mt-4 pt-2">
-                                            <div class="card shadow rounded border-0 overflow-hidden">
-                                                <div class="row g-0">
-                                                    <div class="col-md-5">
-                                                        <img src="~/assets/images/work/14.jpg" class="img-fluid" alt="...">
-                                                    </div>
-                                                    <div class="col-md-7">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">لنـدریــک : قالب چند منظوره شرکتی و نرم
-                                                                افزار</h5>
-                                                            <p class="card-text">این یک کارت گسترده تر است که دارای متن
-                                                                پشتیبانی در زیر است به عنوان یک ماده اصلی برای محتوای اضافی.
-                                                                این محتوا کمی طولانی تر است.</p>
-                                                            <p class="card-text"><small class="text-muted">آخرین بروزرسانی 3
-                                                                    دقیقه قبل</small></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div><!--end col-->
-                                    </div><!--end row-->
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Card End -->
-                        <!-- Forms Start -->
-                        <div class="col mt-4 pt-2" id="forms">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> فرم ها </h4>
-                                </div>
-                                <div class="p-4">
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="mb-3">
-                                                    <label class="form-label">نام شما <span
-                                                            class="text-danger">*</span></label>
-                                                    <div class="form-icon position-relative">
-                                                        <i data-feather="user" class="fea icon-sm icons"></i>
-                                                        <input name="name" id="name" type="text" class="form-control ps-5"
-                                                            placeholder="نام اول :">
-                                                    </div>
-                                                </div>
-                                            </div><!--end col-->
-                                            <div class="col-md-6">
-                                                <div class="mb-3">
-                                                    <label class="form-label">ایمیل شما <span
-                                                            class="text-danger">*</span></label>
-                                                    <div class="form-icon position-relative">
-                                                        <i data-feather="mail" class="fea icon-sm icons"></i>
-                                                        <input name="email" id="email" type="email"
-                                                            class="form-control ps-5" placeholder="ایمیل شما :">
-                                                    </div>
-                                                </div>
-                                            </div><!--end col-->
-                                            <div class="col-md-12">
-                                                <div class="mb-3">
-                                                    <label class="form-label">موضوع </label>
-                                                    <div class="form-icon position-relative">
-                                                        <i data-feather="book" class="fea icon-sm icons"></i>
-                                                        <input name="subject" id="subject" class="form-control ps-5"
-                                                            placeholder="موضوع شما :">
-                                                    </div>
-                                                </div>
-                                            </div><!--end col-->
-                                            <div class="col-md-12">
-                                                <div class="mb-3">
-                                                    <label class="form-label">نظرات </label>
-                                                    <div class="form-icon position-relative">
-                                                        <i data-feather="message-circle" class="fea icon-sm icons"></i>
-                                                        <textarea name="comments" id="comments" rows="4"
-                                                            class="form-control ps-5" placeholder="پیام شما :"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div><!--end row-->
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <input type="submit" id="submit" name="send" class="btn btn-primary"
-                                                    value="ارسال پیام ">
-                                            </div><!--end col-->
-                                        </div><!--end row-->
-                                    </form><!--end form-->
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Forms End -->
-                        <!-- Checkboxes Start -->
-                        <div class="col mt-4 pt-2" id="checkboxes">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> چک باکس </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="form-check form-check-inline">
-                                        <div class="mb-0">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" checked value=""
-                                                    id="flexCheckDefault1">
-                                                <label class="form-check-label" for="flexCheckDefault1">یک </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <div class="mb-0">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault2">
-                                                <label class="form-check-label" for="flexCheckDefault2">دو </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <div class="mb-0">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" disabled value=""
-                                                    id="flexCheckDefault3">
-                                                <label class="form-check-label" for="flexCheckDefault3">غیرفعال </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Checkboxes End -->
-                        <!-- Radio Buttons Start -->
-                        <div class="col mt-4 pt-2" id="radio-buttons">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> دکمه های رادیو </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <div class="form-check mb-0">
-                                            <input class="form-check-input" checked type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">بله </label>
-                                        </div>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <div class="form-check mb-0">
-                                            <input class="form-check-input" checked type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault2">
-                                            <label class="form-check-label" for="flexRadioDefault2">خیر </label>
-                                        </div>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <div class="form-check mb-0">
-                                            <input class="form-check-input" checked type="radio" disabled
-                                                name="flexRadioDefault" id="flexRadioDefault3">
-                                            <label class="form-check-label" for="flexRadioDefault3">غیرفعال </label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Radio Buttons End -->
-                        <!-- Switches Button Start -->
-                        <div class="col mt-4 pt-2" id="switches">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> دکمه سوئیچ </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">ورودی جعبه چک سوئیچ پیش
-                                            فرض</label>
-                                    </div>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                        <label class="form-check-label" for="flexSwitchCheckChecked">ورودی جعبه علامت تیک
-                                            خورده است</label>
-                                    </div>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled"
-                                            disabled>
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">ورودی کادر تأیید سوئیچ
-                                            غیرفعال است</label>
-                                    </div>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled"
-                                            checked disabled>
-                                        <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">غیرفعال بودن
-                                            ورودی جعبه علامت تیک خورده است</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Switches Button End -->
-                        <!-- Select Box Start -->
-                        <div class="col mt-4 pt-2" id="select-box">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> فرم انتخاب جعبه </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="mb-0">
-                                        <select class="form-select form-control" aria-label="Default select example">
-                                            <option selected>این منوی انتخاب را باز کنید</option>
-                                            <option value="1">یک </option>
-                                            <option value="2">دو </option>
-                                            <option value="3">سه </option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Select Box End -->
-                        <!-- مشترک شدن فرم Start -->
-                        <div class="col mt-4 pt-2" id="subscribe-forms">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> مشترک شدن فرم </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="subcribe-form">
-                                        <form>
-                                            <input name="email" id="email2" type="email"
-                                                class="form-control rounded-pill shadow" placeholder="ایمیل شما:" required
-                                                aria-describedby="newssubscribebtn">
-                                            <button type="submit" class="btn btn-pills btn-primary">مشترک شدن </button>
-                                        </form><!--end form-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- مشترک شدن فرم End -->
-                        <!-- Google Map Start -->
-                        <div class="col mt-4 pt-2" id="map">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> گوگل مپ </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="map">
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.525673176609!2d46.32542404246615!3d38.06389198146334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDAzJzUzLjgiTiA0NsKwMTknMzkuNCJF!5e0!3m2!1sen!2s!4v1545664085241"
-                                            style="border:0" class="rounded" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Google Map End -->
-                        <!-- Breadcrumb Start -->
-                        <div class="col mt-4 pt-2" id="breadcrumbs">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> Breadcrumb </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <br>
-                                        <code class="text-danger">
-                                                    &lt;nav aria-label="breadcrumb" class="d-inline-block"&gt; 
-                                                <br> &nbsp; &lt;ul class="breadcrumb bg-white rounded shadow mb-0"&gt; 
-                                                <br> &nbsp; &nbsp; &lt;li class="breadcrumb-item"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt; 
-                                                <br> &nbsp; &nbsp; &lt;li class="breadcrumb-item"&gt;&lt;a href="#"&gt;Pages&lt;/a&gt;&lt;/lt&gt; 
-                                                <br> &nbsp; &nbsp; &lt;li class="breadcrumb-item active" aria-current="page"&gt;Components&lt;/li&gt; 
-                                                <br> &nbsp; &lt;/ul&gt; 
-                                                <br> &lt;/div&gt;</code>
-                                    </h6>
-                                    <nav aria-label="breadcrumb" class="d-inline-block">
-                                        <ul class="breadcrumb bg-white rounded shadow mb-0">
-                                            <li class="breadcrumb-item"><a href="index.html">لنـدریـک </a></li>
-                                            <li class="breadcrumb-item"><a href="#">مستند </a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">اجزاء </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Breadcrumb End -->
-                        <!-- Pagination Start -->
-                        <div class="col mt-4 pt-2" id="pagination">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> صفحه ساز </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <br>
-                                        <code class="text-danger">
-                                                    &lt;ul class="pagination mb-0"&gt;<br>&nbsp;&nbsp;
-                                                    &lt;li class="page-item"&gt;&lt;a class="page-link" href="javascript:void(0)" aria-label="Previous"&gt;Prev&lt;/a&gt;&lt;/li&gt;<br>&nbsp;&nbsp;
-                                                    &lt;li class="page-item active"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br>&nbsp;&nbsp;
-                                                    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br>&nbsp;&nbsp;
-                                                    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br>&nbsp;&nbsp;
-                                                    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#" aria-label="بعدی"&gt;بعدی&lt;/a&gt;&lt;/li&gt;<br>
-                                                    &lt;/ul&gt;<br>
-                                                </code>
-                                    </h6>
-                                    <ul class="pagination mb-0">
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0)"
-                                                aria-label="Previous">قبلی </a></li>
-                                        <li class="page-item active"><a class="page-link" href="javascript:void(0)">1</a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0)"
-                                                aria-label="Next">بعدی </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Pagination End -->
-                        <!-- Default Avatars Start -->
-                        <div class="col mt-4 pt-2" id="avatar">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> آواتارهای پیش فرض </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                            class="text-danger">&lt;img src="~/assets/images/home/01.jpg" class="img-fluid avatar avatar-ex-sm rounded"&gt;</code>
-                                    </h6>
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-ex-sm me-2 rounded" alt="">
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-md-sm me-2 rounded" alt="">
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-small me-2 rounded" alt="">
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-medium me-2 rounded" alt="">
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-large mt-3 mt-sm-0 me-2 rounded" alt="">
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Default Avatars End -->
-                        <!-- Circle Avatars Start -->
-                        <div class="col mt-4 pt-2">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> آواتارهای دایره ای </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                            class="text-danger">&lt;img src="~/assets/images/home/01.jpg" class="img-fluid avatar avatar-ex-sm rounded-circle"&gt;</code>
-                                    </h6>
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-ex-sm me-2 rounded-circle" alt="">
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-md-sm me-2 rounded-circle" alt="">
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-small me-2 rounded-circle" alt="">
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-medium me-2 rounded-circle" alt="">
-                                    <img src="~/assets/images/client/05.jpg"
-                                        class="img-fluid avatar avatar-large mt-3 mt-sm-0 me-2 rounded-circle" alt="">
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Circle Avatars End -->
-                        <!-- Nav Tabs Start -->
-                        <div class="col mt-4 pt-2" id="nav-tabs">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> زبانه ها </h4>
-                                </div>
-                                <div class="p-4">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <ul class="nav nav-pills nav-justified flex-column flex-sm-row rounded"
-                                                id="pills-tab" role="tablist">
-                                                <li class="nav-item">
-                                                    <a class="nav-link rounded active" id="pills-cloud-tab"
-                                                        data-bs-toggle="pill" href="#pills-cloud" role="tab"
-                                                        aria-controls="pills-cloud" aria-selected="false">
-                                                        <div class="text-center py-2">
-                                                            <h6 class="mb-0">خانه </h6>
-                                                        </div>
-                                                    </a><!--end nav link-->
-                                                </li><!--end nav item-->
-                                                <li class="nav-item">
-                                                    <a class="nav-link rounded" id="pills-smart-tab" data-bs-toggle="pill"
-                                                        href="#pills-smart" role="tab" aria-controls="pills-smart"
-                                                        aria-selected="false">
-                                                        <div class="text-center py-2">
-                                                            <h6 class="mb-0">درباره </h6>
-                                                        </div>
-                                                    </a><!--end nav link-->
-                                                </li><!--end nav item-->
-                                                <li class="nav-item">
-                                                    <a class="nav-link rounded" id="pills-apps-tab" data-bs-toggle="pill"
-                                                        href="#pills-apps" role="tab" aria-controls="pills-apps"
-                                                        aria-selected="false">
-                                                        <div class="text-center py-2">
-                                                            <h6 class="mb-0">خدمات </h6>
-                                                        </div>
-                                                    </a><!--end nav link-->
-                                                </li><!--end nav item-->
-                                            </ul><!--end nav pills-->
-                                        </div><!--end col-->
-                                    </div><!--end row-->
-                                    <div class="row pt-2">
-                                        <div class="col-12">
-                                            <div class="tab-content" id="pills-tabContent">
-                                                <div class="tab-pane fade show active" id="pills-cloud" role="tabpanel"
-                                                    aria-labelledby="pills-cloud-tab">
-                                                    <p class="text-muted mb-0">شما می توانید تمام الگوهای لنـدریــک را در یک
-                                                        قالب واحد ترکیب کنید ، می توانید یک نظر را از موضوع برنامه بگیرید و
-                                                        از آن در وب سایت استفاده کنید.</p>
-                                                </div><!--end teb pane-->
-                                                <div class="tab-pane fade" id="pills-smart" role="tabpanel"
-                                                    aria-labelledby="pills-smart-tab">
-                                                    <p class="text-muted mb-0">شما می توانید تمام الگوهای لنـدریــک را در یک
-                                                        قالب واحد ترکیب کنید ، می توانید یک نظر را از موضوع برنامه بگیرید و
-                                                        از آن در وب سایت استفاده کنید.</p>
-                                                </div><!--end teb pane-->
-                                                <div class="tab-pane fade" id="pills-apps" role="tabpanel"
-                                                    aria-labelledby="pills-apps-tab">
-                                                    <p class="text-muted mb-0">شما می توانید تمام الگوهای لنـدریــک را در یک
-                                                        قالب واحد ترکیب کنید ، می توانید یک نظر را از موضوع برنامه بگیرید و
-                                                        از آن در وب سایت استفاده کنید.</p>
-                                                </div><!--end teb pane-->
-                                            </div><!--end tab content-->
-                                        </div><!--end col-->
-                                    </div><!--end row-->
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Nav Tabs End -->
-                        <!-- Progressbar Start -->
-                        <div class="col mt-4 pt-2" id="progressbar">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> نوار پیشرفت </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-4 pb-2">مثال: <br>
-                                        <code class="text-danger">
-                                                    &lt;div class="progress-box"&gt;<br>&nbsp;&nbsp;
-                                                    &lt;h6 class="title text-muted"&gt; Progress&lt;/h6&gt;<br>&nbsp;&nbsp;
-                                                    &lt;div class="progress"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;div class="progress-bar position-relative bg-primary" style="width:84%;"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;div class="progress-value d-block text-muted h6"&gt;84%&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    &lt;/div&gt;<br>&nbsp;&nbsp;
-                                                    &lt;/div&gt;<br>
-                                                    &lt;/div&gt;
-                                                </code>
-                                    </h6>
-                                    <div class="progress-box">
-                                        <h6 class="title text-muted">وردپرس</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar position-relative bg-primary" style="width:84%;">
-                                                <div class="progress-value d-block text-muted h6">84%</div>
-                                            </div>
-                                        </div>
-                                    </div><!--end process box-->
-                                    <div class="progress-box mt-4">
-                                        <h6 class="title text-muted">PHP / MYSQL</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar position-relative bg-primary" style="width:75%;">
-                                                <div class="progress-value d-block text-muted h6">75%</div>
-                                            </div>
-                                        </div>
-                                    </div><!--end process box-->
-                                    <div class="progress-box mt-4">
-                                        <h6 class="title text-muted">آنگولار / جاوااسکریپت</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar position-relative bg-primary" style="width:79%;">
-                                                <div class="progress-value d-block text-muted h6">79%</div>
-                                            </div>
-                                        </div>
-                                    </div><!--end process box-->
-                                    <div class="progress-box mt-4">
-                                        <h6 class="title text-muted">اچ تی ام ال</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar position-relative bg-primary" style="width:95%;">
-                                                <div class="progress-value d-block text-muted h6">95%</div>
-                                            </div>
-                                        </div>
-                                    </div><!--end process box-->
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Progressbar End -->
-                        <!-- Tooltip Start -->
-                        <div class="col mt-4 pt-2" id="tooltips">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> راهنمایی </h4>
-                                </div>
-                                <div class="p-4">
-                                    <h6 class="text-muted mb-2 pb-2">مثال: <code
-                                            class="text-danger">&lt;a href="#"class="btn btn-primary me-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Top Tooltip" alt=""&gt; Top Tooltip &lt;/a&gt;</code>
-                                    </h6>
-                                    <a href="javascript:void" class="btn btn-primary me-2 mt-2" data-bs-toggle="tooltip"
-                                        data-bs-placement="top" title="ابزار به بالا">بالا </a>
-                                    <a href="javascript:void" class="btn btn-primary me-2 mt-2" data-bs-toggle="tooltip"
-                                        data-bs-placement="left" title="ابزار به چپ">چپ</a>
-                                    <a href="javascript:void" class="btn btn-primary me-2 mt-2" data-bs-toggle="tooltip"
-                                        data-bs-placement="bottom" title="ابزار به پایین">پایین</a>
-                                    <a href="javascript:void" class="btn btn-primary me-2 mt-2" data-bs-toggle="tooltip"
-                                        data-bs-placement="right" title="ابزار به راست">راست</a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Tooltip End -->
-                        <!-- Modal Start -->
-                        <div class="col mt-4 pt-2" id="modals">
-                            <div class="component-wrapper rounded shadow">
-                                <div class="p-4 border-bottom">
-                                    <h4 class="title mb-0"> مودال </h4>
-                                </div>
-                                <div class="p-4">
-                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#LoginForm"
-                                        class="btn btn-primary m-1"> کلیک کنید</a>
-                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#login-popup"
-                                        class="btn btn-primary m-1"> صفحه ورود پاپ</a>
-                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#subscribe-popup"
-                                        class="btn btn-primary m-1">صفحه اشتراک پاپ</a>
-                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#wishlist"
-                                        class="btn btn-primary m-1">صفحه علاقه مندیهای پاپ</a>
-                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#empty-cart"
-                                        class="btn btn-primary m-1">سبد خرید پاپ</a>
-                                </div>
-                                <!-- Modal Content Start -->
-                                <div class="modal fade" id="LoginForm" tabindex="-1" aria-labelledby="LoginForm-title"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered">
-                                        <div class="modal-content rounded shadow border-0">
-                                            <div class="modal-header border-bottom">
-                                                <h5 class="modal-title" id="LoginForm-title">عنوان مودال </h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="بستن"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="bg-white p-3 rounded box-shadow">
-                                                    <p class="text-muted mb-0">متن ساختگی همچنین برای نشان دادن ظاهر انواع
-                                                        مختلف و طرح بندی استفاده می شود و به طور کلی محتوای متن ساختگی مزخرف
-                                                        است. به دلیل استفاده گسترده از آن ، برای عنوان بندی مناسب ، غیرقابل
-                                                        خواندن از نظر اضافی نیز وجود دارد: درک انسان برای شناسایی الگوها و
-                                                        تکرارهای خاص در متن تنظیم می شود. اگر توزیع حروف و کلمات تصادفی باشد
-                                                        ، خواننده از قضاوت بی طرف در مورد تأثیر بصری و خوانایی انواع حروف
-                                                        (تایپوگرافی) یا توزیع متن در صفحه (طرح یا منطقه نوع) منحرف نخواهد
-                                                        شد. . به همین دلیل ، متن ساختگی معمولاً از یک سری کلمات یا هجاهای کم
-                                                        و بیش تصادفی تشکیل شده است. این مانع از تأثیرگذاری الگوهای تکراری در
-                                                        تصور بصری کلی می شود و مقایسه انواع مختلف را تسهیل می کند. بعلاوه ،
-                                                        هنگامی که متن ساختگی نسبتاً واقع بینانه باشد ، سودمند است ، به طوری
-                                                        که برداشت از طرح نهایی به خطر نیفتد.</p>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن
-                                                </button>
-                                                <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal Content End -->
-                                <!-- Login Form Start -->
-                                <div class="modal fade" id="login-popup" tabindex="-1" aria-hidden="true">
-                                    <div class="modal-dialog  modal-lg modal-dialog-centered">
-                                        <div class="modal-content rounded shadow border-0">
-                                            <div class="modal-body p-0">
-                                                <div class="container-fluid px-0">
-                                                    <div class="row align-items-center g-0">
-                                                        <div class="col-lg-6 col-md-5">
-                                                            <img src="~/assets/images/course/online/ab02.jpg"
-                                                                class="img-fluid" alt="">
-                                                        </div><!--end col-->
-                                                        <div class="col-lg-6 col-md-7">
-                                                            <form class="login-form p-4">
-                                                                <div class="row">
-                                                                    <div class="col-lg-12">
-                                                                    <div class="mb-3">
-                                                                        <label class="form-label">ایمیل شما <span
-                                                                                class="text-danger">*</span></label>
-                                                                        <div class="form-icon position-relative">
-                                                                            <i data-feather="user"
-                                                                                class="fea icon-sm icons"></i>
-                                                                            <input type="email"
-                                                                                class="form-control ps-5"
-                                                                                placeholder="ایمیل" name="email"
-                                                                                required>
-                                                                        </div>
-                                                                    </div>
-                                                                </div><!--end col-->
-                                                                <div class="col-lg-12">
-                                                                    <div class="mb-3">
-                                                                        <label class="form-label">رمز عبور <span
-                                                                                class="text-danger">*</span></label>
-                                                                        <div class="form-icon position-relative">
-                                                                            <i data-feather="key"
-                                                                                class="fea icon-sm icons"></i>
-                                                                            <input type="password"
-                                                                                class="form-control ps-5"
-                                                                                placeholder="رمز عبور " required>
-                                                                        </div>
-                                                                    </div>
-                                                                </div><!--end col-->
-                                                                <div class="col-lg-12">
-                                                                    <div class="d-flex justify-content-between">
-                                                                        <div class="mb-3">
-                                                                            <div class="form-check">
-                                                                                <input class="form-check-input"
-                                                                                    type="checkbox" value=""
-                                                                                    id="flexCheckDefault4">
-                                                                                <label class="form-check-label"
-                                                                                    for="flexCheckDefault4">مرا به خاطر
-                                                                                    بسپار </label>
-                                                                            </div>
-                                                                        </div>
-                                                                        <p class="forgot-pass mb-0"><a
-                                                                                href="auth-re-password.html"
-                                                                                class="text-dark fw-bold">فراموشی رمز
-                                                                                عبور؟ </a></p>
-                                                                    </div>
-                                                                </div><!--end col-->
-                                                                <div class="col-lg-12 mb-0">
-                                                                    <div class="d-grid">
-                                                                        <button class="btn btn-primary">ورود </button>
-                                                                    </div>
-                                                                </div><!--end col-->
-                                                                <div class="col-12 text-center">
-                                                                    <p class="mb-0 mt-3"><small
-                                                                            class="text-dark me-2">حسابی ندارید؟
-                                                                        </small> <a href="auth-signup.html"
-                                                                            class="text-dark fw-bold">ثبت نام کنید </a>
-                                                                    </p>
-                                                                </div><!--end col-->
-                                                            </div><!--end row-->
-                                                        </form>
-                                                    </div><!--end col-->
-                                                </div><!--end row-->
-                                            </div><!--end container-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Login Form End -->
-                            <!-- Subscribe popup Start -->
-                            <div class="modal fade" id="subscribe-popup" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog  modal-lg modal-dialog-centered">
-                                    <div class="modal-content rounded shadow border-0">
-                                        <div class="modal-body p-0"
-                                            style="background: url('images/subscribe.png') no-repeat;">
-                                            <button type="button" class="btn-close float-end m-2"
-                                                data-bs-dismiss="modal" aria-label="بستن"></button>
-                                            <div class="clearfix"></div>
-                                            <div class="container-fluid px-0">
-                                                <div class="row align-items-center g-0">
-                                                    <div class="col-lg-6 offset-lg-6">
-                                                        <div class="pb-5 pt-4 px-4">
-                                                            <h6 class="text-muted">اولین نفری باشید که می توانید از
-                                                                بروزرسانی های روزانه مطلع شوید</h6>
-                                                            <h4>برای به روزرسانی های روزانه ثبت نام کنید</h4>
-                                                            <p class="text-muted mb-0">برای دریافت به روزرسانی در مورد
-                                                                تازه واردان ، پیشنهادات ویژه و تبلیغات ما ، در لیست پستی
-                                                                لندریک مشترک شوید.</p>
-                                                            <form class="mt-4">
-                                                                <div class="row">
-                                                                    <div class="col-lg-12">
-                                                                        <div class="foot-subscribe mb-3">
-                                                                            <div class="form-icon position-relative">
-                                                                                <i data-feather="mail"
-                                                                                    class="fea icon-sm icons"></i>
-                                                                                <input type="email" name="email"
-                                                                                    id="daily-updates"
-                                                                                    class="form-control ps-5 rounded"
-                                                                                    placeholder="ایمیل شما: " required>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div><!--end col-->
-                                                                    <div class="col-lg-12">
-                                                                        <div class="d-grid">
-                                                                            <input type="submit" id="submitsubscribe"
-                                                                                name="send" class="btn btn-primary"
-                                                                                value="خبرنامه">
-                                                                        </div>
-                                                                    </div><!--end col-->
-                                                                    <div class="col-12">
-                                                                        <div class="text-center">
-                                                                            <p class="mb-0 mt-3"><small
-                                                                                    class="text-dark me-2">قبلاً حساب
-                                                                                    دارید؟</small> <a
-                                                                                    href="javascript:void(0)"
-                                                                                    class="text-dark fw-bold">وارد شوید
-                                                                                </a></p>
-                                                                        </div>
-                                                                    </div><!--end col-->
-                                                                </div><!--end row-->
-                                                            </form>
-                                                        </div>
-                                                    </div><!--end col-->
-                                                </div><!--end row-->
-                                            </div><!--end container-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Subscribe popup End -->
-                            <!-- Wishlist Popup Start -->
-                            <div class="modal fade" id="wishlist" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content rounded shadow border-0">
-                                        <div class="modal-body py-5">
-                                            <div class="text-center">
-                                                <div class="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto"
-                                                    style="height: 95px; width:95px;">
-                                                    <h1 class="mb-0"><i class="uil uil-heart-break align-middle"></i>
-                                                    </h1>
-                                                </div>
-                                                <div class="mt-4">
-                                                    <h4>لیست خواسته های شما خالی است.</h4>
-                                                    <p class="text-muted">اولین درخواست لیست خواسته های خود را ایجاد
-                                                        کنید...</p>
-                                                    <div class="mt-4">
-                                                        <a href="javascript:void(0)" class="btn btn-outline-primary">+
-                                                            لیست خواسته های جدید ایجاد کنید</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Wishlist Popup End -->
-                            <!-- Wishlist Popup Start -->
-                            <div class="modal fade" id="empty-cart" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content rounded shadow border-0">
-                                        <div class="modal-body py-5">
-                                            <div class="text-center">
-                                                <img src="~/assets/images/shop/cart.png"
-                                                    class="avatar avatar-medium rounded-circle shadow" alt="">
-                                                <div class="mt-4">
-                                                    <h4>سبد خرید شما خالی هست.</h4>
-                                                    <p class="text-muted">به نظر می رسد شما هنوز انتخاب خود را انجام
-                                                        نداده اید...</p>
-                                                    <div class="mt-4">
-                                                        <a href="javascript:void(0)" class="btn btn-primary">شروع به
-                                                            خرید کنید</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Wishlist Popup End -->
-                        </div>
-                    </div><!--end col-->
-                    <!-- Modal End -->
-                    <!-- Table Start -->
-                    <div class="col mt-4 pt-2" id="tables">
-                        <div class="component-wrapper rounded shadow">
-                            <div class="p-4 border-bottom">
-                                <h4 class="title mb-0"> جدول </h4>
-                            </div>
-                            <div class="p-4">
-                                <div class="table-responsive bg-white shadow rounded">
-                                    <table class="table mb-0 table-center">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" class="border-bottom">#</th>
-                                                <th scope="col" class="border-bottom">اول </th>
-                                                <th scope="col" class="border-bottom">دوم</th>
-                                                <th scope="col" class="border-bottom">سوم</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>مارک</td>
-                                                <td>اوتو</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>جاکوب</td>
-                                                <td>ناری</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>هری</td>
-                                                <td>پاتر</td>
-                                                <td>@hpt</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    <!-- Table End -->
-                    <!-- Blockquotes Start -->
-                    <div class="col mt-4 pt-2" id="blockquotes">
-                        <div class="component-wrapper rounded shadow">
-                            <div class="p-4 border-bottom">
-                                <h4 class="title mb-0"> نقل قول ها </h4>
-                            </div>
-                            <div class="p-4">
-                                <blockquote class="blockquote p-3 mb-0">
-                                    <p class="text-muted mb-0 fst-italic">" تعداد زیادی از معابر لورم اپیسون در دسترس
-                                        است ، اما اکثر آنها به نوعی دچار تغییر شده اند, با شوخ طبعی تزریق شده ، یا کلمات
-                                        تصادفی که حتی کمی باورپذیر به نظر نمی رسند. "</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    <!-- Blockquotes End -->
-                    <!-- Icons Start -->
-                    <div class="col mt-4 pt-2" id="icons">
-                        <div class="component-wrapper rounded shadow">
-                            <div class="p-4 border-bottom">
-                                <h4 class="title mb-0"> آیکن ها </h4>
-                            </div>
-                            <div class="p-4">
-                                <h6>نمادهای پر</h6>
-                                <p class="text-muted">280+ نماد پر وجود دارد و می توانید تمام اطلاعات آیکون ها را از
-                                    اینجا دریافت کنید: <a href="https://feathericons.com/" target="_blank"><code
-                                            class="text-primary">https://feathericons.com/</code></a></p>
-                                <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                        class="text-danger">&lt;i data-feather="mail" class="fea icon-sm"&gt; &lt;/i&gt;</code>
-                                </h6>
-                                <i data-feather="user" class="fea icon-ex-md me-2"></i>
-                                <i data-feather="facebook" class="fea icon-ex-md me-2"></i>
-                                <i data-feather="map-pin" class="fea icon-ex-md me-2"></i>
-                                <i data-feather="linkedin" class="fea icon-ex-md me-2"></i>
-                                <i data-feather="camera" class="fea icon-ex-md me-2"></i>
-                                <i data-feather="mail" class="fea icon-ex-md me-2"></i>
-                                <h6 class="mt-4">آیکن های طراحی متریال</h6>
-                                <p class="text-muted">بیش از 4400+ آیکن طراحی متریال وجود دارد و می توانید تمام اطلاعات
-                                    آیکون ها را از اینجا دریافت کنید: <a href="https://materialdesignicons.com/"
-                                        target="_blank"><code
-                                            class="text-primary">https://materialdesignicons.com/</code></a></p>
-                                <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                        class="text-danger">&lt;i class="mdi mdi-home"&gt; &lt;/i&gt;</code></h6>
-                                <i class="mdi mdi-home h4 me-2"></i>
-                                <i class="mdi mdi-facebook h4 me-2"></i>
-                                <i class="mdi mdi-chevron-tight h4 me-2"></i>
-                                <i class="mdi mdi-camera-image h4 me-2"></i>
-                                <i class="mdi mdi-car-light-high h4 me-2"></i>
-                                <i class="mdi mdi-silverware-fork-knife h4 me-2"></i>
-                                <h6 class="mt-4">آیکن های Flaticon</h6>
-                                <p class="text-muted">آیکن های Flaticon وجود دارد و می توانید تمام اطلاعات آیکون ها را
-                                    از اینجا دریافت کنید: <a href="https://www.flaticon.com/packs/basic-icon"
-                                        target="_blank"><code
-                                            class="text-primary">https://www.flaticon.com/packs/basic-icon</code></a>
-                                </p>
-                                <img src="~/assets/images/icon/Email.svg" height="50" class="me-3" alt="">
-                                <img src="~/assets/images/icon/bitcoin.svg" height="50" class="me-3" alt="">
-                                <img src="~/assets/images/icon/calendar.svg" height="50" class="me-3" alt="">
-                                <img src="~/assets/images/icon/location.svg" height="50" class="me-3" alt="">
-                                <h6 class="mt-4">Iconscout (Unicons) آیکن های</h6>
-                                <p class="text-muted">1100+ Iconscout (Icons) آیکن های وجود دارد و می توانید تمام
-                                    اطلاعات آیکون ها را از اینجا دریافت کنید: <a href="https://iconscout.com/unicons"
-                                        target="_blank"><code
-                                            class="text-primary">https://www.flaticon.com/packs/basic-icon</code></a>
-                                </p>
-                                <h6 class="text-muted mb-4 pb-2">مثال: <code
-                                        class="text-danger"><br>&lt;span class="h3 text-primary me-2"&gt;<br>&nbsp; &lt;i class="uil uil-0-plus"&gt;&lt;/i&gt;<br>&lt;/span&gt;</code>
-                                </h6>
-                                <span class="h3 text-primary me-2"><i class="uil uil-0-plus"></i></span>
-                                <span class="h3 text-primary me-2"><i class="uil uil-android"></i></span>
-                                <span class="h3 text-primary me-2"><i class="uil uil-bitcoin"></i></span>
-                                <span class="h3 text-primary me-2"><i class="uil uil-calendar-alt"></i></span>
-                                <span class="h3 text-primary"><i class="uil uil-chart-pie-alt"></i></span>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    <!-- Icons End -->
-                </div><!--end row-->
+  <!-- Hero Start -->
+  <section class="bg-half bg-light d-table w-100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+          <div class="page-next-level">
+            <h4 class="title">اجزاء</h4>
+            <div class="page-next">
+              <nav aria-label="breadcrumb" class="d-inline-block">
+                <ul class="breadcrumb bg-white rounded shadow mb-0">
+                  <li class="breadcrumb-item">
+                    <a href="index.html">لنـدریـک </a>
+                  </li>
+                  <li class="breadcrumb-item"><a href="#">مستند </a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    اجزاء
+                  </li>
+                </ul>
+              </nav>
             </div>
+          </div>
         </div>
-    </div><!--end container-->
-</section><!--end section-->
-<!-- End --></template>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+  <!--end section-->
+  <!-- Hero End -->
+  <!-- Shape Start -->
+  <div class="position-relative">
+    <div class="shape overflow-hidden text-white">
+      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </div>
+  </div>
+  <!--Shape End-->
+  <!-- Start -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-12 d-none d-md-block">
+          <div class="sticky-bar bg-light rounded shadow">
+            <ul class="list-unstyled sidebar-nav mb-0" id="navmenu-nav">
+              <li class="navbar-item">
+                <a href="#typography" class="navbar-link">عنوان تایپوگرافی</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#display" class="navbar-link">عنوان نمایش</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#bg-colors" class="navbar-link">رنگ پس زمینه</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#text-colors" class="navbar-link">رنگ متن</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#buttons" class="navbar-link">دکمه </a>
+              </li>
+              <li class="navbar-item">
+                <a href="#dropdowns" class="navbar-link">دراپ</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#badges" class="navbar-link">نشانه ها</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#alerts" class="navbar-link">هشدار</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#accordions" class="navbar-link">آکاردئون</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#cards" class="navbar-link">کارت ها</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#forms" class="navbar-link">فرم ها</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#checkboxes" class="navbar-link">چک باکس ها</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#radio-buttons" class="navbar-link">دکمه رادیو </a>
+              </li>
+              <li class="navbar-item">
+                <a href="#switches" class="navbar-link">دکمه سوئیچ </a>
+              </li>
+              <li class="navbar-item">
+                <a href="#select-box" class="navbar-link">فرم انتخاب جعبه</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#subscribe-forms" class="navbar-link">اشتراک فرم ها</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#map" class="navbar-link">نقشه گوگل</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#breadcrumbs" class="navbar-link">Breadcrumbs</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#pagination" class="navbar-link">صفحه ساز</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#avatar" class="navbar-link">آواتار</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#nav-tabs" class="navbar-link">زبانه ها</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#progressbar" class="navbar-link">نوار پیشرفت</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#tooltips" class="navbar-link">نکات راهنما</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#modals" class="navbar-link">مودال</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#tables" class="navbar-link">جداول</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#blockquotes" class="navbar-link">نقل قول ها</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#icons" class="navbar-link">آیکنها</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-8 col-12 mt-4 pt-2 mt-sm-0 pt-sm-0">
+          <div class="row row-cols-1 ms-lg-2">
+            <!-- عنوان تایپوگرافی Start -->
+            <div class="col" id="typography">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">عنوان تایپوگرافی</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;h1&gt; H1. عنوان بوت استرپ &lt;/h1&gt;</code
+                    >
+                  </h6>
+                  <h1>H1. عنوان بوت استرپ</h1>
+                  <h2>H2. عنوان بوت استرپ</h2>
+                  <h3>H3. عنوان بوت استرپ</h3>
+                  <h4>H4. عنوان بوت استرپ</h4>
+                  <h5>H5. عنوان بوت استرپ</h5>
+                  <h6 class="mb-0">H6. عنوان بوت استرپ</h6>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- عنوان تایپوگرافی End -->
+            <!-- عنوان نمایش Start -->
+            <div class="col mt-4 pt-2" id="display">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">عنوان نمایش</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;p class="display-1"&gt; Display 1 &lt;/p&gt;</code
+                    >
+                  </h6>
+                  <p class="display-1">نمایش 1</p>
+                  <p class="display-2">نمایش 2</p>
+                  <p class="display-3">نمایش 3</p>
+                  <p class="display-4 mb-0">نمایش 4</p>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Display Button End -->
+            <!-- BG Color Start -->
+            <div class="col mt-4 pt-2" id="bg-colors">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">رنگ پس زمینه</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;div class="bg-primary"&gt; قالب نرم افزار و ساس
+                      لنـدریــک &lt;/div&gt;</code
+                    >
+                  </h6>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-primary"
+                  >
+                    <p class="avatar avatar-small bg-primary rounded mb-0"></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-secondary"
+                  >
+                    <p
+                      class="avatar avatar-small bg-secondary rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-success"
+                  >
+                    <p class="avatar avatar-small bg-success rounded mb-0"></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-danger"
+                  >
+                    <p class="avatar avatar-small bg-danger rounded mb-0"></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-warning"
+                  >
+                    <p class="avatar avatar-small bg-warning rounded mb-0"></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-info"
+                  >
+                    <p class="avatar avatar-small bg-info rounded mb-0"></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-light"
+                  >
+                    <p class="avatar avatar-small bg-light rounded mb-0"></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-white"
+                  >
+                    <p
+                      class="avatar avatar-small bg-white border rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-dark"
+                  >
+                    <p class="avatar avatar-small bg-dark rounded mb-0"></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-muted"
+                  >
+                    <p class="avatar avatar-small bg-muted rounded mb-0"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- BG Color End -->
+            <!-- BG Color Start -->
+            <div class="col mt-4 pt-2" id="bg-colors">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">رنگ پس زمینه نرم افزار</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;div class="bg-soft-primary"&gt; قالب نرم افزار و ساس
+                      لنـدریــک &lt;/div&gt;</code
+                    >
+                  </h6>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-primary"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-primary rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-secondary"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-secondary rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-success"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-success rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-danger"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-danger rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-warning"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-warning rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-info"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-info rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-light"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-light rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-white"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-white border rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-dark"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-dark rounded mb-0"
+                    ></p>
+                  </div>
+                  <div
+                    class="d-inline-block me-1 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title=".bg-soft-muted"
+                  >
+                    <p
+                      class="avatar avatar-small bg-soft-muted rounded mb-0"
+                    ></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- BG Color End -->
+            <!-- Text Color Start -->
+            <div class="col mt-4 pt-2" id="text-colors">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">رنگ متن</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;div class="text-primary"&gt; قالب نرم افزار و ساس
+                      لنـدریــک &lt;/div&gt;</code
+                    >
+                  </h6>
+                  <h6 class="text-primary">.text-primary</h6>
+                  <h6 class="text-secondary">.text-secondary</h6>
+                  <h6 class="text-success">.text-success</h6>
+                  <h6 class="text-danger">.text-danger</h6>
+                  <h6 class="text-warning">.text-warning</h6>
+                  <h6 class="text-info">.text-info</h6>
+                  <h6 class="text-light bg-dark">.text-light</h6>
+                  <h6 class="text-white bg-dark">.text-white</h6>
+                  <h6 class="text-white-50 bg-dark">.text-white-50</h6>
+                  <h6 class="text-dark mb-0">.text-dark</h6>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Text Color End -->
+            <!-- Buttons Start -->
+            <div class="col mt-4 pt-2" id="buttons">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">دکمه ها</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-primary"&gt; اولیه
+                      &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a href="javascript:void(0)" class="btn btn-primary mt-2 me-2"
+                    >اولیه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-secondary mt-2 me-2"
+                    >ثانویه
+                  </a>
+                  <a href="javascript:void(0)" class="btn btn-success mt-2 me-2"
+                    >موفقیت
+                  </a>
+                  <a href="javascript:void(0)" class="btn btn-danger mt-2 me-2"
+                    >اخطار
+                  </a>
+                  <a href="javascript:void(0)" class="btn btn-info mt-2 me-2"
+                    >اطلاعات
+                  </a>
+                  <a href="javascript:void(0)" class="btn btn-warning mt-2 me-2"
+                    >خطر
+                  </a>
+                  <a href="javascript:void(0)" class="btn btn-light mt-2 me-2"
+                    >روشن
+                  </a>
+                  <a href="javascript:void(0)" class="btn btn-dark mt-2 me-2"
+                    >تیره
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Buttons End -->
+            <!-- Buttons Pill Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">دکمه های قرص</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-pills btn-primary"&gt;
+                      اولیه &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-primary mt-2 me-2"
+                    >اولیه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-secondary mt-2 me-2"
+                    >ثانویه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-success mt-2 me-2"
+                    >موفقیت
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-danger mt-2 me-2"
+                    >اخطار
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-info mt-2 me-2"
+                    >اطلاعات
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-warning mt-2 me-2"
+                    >خطر
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-light mt-2 me-2"
+                    >روشن
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-dark mt-2 me-2"
+                    >تیره
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Buttons Pill End -->
+            <!-- Buttons Start -->
+            <div class="col mt-4 pt-2" id="buttons">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">دکمه نرم افزار</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-soft-primary"&gt; اولیه
+                      &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-soft-primary mt-2 me-2"
+                    >اولیه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-soft-secondary mt-2 me-2"
+                    >ثانویه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-soft-success mt-2 me-2"
+                    >موفقیت
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-soft-danger mt-2 me-2"
+                    >اخطار
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-soft-info mt-2 me-2"
+                    >اطلاعات
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-soft-warning mt-2 me-2"
+                    >خطر
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-soft-light mt-2 me-2"
+                    >روشن
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-soft-dark mt-2 me-2"
+                    >تیره
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Buttons End -->
+            <!-- Buttons Pill Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">دکمه های پیل سافت</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-pills btn-soft-primary"&gt;
+                      اولیه &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-soft-primary mt-2 me-2"
+                    >اولیه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-soft-secondary mt-2 me-2"
+                    >ثانویه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-soft-success mt-2 me-2"
+                    >موفقیت
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-soft-danger mt-2 me-2"
+                    >اخطار
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-soft-info mt-2 me-2"
+                    >اطلاعات
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-soft-warning mt-2 me-2"
+                    >خطر
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-soft-light mt-2 me-2"
+                    >روشن
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-soft-dark mt-2 me-2"
+                    >تیره
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Buttons Pill End -->
+            <!-- Buttons Outline Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">طرح کلی دکمه ها</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-outline-primary"&gt; اولیه
+                      &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-outline-primary mt-2 me-2"
+                    >اولیه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-outline-secondary mt-2 me-2"
+                    >ثانویه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-outline-success mt-2 me-2"
+                    >موفقیت
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-outline-danger mt-2 me-2"
+                    >اخطار
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-outline-info mt-2 me-2"
+                    >اطلاعات
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-outline-warning mt-2 me-2"
+                    >خطر
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-outline-light mt-2 me-2"
+                    >روشن
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-outline-dark mt-2 me-2"
+                    >تیره
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Buttons Outline End -->
+            <!-- دکمه ها طرح قرص Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">دکمه ها طرح قرص</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-outline-primary"&gt; اولیه
+                      &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-outline-primary mt-2 me-2"
+                    >اولیه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-outline-secondary mt-2 me-2"
+                    >ثانویه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-outline-success mt-2 me-2"
+                    >موفقیت
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-outline-danger mt-2 me-2"
+                    >اخطار
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-outline-info mt-2 me-2"
+                    >اطلاعات
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-outline-warning mt-2 me-2"
+                    >خطر
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-outline-light mt-2 me-2"
+                    >روشن
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-pills btn-outline-dark mt-2 me-2"
+                    >تیره
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- دکمه ها طرح قرص End -->
+            <!-- Button Icons Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">آیکن دکمه ها</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-icon btn-primary"&gt;&lt;i
+                      data-feather="facebook" class="fea
+                      icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-info mt-2"
+                    ><i data-feather="twitter" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-danger mt-2"
+                    ><i data-feather="youtube" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-success mt-2"
+                    ><i data-feather="gitlab" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-secondary mt-2"
+                    ><i data-feather="linkedin" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-warning mt-2"
+                    ><i data-feather="github" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-info mt-2"
+                    ><i data-feather="star" class="icons"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Button Icons End -->
+            <!-- Outline Button Icons Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">آیکن دکمه های خطی</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-icon
+                      btn-outline-primary"&gt;&lt;i data-feather="facebook"
+                      class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-outline-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-outline-info mt-2"
+                    ><i data-feather="twitter" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-outline-danger mt-2"
+                    ><i data-feather="youtube" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-outline-success mt-2"
+                    ><i data-feather="gitlab" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-outline-secondary mt-2"
+                    ><i data-feather="linkedin" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-outline-warning mt-2"
+                    ><i data-feather="github" class="icons"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Outline Button Icons End -->
+            <!-- نمادهای قرص دکمه ای Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">نمادهای قرص دکمه ای</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-icon btn-pills
+                      btn-primary"&gt;&lt;i data-feather="facebook" class="fea
+                      icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-info mt-2"
+                    ><i data-feather="twitter" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-danger mt-2"
+                    ><i data-feather="youtube" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-success mt-2"
+                    ><i data-feather="gitlab" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-secondary mt-2"
+                    ><i data-feather="linkedin" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-warning mt-2"
+                    ><i data-feather="github" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-danger mt-2"
+                    ><i data-feather="heart" class="icons"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- نمادهای قرص دکمه ای End -->
+            <!-- طرح کلی نمادهای قرص دکمه ای Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">طرح کلی نمادهای قرص دکمه ای</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-icon btn-pills
+                      btn-outline-primary"&gt;&lt;i data-feather="facebook"
+                      class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-outline-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-outline-info mt-2"
+                    ><i data-feather="twitter" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-outline-danger mt-2"
+                    ><i data-feather="youtube" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-outline-success mt-2"
+                    ><i data-feather="gitlab" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-outline-secondary mt-2"
+                    ><i data-feather="linkedin" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-pills btn-outline-warning mt-2"
+                    ><i data-feather="github" class="icons"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- طرح کلی نمادهای قرص دکمه ای End -->
+            <!-- Button Sizing Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">اندازه دکمه</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-primary btn-sm"&gt; اولیه
+                      &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-sm btn-primary mt-2 me-2"
+                    >کوچک
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-sm btn-pills btn-primary mt-2 me-2"
+                    >کوچک
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-sm btn-outline-primary mt-2 me-2"
+                    >کوچک
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-sm btn-pills btn-outline-primary mt-2 me-2"
+                    >کوچک
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-sm btn-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-sm btn-pills btn-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-sm btn-outline-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-sm btn-pills btn-outline-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <h6 class="text-muted mb-2 mt-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="btn btn-primary btn-lg"&gt; اولیه
+                      &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-lg btn-primary mt-2 me-2"
+                    >بزرگ
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-lg btn-pills btn-primary mt-2 me-2"
+                    >بزرگ
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-lg btn-outline-primary mt-2 me-2"
+                    >بزرگ
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-lg btn-pills btn-outline-primary mt-2 me-2"
+                    >بزرگ
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-lg btn-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-lg btn-pills btn-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-lg btn-outline-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="btn btn-icon btn-lg btn-pills btn-outline-primary mt-2"
+                    ><i data-feather="facebook" class="icons"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Button Sizing End -->
+            <!-- Dropdown Start -->
+            <div class="col mt-4 pt-2" id="dropdowns">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">دراپ داون</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال: <br />
+                    <code class="text-danger">
+                      &lt;div class="btn-group dropdown-primary"&gt;<br />&nbsp;&nbsp;
+                      &lt;button type="button" class="btn btn-primary
+                      dropdown-toggle" data-bs-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      اولیه <br />&nbsp;&nbsp; &lt;/button&gt;<br />&nbsp;&nbsp;
+                      &lt;div class="dropdown-menu"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      &lt;a class="dropdown-item" href="#"&gt;Home&lt;/a&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      &lt;a class="dropdown-item"
+                      href="#"&gt;Services&lt;/a&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      &lt;a class="dropdown-item" href="#"&gt;About
+                      us&lt;/a&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;div
+                      class="dropdown-divider"&gt;&lt;/div&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      &lt;a class="dropdown-item" href="#"&gt;Contact
+                      us&lt;/a&gt;<br />&nbsp;&nbsp; &lt;/div&gt;<br />
+                      &lt;/div&gt;
+                    </code>
+                  </h6>
+                  <!-- Primary Dropdown -->
+                  <div class="btn-group dropdown-primary me-2 mt-2">
+                    <button
+                      type="button"
+                      class="btn btn-primary dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      اولیه
+                    </button>
+                    <div class="dropdown-menu">
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خانه
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خدمات
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >درباره ما
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >تماس با ما</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Primary Dropdown -->
+                  <!-- Secondary Dropdown -->
+                  <div class="btn-group dropdown-secondary me-2 mt-2">
+                    <button
+                      type="button"
+                      class="btn btn-secondary dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      ثانویه
+                    </button>
+                    <div class="dropdown-menu">
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خانه
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خدمات
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >درباره ما
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >تماس با ما</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Secondary Dropdown -->
+                  <!-- Success Dropdown -->
+                  <div class="btn-group dropdown-success me-2 mt-2">
+                    <button
+                      type="button"
+                      class="btn btn-success dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      موفقیت
+                    </button>
+                    <div class="dropdown-menu">
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خانه
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خدمات
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >درباره ما
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >تماس با ما</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Success Dropdown -->
+                  <!-- Warning Dropdown -->
+                  <div class="btn-group dropdown-warning me-2 mt-2">
+                    <button
+                      type="button"
+                      class="btn btn-warning dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      اخطار
+                    </button>
+                    <div class="dropdown-menu">
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خانه
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خدمات
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >درباره ما
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >تماس با ما</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Warning Dropdown -->
+                  <!-- Info Dropdown -->
+                  <div class="btn-group dropdown-info me-2 mt-2">
+                    <button
+                      type="button"
+                      class="btn btn-info dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      اطلاعات
+                    </button>
+                    <div class="dropdown-menu">
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خانه
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خدمات
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >درباره ما
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >تماس با ما</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Info Dropdown -->
+                  <!-- Danger Dropdown -->
+                  <div class="btn-group dropdown-danger me-2 mt-2">
+                    <button
+                      type="button"
+                      class="btn btn-danger dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      خطر
+                    </button>
+                    <div class="dropdown-menu">
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خانه
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خدمات
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >درباره ما
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >تماس با ما</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Danger Dropdown -->
+                  <!-- Dark Dropdown -->
+                  <div class="btn-group dropdown-dark me-2 mt-2">
+                    <button
+                      type="button"
+                      class="btn btn-dark dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      تیره
+                    </button>
+                    <div class="dropdown-menu">
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خانه
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >خدمات
+                      </a>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >درباره ما
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"
+                        >تماس با ما</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Dark Dropdown -->
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Dropdown End -->
+            <!-- Badges Start -->
+            <div class="col mt-4 pt-2" id="badges">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">مدال ها</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;span class="badge bg-primary"&gt; اولیه
+                      &lt;/span&gt;</code
+                    >
+                  </h6>
+                  <span class="badge bg-primary me-2 mt-2">اولیه </span>
+                  <span class="badge bg-secondary me-2 mt-2">ثانویه </span>
+                  <span class="badge bg-success me-2 mt-2">موفقیت </span>
+                  <span class="badge bg-danger me-2 mt-2">اخطار </span>
+                  <span class="badge bg-warning me-2 mt-2">خطر </span>
+                  <span class="badge bg-info me-2 mt-2">اطلاعات </span>
+                  <span class="badge bg-light me-2 mt-2">روشن </span>
+                  <span class="badge bg-dark me-2 mt-2">تیره </span>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Badges End -->
+            <!-- Pill Badges Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">مدال های پیل</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;span class="badge rounded-pill bg-primary"&gt; اولیه
+                      &lt;/span&gt;</code
+                    >
+                  </h6>
+                  <span class="badge rounded-pill bg-primary me-2 mt-2"
+                    >اولیه
+                  </span>
+                  <span class="badge rounded-pill bg-secondary me-2 mt-2"
+                    >ثانویه
+                  </span>
+                  <span class="badge rounded-pill bg-success me-2 mt-2"
+                    >موفقیت
+                  </span>
+                  <span class="badge rounded-pill bg-danger me-2 mt-2"
+                    >اخطار
+                  </span>
+                  <span class="badge rounded-pill bg-warning me-2 mt-2"
+                    >خطر
+                  </span>
+                  <span class="badge rounded-pill bg-info me-2 mt-2"
+                    >اطلاعات
+                  </span>
+                  <span class="badge rounded-pill bg-light me-2 mt-2"
+                    >روشن
+                  </span>
+                  <span class="badge rounded-pill bg-dark me-2 mt-2"
+                    >تیره
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Pill Badges End -->
+            <!-- Badges Start -->
+            <div class="col mt-4 pt-2" id="badges">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">مدال سافت</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;span class="badge bg-soft-primary"&gt; اولیه
+                      &lt;/span&gt;</code
+                    >
+                  </h6>
+                  <span class="badge bg-soft-primary me-2 mt-2">اولیه </span>
+                  <span class="badge bg-soft-secondary me-2 mt-2">ثانویه </span>
+                  <span class="badge bg-soft-success me-2 mt-2">موفقیت </span>
+                  <span class="badge bg-soft-danger me-2 mt-2">اخطار </span>
+                  <span class="badge bg-soft-warning me-2 mt-2">خطر </span>
+                  <span class="badge bg-soft-info me-2 mt-2">اطلاعات </span>
+                  <span class="badge bg-soft-light me-2 mt-2">روشن </span>
+                  <span class="badge bg-soft-dark me-2 mt-2">تیره </span>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Badges End -->
+            <!-- Pill Badges Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">مدال سافتی پیل</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;span class="badge rounded-pill bg-soft-primary"&gt;
+                      اولیه &lt;/span&gt;</code
+                    >
+                  </h6>
+                  <span class="badge rounded-pill bg-soft-primary me-2 mt-2"
+                    >اولیه
+                  </span>
+                  <span class="badge rounded-pill bg-soft-secondary me-2 mt-2"
+                    >ثانویه
+                  </span>
+                  <span class="badge rounded-pill bg-soft-success me-2 mt-2"
+                    >موفقیت
+                  </span>
+                  <span class="badge rounded-pill bg-soft-danger me-2 mt-2"
+                    >اخطار
+                  </span>
+                  <span class="badge rounded-pill bg-soft-warning me-2 mt-2"
+                    >خطر
+                  </span>
+                  <span class="badge rounded-pill bg-soft-info me-2 mt-2"
+                    >اطلاعات
+                  </span>
+                  <span class="badge rounded-pill bg-soft-light me-2 mt-2"
+                    >روشن
+                  </span>
+                  <span class="badge rounded-pill bg-soft-dark me-2 mt-2"
+                    >تیره
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Pill Badges End -->
+            <!-- Link Badges Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">مدال لینک</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#" class="badge bg-primary"&gt; اولیه
+                      &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void(0)"
+                    class="badge badge-link bg-primary me-2 mt-2"
+                    >اولیه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="badge badge-link bg-secondary me-2 mt-2"
+                    >ثانویه
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="badge badge-link bg-success me-2 mt-2"
+                    >موفقیت
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="badge badge-link bg-danger me-2 mt-2"
+                    >اخطار
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="badge badge-link bg-warning me-2 mt-2"
+                    >خطر
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="badge badge-link bg-info me-2 mt-2"
+                    >اطلاعات
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="badge badge-link bg-light me-2 mt-2"
+                    >روشن
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="badge badge-link bg-dark me-2 mt-2"
+                    >تیره
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Link Badges End -->
+            <!-- Alert Start -->
+            <div class="col mt-4 pt-2" id="alerts">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">هشدار</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;div class="alert alert-primary" role="alert"&gt; یک
+                      هشدار اولیه ساده - آن را بررسی کنید! &lt;/div&gt;</code
+                    >
+                  </h6>
+                  <div class="alert alert-primary" role="alert">
+                    یک هشدار اولیه ساده - آن را بررسی کنید!
+                  </div>
+                  <div class="alert alert-secondary" role="alert">
+                    یک هشدار ثانویه ساده - آن را بررسی کنید!
+                  </div>
+                  <div class="alert alert-success" role="alert">
+                    یک هشدار موفقیت ساده - آن را بررسی کنید!
+                  </div>
+                  <div class="alert alert-danger" role="alert">
+                    یک هشدار خطر ساده - آن را بررسی کنید!
+                  </div>
+                  <div class="alert alert-warning" role="alert">
+                    یک هشدار هشدار ساده - آن را بررسی کنید!
+                  </div>
+                  <div class="alert alert-info" role="alert">
+                    یک هشدار ساده اطلاعات - آن را بررسی کنید!
+                  </div>
+                  <div class="alert alert-light" role="alert">
+                    یک هشدار نور ساده - آن را بررسی کنید!
+                  </div>
+                  <div class="alert alert-dark mb-0" role="alert">
+                    یک هشدار تاریک ساده - آن را بررسی کنید!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Alert End -->
+            <!-- Alert Links Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">لینک های هشداری</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;div class="alert alert-primary" role="alert"&gt; یک
+                      هشدار اولیه ساده با &lt;a href="#"
+                      class="alert-link"&gt;&lt;/a&gt;. &lt;/div&gt;</code
+                    >
+                  </h6>
+                  <div class="alert alert-primary" role="alert">
+                    یک هشدار اولیه ساده با
+                    <a href="javascript:void(0)" class="alert-link">یک لینک </a
+                    >.
+                  </div>
+                  <div class="alert alert-secondary" role="alert">
+                    یک هشدار ثانویه ساده با
+                    <a href="javascript:void(0)" class="alert-link">یک لینک </a
+                    >.
+                  </div>
+                  <div class="alert alert-success" role="alert">
+                    یک هشدار موفقیت ساده با
+                    <a href="javascript:void(0)" class="alert-link">یک لینک </a
+                    >.
+                  </div>
+                  <div class="alert alert-danger" role="alert">
+                    یک هشدار خطر ساده با
+                    <a href="javascript:void(0)" class="alert-link">یک لینک </a
+                    >.
+                  </div>
+                  <div class="alert alert-warning" role="alert">
+                    هشدار ساده هشدار با
+                    <a href="javascript:void(0)" class="alert-link">یک لینک </a
+                    >.
+                  </div>
+                  <div class="alert alert-info" role="alert">
+                    هشدار اطلاعات ساده با
+                    <a href="javascript:void(0)" class="alert-link">یک لینک </a
+                    >.
+                  </div>
+                  <div class="alert alert-light" role="alert">
+                    یک هشدار نور ساده با
+                    <a href="javascript:void(0)" class="alert-link">یک لینک </a
+                    >.
+                  </div>
+                  <div class="alert alert-dark mb-0" role="alert">
+                    یک هشدار تاریک ساده با
+                    <a href="javascript:void(0)" class="alert-link">یک لینک </a
+                    >.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Alert Links End -->
+            <!-- Additional Content Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">محتوای اضافی</h4>
+                </div>
+                <div class="p-4">
+                  <div class="alert alert-success mb-0" role="alert">
+                    <h4 class="alert-heading">آفرین!</h4>
+                    <p>
+                      اوه ، شما با موفقیت این پیام مهم هشدار را خواندید. این متن
+                      به عنوان مثال قرار است کمی طولانی تر شود ، بنابراین شما می
+                      توانید ببینید که چگونه فاصله هشدار با این نوع محتوا کار می
+                      کند.
+                    </p>
+                    <p class="mb-0 border-top pt-3">
+                      هر زمان که نیاز داشتید ، حتماً از سرویس های حاشیه ای برای
+                      خوب و مرتب کردن استفاده کنید.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Additional Content End -->
+            <!-- Dismissing Alert Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">رد کردن هشدار</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال: <br />
+                    <code class="text-danger">
+                      &lt;div class="alert alert-success alert-dismissible fade
+                      show" role="alert"&gt; <br />&nbsp;
+                      &lt;strong&gt;آفرین!&lt;/strong&gt; شما با موفقیت این پیام
+                      مهم هشدار را خواندید. <br />&nbsp; &lt;button
+                      type="button" class="btn-close" data-bs-dismiss="alert"
+                      aria-label="بستن"&gt; &lt;/button&gt;<br />
+                      &lt;/div&gt;
+                    </code>
+                  </h6>
+                  <div
+                    class="alert alert-success alert-dismissible fade show"
+                    role="alert"
+                  >
+                    <strong>آفرین!</strong> شما با موفقیت این پیام مهم هشدار را
+                    خواندید.
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="بستن"
+                    ></button>
+                  </div>
+                  <div
+                    class="alert alert-info alert-dismissible fade show"
+                    role="alert"
+                  >
+                    <strong>سر بالا!</strong> این هشدار به توجه شما نیاز دارد ،
+                    اما خیلی مهم نیست.
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="بستن"
+                    ></button>
+                  </div>
+                  <div
+                    class="alert alert-warning alert-dismissible fade show"
+                    role="alert"
+                  >
+                    <strong>گوآکامول مقدس!</strong> شما باید برخی از قسمتهای زیر
+                    را بررسی کنید.
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="بستن"
+                    ></button>
+                  </div>
+                  <div
+                    class="alert alert-danger alert-dismissible fade show mb-0"
+                    role="alert"
+                  >
+                    <strong>آه ضربه محکم! </strong> چند مورد را تغییر دهید و
+                    دوباره ارسال کنید.
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="بستن"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Dismissing Alert End -->
+            <!-- Advanced Alert Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">هشدار پیشرفته</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال: <br />
+                    <code class="text-danger"
+                      >&lt;div class="alert alert-primary alert-pills"
+                      role="alert"&gt; <br />&nbsp;&nbsp; &lt;span class="badge
+                      rounded-pill bg-danger"&gt; جدید &lt;/span&gt;
+                      <br />&nbsp;&nbsp; &lt;span class="alert-content"&gt; یک
+                      هشدار اولیه مدرن - آن را بررسی کنید! &lt;/span&gt; <br />
+                      &lt;/div&gt;
+                    </code>
+                  </h6>
+                  <div class="d-block">
+                    <div class="alert alert-primary alert-pills" role="alert">
+                      <span class="badge rounded-pill bg-info me-1">جدید </span>
+                      <span class="content">
+                        یک هشدار اولیه مدرن - آن را بررسی کنید!
+                        <i class="uil uil-angle-left-b"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="d-block">
+                    <div
+                      class="alert alert-danger alert-pills mb-0"
+                      role="alert"
+                    >
+                      <span class="badge rounded-pill bg-success me-1">
+                        جدید
+                      </span>
+                      <span class="content">
+                        هشدار خطر مدرن - آن را بررسی کنید!
+                        <i class="uil uil-angle-left-b"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Advanced Alert End -->
+            <!-- هشدار رئوس مطالب پیشرفته Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">هشدار رئوس مطالب پیشرفته</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال: <br />
+                    <code class="text-danger">
+                      &lt;div class="alert alert-outline-primary alert-pills"
+                      role="alert"&gt; <br />&nbsp;&nbsp; &lt;span class="badge
+                      rounded-pill bg-danger"&gt; جدید &lt;/span&gt;
+                      <br />&nbsp;&nbsp; &lt;span class="alert-content"&gt; یک
+                      هشدار اولیه مدرن - آن را بررسی کنید! &lt;/span&gt; <br />
+                      &lt;/div&gt;
+                    </code>
+                  </h6>
+                  <div class="d-block">
+                    <div
+                      class="alert alert-outline-primary alert-pills"
+                      role="alert"
+                    >
+                      <span class="badge rounded-pill bg-primary me-1"
+                        >جدید
+                      </span>
+                      <span class="content">
+                        یک هشدار اولیه مدرن - آن را بررسی کنید!
+                        <i class="uil uil-angle-left-b"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="d-block">
+                    <div
+                      class="alert alert-outline-danger alert-pills mb-0"
+                      role="alert"
+                    >
+                      <span class="badge rounded-pill bg-danger me-1">
+                        جدید
+                      </span>
+                      <span class="content">
+                        هشدار خطر مدرن - آن را بررسی کنید!
+                        <i class="uil uil-angle-left-b"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- هشدار رئوس مطالب پیشرفته End -->
+            <!-- Accordions Start -->
+            <div class="col mt-4 pt-2" id="accordions">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">آکاردئون ها</h4>
+                </div>
+                <div class="p-4">
+                  <div class="accordion mt-4 pt-2" id="buyingquestion">
+                    <div class="accordion-item rounded">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button
+                          class="accordion-button border-0 bg-light"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          چگونه کار می کند؟
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse border-0 collapse show"
+                        aria-labelledby="headingOne"
+                        data-bs-parent="#buyingquestion"
+                      >
+                        <div class="accordion-body text-muted bg-white">
+                          تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما
+                          اکثر آنها به نوعی دچار تغییر شده اند.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item rounded mt-2">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button
+                          class="accordion-button border-0 bg-light collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          آیا برای استفاده از لندریک به طراح نیاز دارم؟
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse border-0 collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#buyingquestion"
+                      >
+                        <div class="accordion-body text-muted bg-white">
+                          تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما
+                          اکثر آنها به نوعی دچار تغییر شده اند.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item rounded mt-2">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button
+                          class="accordion-button border-0 bg-light collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          برای شروع فروش چه کاری باید انجام دهم؟
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse border-0 collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#buyingquestion"
+                      >
+                        <div class="accordion-body text-muted bg-white">
+                          تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما
+                          اکثر آنها به نوعی دچار تغییر شده اند.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item rounded mt-2">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button
+                          class="accordion-button border-0 bg-light collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour"
+                          aria-expanded="false"
+                          aria-controls="collapseFour"
+                        >
+                          با دریافت سفارش چه اتفاقی می افتد؟
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseFour"
+                        class="accordion-collapse border-0 collapse"
+                        aria-labelledby="headingFour"
+                        data-bs-parent="#buyingquestion"
+                      >
+                        <div class="accordion-body text-muted bg-white">
+                          تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما
+                          اکثر آنها به نوعی دچار تغییر شده اند.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Accordions End -->
+            <!-- Card Start -->
+            <div class="col mt-4 pt-2" id="cards">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">کارت ها</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted pb-2">
+                    کارت عمودی <br />
+                    <code class="text-danger">
+                      &lt;div class="card shadow rounded border-0
+                      overflow-hidden&gt; <br />&nbsp;&nbsp; &lt;img
+                      src="~/assets/images/blog/01.jpg" class="img-fluid"
+                      alt="&gt; <br />&nbsp;&nbsp; &lt;div class="card-body"&gt;
+                      <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;h5
+                      class="card-title"&gt;لنـدریــک : قالب چند منظوره شرکتی و
+                      نرم افزار&lt;/h5&gt; <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;p
+                      class="text-muted mb-0"&gt;به دلیل استفاده گسترده از آن به
+                      عنوان متن پر کننده برای طرح بندی, غیرقابل خواندن از اهمیت
+                      زیادی برخوردار است&lt;/p&gt; <br />&nbsp;&nbsp;
+                      &lt;/div&gt; <br />
+                      &lt;/div&gt;
+                    </code>
+                  </h6>
+                  <div class="row">
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                      <div class="card shadow rounded border-0 overflow-hidden">
+                        <img
+                          src="~/assets/images/blog/01.jpg"
+                          class="img-fluid"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            لنـدریــک : قالب چند منظوره شرکتی و نرم افزار
+                          </h5>
+                          <p class="text-muted">
+                            به دلیل استفاده گسترده از آن به عنوان متن پر کننده
+                            برای طرح بندی, غیرقابل خواندن از اهمیت زیادی
+                            برخوردار است
+                          </p>
+                          <a href="javascript:void(0)" class="text-primary"
+                            >ادامه مطلب
+                            <i class="uil uil-angle-left-b align-middle"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                      <div class="card shadow rounded border-0 overflow-hidden">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            لنـدریــک : قالب چند منظوره شرکتی و نرم افزار
+                          </h5>
+                          <p class="text-muted">
+                            به دلیل استفاده گسترده از آن به عنوان متن پر کننده
+                            برای طرح بندی, غیرقابل خواندن از اهمیت زیادی
+                            برخوردار است
+                          </p>
+                          <a href="javascript:void(0)" class="text-primary"
+                            >ادامه مطلب
+                            <i class="uil uil-angle-left-b align-middle"></i
+                          ></a>
+                        </div>
+                        <img
+                          src="~/assets/images/blog/01.jpg"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <div class="mt-4 pt-4 border-top">
+                    <h6 class="text-muted pb-2">
+                      کارت افقی <br />
+                      <code class="text-danger">
+                        &lt;div class="card shadow rounded border-0
+                        overflow-hidden&gt; <br />&nbsp;&nbsp; &lt;img
+                        src="~/assets/images/blog/01.jpg" class="img-fluid"
+                        alt="&gt; <br />&nbsp;&nbsp; &lt;div
+                        class="card-body"&gt; <br />&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;h5 class="card-title"&gt;لنـدریــک : قالب چند منظوره
+                        شرکتی و نرم افزار&lt;/h5&gt;
+                        <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;p class="text-muted
+                        mb-0"&gt;به دلیل استفاده گسترده از آن به عنوان متن پر
+                        کننده برای طرح بندی, غیرقابل خواندن از اهمیت زیادی
+                        برخوردار است&lt;/p&gt; <br />&nbsp;&nbsp; &lt;/div&gt;
+                        <br />
+                        &lt;/div&gt;
+                      </code>
+                    </h6>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mt-4 pt-2">
+                      <div class="card shadow rounded border-0 overflow-hidden">
+                        <div class="row g-0">
+                          <div class="col-md-5">
+                            <img
+                              src="~/assets/images/work/14.jpg"
+                              class="img-fluid"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-7">
+                            <div class="card-body">
+                              <h5 class="card-title">
+                                لنـدریــک : قالب چند منظوره شرکتی و نرم افزار
+                              </h5>
+                              <p class="card-text">
+                                این یک کارت گسترده تر است که دارای متن پشتیبانی
+                                در زیر است به عنوان یک ماده اصلی برای محتوای
+                                اضافی. این محتوا کمی طولانی تر است.
+                              </p>
+                              <p class="card-text">
+                                <small class="text-muted"
+                                  >آخرین بروزرسانی 3 دقیقه قبل</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Card End -->
+            <!-- Forms Start -->
+            <div class="col mt-4 pt-2" id="forms">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">فرم ها</h4>
+                </div>
+                <div class="p-4">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mb-3">
+                          <label class="form-label"
+                            >نام شما <span class="text-danger">*</span></label
+                          >
+                          <div class="form-icon position-relative">
+                            <i
+                              data-feather="user"
+                              class="fea icon-sm icons"
+                            ></i>
+                            <input
+                              name="name"
+                              id="name"
+                              type="text"
+                              class="form-control ps-5"
+                              placeholder="نام اول :"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <!--end col-->
+                      <div class="col-md-6">
+                        <div class="mb-3">
+                          <label class="form-label"
+                            >ایمیل شما <span class="text-danger">*</span></label
+                          >
+                          <div class="form-icon position-relative">
+                            <i
+                              data-feather="mail"
+                              class="fea icon-sm icons"
+                            ></i>
+                            <input
+                              name="email"
+                              id="email"
+                              type="email"
+                              class="form-control ps-5"
+                              placeholder="ایمیل شما :"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <!--end col-->
+                      <div class="col-md-12">
+                        <div class="mb-3">
+                          <label class="form-label">موضوع </label>
+                          <div class="form-icon position-relative">
+                            <i
+                              data-feather="book"
+                              class="fea icon-sm icons"
+                            ></i>
+                            <input
+                              name="subject"
+                              id="subject"
+                              class="form-control ps-5"
+                              placeholder="موضوع شما :"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <!--end col-->
+                      <div class="col-md-12">
+                        <div class="mb-3">
+                          <label class="form-label">نظرات </label>
+                          <div class="form-icon position-relative">
+                            <i
+                              data-feather="message-circle"
+                              class="fea icon-sm icons"
+                            ></i>
+                            <textarea
+                              name="comments"
+                              id="comments"
+                              rows="4"
+                              class="form-control ps-5"
+                              placeholder="پیام شما :"
+                            ></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--end row-->
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <input
+                          type="submit"
+                          id="submit"
+                          name="send"
+                          class="btn btn-primary"
+                          value="ارسال پیام "
+                        />
+                      </div>
+                      <!--end col-->
+                    </div>
+                    <!--end row-->
+                  </form>
+                  <!--end form-->
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Forms End -->
+            <!-- Checkboxes Start -->
+            <div class="col mt-4 pt-2" id="checkboxes">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">چک باکس</h4>
+                </div>
+                <div class="p-4">
+                  <div class="form-check form-check-inline">
+                    <div class="mb-0">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          checked
+                          value=""
+                          id="flexCheckDefault1"
+                        />
+                        <label class="form-check-label" for="flexCheckDefault1"
+                          >یک
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <div class="mb-0">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault2"
+                        />
+                        <label class="form-check-label" for="flexCheckDefault2"
+                          >دو
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <div class="mb-0">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          disabled
+                          value=""
+                          id="flexCheckDefault3"
+                        />
+                        <label class="form-check-label" for="flexCheckDefault3"
+                          >غیرفعال
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Checkboxes End -->
+            <!-- Radio Buttons Start -->
+            <div class="col mt-4 pt-2" id="radio-buttons">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">دکمه های رادیو</h4>
+                </div>
+                <div class="p-4">
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <div class="form-check mb-0">
+                      <input
+                        class="form-check-input"
+                        checked
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1"
+                        >بله
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <div class="form-check mb-0">
+                      <input
+                        class="form-check-input"
+                        checked
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault2"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault2"
+                        >خیر
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <div class="form-check mb-0">
+                      <input
+                        class="form-check-input"
+                        checked
+                        type="radio"
+                        disabled
+                        name="flexRadioDefault"
+                        id="flexRadioDefault3"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault3"
+                        >غیرفعال
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Radio Buttons End -->
+            <!-- Switches Button Start -->
+            <div class="col mt-4 pt-2" id="switches">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">دکمه سوئیچ</h4>
+                </div>
+                <div class="p-4">
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="flexSwitchCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexSwitchCheckDefault"
+                      >ورودی جعبه چک سوئیچ پیش فرض</label
+                    >
+                  </div>
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexSwitchCheckChecked"
+                      >ورودی جعبه علامت تیک خورده است</label
+                    >
+                  </div>
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="flexSwitchCheckDisabled"
+                      disabled
+                    />
+                    <label
+                      class="form-check-label"
+                      for="flexSwitchCheckDisabled"
+                      >ورودی کادر تأیید سوئیچ غیرفعال است</label
+                    >
+                  </div>
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="flexSwitchCheckCheckedDisabled"
+                      checked
+                      disabled
+                    />
+                    <label
+                      class="form-check-label"
+                      for="flexSwitchCheckCheckedDisabled"
+                      >غیرفعال بودن ورودی جعبه علامت تیک خورده است</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Switches Button End -->
+            <!-- Select Box Start -->
+            <div class="col mt-4 pt-2" id="select-box">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">فرم انتخاب جعبه</h4>
+                </div>
+                <div class="p-4">
+                  <div class="mb-0">
+                    <select
+                      class="form-select form-control"
+                      aria-label="Default select example"
+                    >
+                      <option selected>این منوی انتخاب را باز کنید</option>
+                      <option value="1">یک</option>
+                      <option value="2">دو</option>
+                      <option value="3">سه</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Select Box End -->
+            <!-- مشترک شدن فرم Start -->
+            <div class="col mt-4 pt-2" id="subscribe-forms">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">مشترک شدن فرم</h4>
+                </div>
+                <div class="p-4">
+                  <div class="subcribe-form">
+                    <form>
+                      <input
+                        name="email"
+                        id="email2"
+                        type="email"
+                        class="form-control rounded-pill shadow"
+                        placeholder="ایمیل شما:"
+                        required
+                        aria-describedby="newssubscribebtn"
+                      />
+                      <button type="submit" class="btn btn-pills btn-primary">
+                        مشترک شدن
+                      </button>
+                    </form>
+                    <!--end form-->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- مشترک شدن فرم End -->
+            <!-- Google Map Start -->
+            <div class="col mt-4 pt-2" id="map">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">گوگل مپ</h4>
+                </div>
+                <div class="p-4">
+                  <div class="map">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.525673176609!2d46.32542404246615!3d38.06389198146334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDAzJzUzLjgiTiA0NsKwMTknMzkuNCJF!5e0!3m2!1sen!2s!4v1545664085241"
+                      style="border: 0"
+                      class="rounded"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Google Map End -->
+            <!-- Breadcrumb Start -->
+            <div class="col mt-4 pt-2" id="breadcrumbs">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">Breadcrumb</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال: <br />
+                    <code class="text-danger">
+                      &lt;nav aria-label="breadcrumb" class="d-inline-block"&gt;
+                      <br />
+                      &nbsp; &lt;ul class="breadcrumb bg-white rounded shadow
+                      mb-0"&gt; <br />
+                      &nbsp; &nbsp; &lt;li class="breadcrumb-item"&gt;&lt;a
+                      href="#"&gt;Home&lt;/a&gt;&lt;/li&gt; <br />
+                      &nbsp; &nbsp; &lt;li class="breadcrumb-item"&gt;&lt;a
+                      href="#"&gt;Pages&lt;/a&gt;&lt;/lt&gt; <br />
+                      &nbsp; &nbsp; &lt;li class="breadcrumb-item active"
+                      aria-current="page"&gt;Components&lt;/li&gt; <br />
+                      &nbsp; &lt;/ul&gt; <br />
+                      &lt;/div&gt;</code
+                    >
+                  </h6>
+                  <nav aria-label="breadcrumb" class="d-inline-block">
+                    <ul class="breadcrumb bg-white rounded shadow mb-0">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">لنـدریـک </a>
+                      </li>
+                      <li class="breadcrumb-item"><a href="#">مستند </a></li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        اجزاء
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Breadcrumb End -->
+            <!-- Pagination Start -->
+            <div class="col mt-4 pt-2" id="pagination">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">صفحه ساز</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال: <br />
+                    <code class="text-danger">
+                      &lt;ul class="pagination mb-0"&gt;<br />&nbsp;&nbsp;
+                      &lt;li class="page-item"&gt;&lt;a class="page-link"
+                      href="javascript:void(0)"
+                      aria-label="Previous"&gt;Prev&lt;/a&gt;&lt;/li&gt;<br />&nbsp;&nbsp;
+                      &lt;li class="page-item active"&gt;&lt;a class="page-link"
+                      href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br />&nbsp;&nbsp;
+                      &lt;li class="page-item"&gt;&lt;a class="page-link"
+                      href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br />&nbsp;&nbsp;
+                      &lt;li class="page-item"&gt;&lt;a class="page-link"
+                      href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br />&nbsp;&nbsp;
+                      &lt;li class="page-item"&gt;&lt;a class="page-link"
+                      href="#" aria-label="بعدی"&gt;بعدی&lt;/a&gt;&lt;/li&gt;<br />
+                      &lt;/ul&gt;<br />
+                    </code>
+                  </h6>
+                  <ul class="pagination mb-0">
+                    <li class="page-item">
+                      <a
+                        class="page-link"
+                        href="javascript:void(0)"
+                        aria-label="Previous"
+                        >قبلی
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a class="page-link" href="javascript:void(0)">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="javascript:void(0)">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="javascript:void(0)">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link"
+                        href="javascript:void(0)"
+                        aria-label="Next"
+                        >بعدی
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Pagination End -->
+            <!-- Default Avatars Start -->
+            <div class="col mt-4 pt-2" id="avatar">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">آواتارهای پیش فرض</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;img src="~/assets/images/home/01.jpg"
+                      class="img-fluid avatar avatar-ex-sm rounded"&gt;</code
+                    >
+                  </h6>
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-ex-sm me-2 rounded"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-md-sm me-2 rounded"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-small me-2 rounded"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-medium me-2 rounded"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-large mt-3 mt-sm-0 me-2 rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Default Avatars End -->
+            <!-- Circle Avatars Start -->
+            <div class="col mt-4 pt-2">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">آواتارهای دایره ای</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;img src="~/assets/images/home/01.jpg"
+                      class="img-fluid avatar avatar-ex-sm
+                      rounded-circle"&gt;</code
+                    >
+                  </h6>
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-ex-sm me-2 rounded-circle"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-md-sm me-2 rounded-circle"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-small me-2 rounded-circle"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-medium me-2 rounded-circle"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/client/05.jpg"
+                    class="img-fluid avatar avatar-large mt-3 mt-sm-0 me-2 rounded-circle"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Circle Avatars End -->
+            <!-- Nav Tabs Start -->
+            <div class="col mt-4 pt-2" id="nav-tabs">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">زبانه ها</h4>
+                </div>
+                <div class="p-4">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <ul
+                        class="nav nav-pills nav-justified flex-column flex-sm-row rounded"
+                        id="pills-tab"
+                        role="tablist"
+                      >
+                        <li class="nav-item">
+                          <a
+                            class="nav-link rounded active"
+                            id="pills-cloud-tab"
+                            data-bs-toggle="pill"
+                            href="#pills-cloud"
+                            role="tab"
+                            aria-controls="pills-cloud"
+                            aria-selected="false"
+                          >
+                            <div class="text-center py-2">
+                              <h6 class="mb-0">خانه</h6>
+                            </div> </a
+                          ><!--end nav link-->
+                        </li>
+                        <!--end nav item-->
+                        <li class="nav-item">
+                          <a
+                            class="nav-link rounded"
+                            id="pills-smart-tab"
+                            data-bs-toggle="pill"
+                            href="#pills-smart"
+                            role="tab"
+                            aria-controls="pills-smart"
+                            aria-selected="false"
+                          >
+                            <div class="text-center py-2">
+                              <h6 class="mb-0">درباره</h6>
+                            </div> </a
+                          ><!--end nav link-->
+                        </li>
+                        <!--end nav item-->
+                        <li class="nav-item">
+                          <a
+                            class="nav-link rounded"
+                            id="pills-apps-tab"
+                            data-bs-toggle="pill"
+                            href="#pills-apps"
+                            role="tab"
+                            aria-controls="pills-apps"
+                            aria-selected="false"
+                          >
+                            <div class="text-center py-2">
+                              <h6 class="mb-0">خدمات</h6>
+                            </div> </a
+                          ><!--end nav link-->
+                        </li>
+                        <!--end nav item-->
+                      </ul>
+                      <!--end nav pills-->
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                  <div class="row pt-2">
+                    <div class="col-12">
+                      <div class="tab-content" id="pills-tabContent">
+                        <div
+                          class="tab-pane fade show active"
+                          id="pills-cloud"
+                          role="tabpanel"
+                          aria-labelledby="pills-cloud-tab"
+                        >
+                          <p class="text-muted mb-0">
+                            شما می توانید تمام الگوهای لنـدریــک را در یک قالب
+                            واحد ترکیب کنید ، می توانید یک نظر را از موضوع
+                            برنامه بگیرید و از آن در وب سایت استفاده کنید.
+                          </p>
+                        </div>
+                        <!--end teb pane-->
+                        <div
+                          class="tab-pane fade"
+                          id="pills-smart"
+                          role="tabpanel"
+                          aria-labelledby="pills-smart-tab"
+                        >
+                          <p class="text-muted mb-0">
+                            شما می توانید تمام الگوهای لنـدریــک را در یک قالب
+                            واحد ترکیب کنید ، می توانید یک نظر را از موضوع
+                            برنامه بگیرید و از آن در وب سایت استفاده کنید.
+                          </p>
+                        </div>
+                        <!--end teb pane-->
+                        <div
+                          class="tab-pane fade"
+                          id="pills-apps"
+                          role="tabpanel"
+                          aria-labelledby="pills-apps-tab"
+                        >
+                          <p class="text-muted mb-0">
+                            شما می توانید تمام الگوهای لنـدریــک را در یک قالب
+                            واحد ترکیب کنید ، می توانید یک نظر را از موضوع
+                            برنامه بگیرید و از آن در وب سایت استفاده کنید.
+                          </p>
+                        </div>
+                        <!--end teb pane-->
+                      </div>
+                      <!--end tab content-->
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Nav Tabs End -->
+            <!-- Progressbar Start -->
+            <div class="col mt-4 pt-2" id="progressbar">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">نوار پیشرفت</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال: <br />
+                    <code class="text-danger">
+                      &lt;div class="progress-box"&gt;<br />&nbsp;&nbsp; &lt;h6
+                      class="title text-muted"&gt; Progress&lt;/h6&gt;<br />&nbsp;&nbsp;
+                      &lt;div class="progress"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      &lt;div class="progress-bar position-relative bg-primary"
+                      style="width:84%;"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &lt;div class="progress-value d-block text-muted
+                      h6"&gt;84%&lt;/div&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      &lt;/div&gt;<br />&nbsp;&nbsp; &lt;/div&gt;<br />
+                      &lt;/div&gt;
+                    </code>
+                  </h6>
+                  <div class="progress-box">
+                    <h6 class="title text-muted">وردپرس</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar position-relative bg-primary"
+                        style="width: 84%"
+                      >
+                        <div class="progress-value d-block text-muted h6">
+                          84%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end process box-->
+                  <div class="progress-box mt-4">
+                    <h6 class="title text-muted">PHP / MYSQL</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar position-relative bg-primary"
+                        style="width: 75%"
+                      >
+                        <div class="progress-value d-block text-muted h6">
+                          75%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end process box-->
+                  <div class="progress-box mt-4">
+                    <h6 class="title text-muted">آنگولار / جاوااسکریپت</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar position-relative bg-primary"
+                        style="width: 79%"
+                      >
+                        <div class="progress-value d-block text-muted h6">
+                          79%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end process box-->
+                  <div class="progress-box mt-4">
+                    <h6 class="title text-muted">اچ تی ام ال</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar position-relative bg-primary"
+                        style="width: 95%"
+                      >
+                        <div class="progress-value d-block text-muted h6">
+                          95%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end process box-->
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Progressbar End -->
+            <!-- Tooltip Start -->
+            <div class="col mt-4 pt-2" id="tooltips">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">راهنمایی</h4>
+                </div>
+                <div class="p-4">
+                  <h6 class="text-muted mb-2 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;a href="#"class="btn btn-primary me-2 mb-2"
+                      data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="Top Tooltip" alt=""&gt; Top Tooltip
+                      &lt;/a&gt;</code
+                    >
+                  </h6>
+                  <a
+                    href="javascript:void"
+                    class="btn btn-primary me-2 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="ابزار به بالا"
+                    >بالا
+                  </a>
+                  <a
+                    href="javascript:void"
+                    class="btn btn-primary me-2 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    title="ابزار به چپ"
+                    >چپ</a
+                  >
+                  <a
+                    href="javascript:void"
+                    class="btn btn-primary me-2 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="ابزار به پایین"
+                    >پایین</a
+                  >
+                  <a
+                    href="javascript:void"
+                    class="btn btn-primary me-2 mt-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right"
+                    title="ابزار به راست"
+                    >راست</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Tooltip End -->
+            <!-- Modal Start -->
+            <div class="col mt-4 pt-2" id="modals">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">مودال</h4>
+                </div>
+                <div class="p-4">
+                  <a
+                    href="javascript:void(0)"
+                    data-bs-toggle="modal"
+                    data-bs-target="#LoginForm"
+                    class="btn btn-primary m-1"
+                  >
+                    کلیک کنید</a
+                  >
+                  <a
+                    href="javascript:void(0)"
+                    data-bs-toggle="modal"
+                    data-bs-target="#login-popup"
+                    class="btn btn-primary m-1"
+                  >
+                    صفحه ورود پاپ</a
+                  >
+                  <a
+                    href="javascript:void(0)"
+                    data-bs-toggle="modal"
+                    data-bs-target="#subscribe-popup"
+                    class="btn btn-primary m-1"
+                    >صفحه اشتراک پاپ</a
+                  >
+                  <a
+                    href="javascript:void(0)"
+                    data-bs-toggle="modal"
+                    data-bs-target="#wishlist"
+                    class="btn btn-primary m-1"
+                    >صفحه علاقه مندیهای پاپ</a
+                  >
+                  <a
+                    href="javascript:void(0)"
+                    data-bs-toggle="modal"
+                    data-bs-target="#empty-cart"
+                    class="btn btn-primary m-1"
+                    >سبد خرید پاپ</a
+                  >
+                </div>
+                <!-- Modal Content Start -->
+                <div
+                  class="modal fade"
+                  id="LoginForm"
+                  tabindex="-1"
+                  aria-labelledby="LoginForm-title"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content rounded shadow border-0">
+                      <div class="modal-header border-bottom">
+                        <h5 class="modal-title" id="LoginForm-title">
+                          عنوان مودال
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="بستن"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="bg-white p-3 rounded box-shadow">
+                          <p class="text-muted mb-0">
+                            متن ساختگی همچنین برای نشان دادن ظاهر انواع مختلف و
+                            طرح بندی استفاده می شود و به طور کلی محتوای متن
+                            ساختگی مزخرف است. به دلیل استفاده گسترده از آن ،
+                            برای عنوان بندی مناسب ، غیرقابل خواندن از نظر اضافی
+                            نیز وجود دارد: درک انسان برای شناسایی الگوها و
+                            تکرارهای خاص در متن تنظیم می شود. اگر توزیع حروف و
+                            کلمات تصادفی باشد ، خواننده از قضاوت بی طرف در مورد
+                            تأثیر بصری و خوانایی انواع حروف (تایپوگرافی) یا
+                            توزیع متن در صفحه (طرح یا منطقه نوع) منحرف نخواهد
+                            شد. . به همین دلیل ، متن ساختگی معمولاً از یک سری
+                            کلمات یا هجاهای کم و بیش تصادفی تشکیل شده است. این
+                            مانع از تأثیرگذاری الگوهای تکراری در تصور بصری کلی
+                            می شود و مقایسه انواع مختلف را تسهیل می کند. بعلاوه
+                            ، هنگامی که متن ساختگی نسبتاً واقع بینانه باشد ،
+                            سودمند است ، به طوری که برداشت از طرح نهایی به خطر
+                            نیفتد.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          بستن
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          ذخیره تغییرات
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Modal Content End -->
+                <!-- Login Form Start -->
+                <div
+                  class="modal fade"
+                  id="login-popup"
+                  tabindex="-1"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content rounded shadow border-0">
+                      <div class="modal-body p-0">
+                        <div class="container-fluid px-0">
+                          <div class="row align-items-center g-0">
+                            <div class="col-lg-6 col-md-5">
+                              <img
+                                src="~/assets/images/course/online/ab02.jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </div>
+                            <!--end col-->
+                            <div class="col-lg-6 col-md-7">
+                              <form class="login-form p-4">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="mb-3">
+                                      <label class="form-label"
+                                        >ایمیل شما
+                                        <span class="text-danger"
+                                          >*</span
+                                        ></label
+                                      >
+                                      <div class="form-icon position-relative">
+                                        <i
+                                          data-feather="user"
+                                          class="fea icon-sm icons"
+                                        ></i>
+                                        <input
+                                          type="email"
+                                          class="form-control ps-5"
+                                          placeholder="ایمیل"
+                                          name="email"
+                                          required
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!--end col-->
+                                  <div class="col-lg-12">
+                                    <div class="mb-3">
+                                      <label class="form-label"
+                                        >رمز عبور
+                                        <span class="text-danger"
+                                          >*</span
+                                        ></label
+                                      >
+                                      <div class="form-icon position-relative">
+                                        <i
+                                          data-feather="key"
+                                          class="fea icon-sm icons"
+                                        ></i>
+                                        <input
+                                          type="password"
+                                          class="form-control ps-5"
+                                          placeholder="رمز عبور "
+                                          required
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!--end col-->
+                                  <div class="col-lg-12">
+                                    <div class="d-flex justify-content-between">
+                                      <div class="mb-3">
+                                        <div class="form-check">
+                                          <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="flexCheckDefault4"
+                                          />
+                                          <label
+                                            class="form-check-label"
+                                            for="flexCheckDefault4"
+                                            >مرا به خاطر بسپار
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <p class="forgot-pass mb-0">
+                                        <a
+                                          href="auth-re-password.html"
+                                          class="text-dark fw-bold"
+                                          >فراموشی رمز عبور؟
+                                        </a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <!--end col-->
+                                  <div class="col-lg-12 mb-0">
+                                    <div class="d-grid">
+                                      <button class="btn btn-primary">
+                                        ورود
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <!--end col-->
+                                  <div class="col-12 text-center">
+                                    <p class="mb-0 mt-3">
+                                      <small class="text-dark me-2"
+                                        >حسابی ندارید؟
+                                      </small>
+                                      <a
+                                        href="auth-signup.html"
+                                        class="text-dark fw-bold"
+                                        >ثبت نام کنید
+                                      </a>
+                                    </p>
+                                  </div>
+                                  <!--end col-->
+                                </div>
+                                <!--end row-->
+                              </form>
+                            </div>
+                            <!--end col-->
+                          </div>
+                          <!--end row-->
+                        </div>
+                        <!--end container-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Login Form End -->
+                <!-- Subscribe popup Start -->
+                <div
+                  class="modal fade"
+                  id="subscribe-popup"
+                  tabindex="-1"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content rounded shadow border-0">
+                      <div
+                        class="modal-body p-0"
+                        style="
+                          background: url('images/subscribe.png') no-repeat;
+                        "
+                      >
+                        <button
+                          type="button"
+                          class="btn-close float-end m-2"
+                          data-bs-dismiss="modal"
+                          aria-label="بستن"
+                        ></button>
+                        <div class="clearfix"></div>
+                        <div class="container-fluid px-0">
+                          <div class="row align-items-center g-0">
+                            <div class="col-lg-6 offset-lg-6">
+                              <div class="pb-5 pt-4 px-4">
+                                <h6 class="text-muted">
+                                  اولین نفری باشید که می توانید از بروزرسانی های
+                                  روزانه مطلع شوید
+                                </h6>
+                                <h4>
+                                  برای به روزرسانی های روزانه ثبت نام کنید
+                                </h4>
+                                <p class="text-muted mb-0">
+                                  برای دریافت به روزرسانی در مورد تازه واردان ،
+                                  پیشنهادات ویژه و تبلیغات ما ، در لیست پستی
+                                  لندریک مشترک شوید.
+                                </p>
+                                <form class="mt-4">
+                                  <div class="row">
+                                    <div class="col-lg-12">
+                                      <div class="foot-subscribe mb-3">
+                                        <div
+                                          class="form-icon position-relative"
+                                        >
+                                          <i
+                                            data-feather="mail"
+                                            class="fea icon-sm icons"
+                                          ></i>
+                                          <input
+                                            type="email"
+                                            name="email"
+                                            id="daily-updates"
+                                            class="form-control ps-5 rounded"
+                                            placeholder="ایمیل شما: "
+                                            required
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--end col-->
+                                    <div class="col-lg-12">
+                                      <div class="d-grid">
+                                        <input
+                                          type="submit"
+                                          id="submitsubscribe"
+                                          name="send"
+                                          class="btn btn-primary"
+                                          value="خبرنامه"
+                                        />
+                                      </div>
+                                    </div>
+                                    <!--end col-->
+                                    <div class="col-12">
+                                      <div class="text-center">
+                                        <p class="mb-0 mt-3">
+                                          <small class="text-dark me-2"
+                                            >قبلاً حساب دارید؟</small
+                                          >
+                                          <a
+                                            href="javascript:void(0)"
+                                            class="text-dark fw-bold"
+                                            >وارد شوید
+                                          </a>
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <!--end col-->
+                                  </div>
+                                  <!--end row-->
+                                </form>
+                              </div>
+                            </div>
+                            <!--end col-->
+                          </div>
+                          <!--end row-->
+                        </div>
+                        <!--end container-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Subscribe popup End -->
+                <!-- Wishlist Popup Start -->
+                <div
+                  class="modal fade"
+                  id="wishlist"
+                  tabindex="-1"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content rounded shadow border-0">
+                      <div class="modal-body py-5">
+                        <div class="text-center">
+                          <div
+                            class="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto"
+                            style="height: 95px; width: 95px"
+                          >
+                            <h1 class="mb-0">
+                              <i class="uil uil-heart-break align-middle"></i>
+                            </h1>
+                          </div>
+                          <div class="mt-4">
+                            <h4>لیست خواسته های شما خالی است.</h4>
+                            <p class="text-muted">
+                              اولین درخواست لیست خواسته های خود را ایجاد کنید...
+                            </p>
+                            <div class="mt-4">
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-outline-primary"
+                                >+ لیست خواسته های جدید ایجاد کنید</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Wishlist Popup End -->
+                <!-- Wishlist Popup Start -->
+                <div
+                  class="modal fade"
+                  id="empty-cart"
+                  tabindex="-1"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content rounded shadow border-0">
+                      <div class="modal-body py-5">
+                        <div class="text-center">
+                          <img
+                            src="~/assets/images/shop/cart.png"
+                            class="avatar avatar-medium rounded-circle shadow"
+                            alt=""
+                          />
+                          <div class="mt-4">
+                            <h4>سبد خرید شما خالی هست.</h4>
+                            <p class="text-muted">
+                              به نظر می رسد شما هنوز انتخاب خود را انجام نداده
+                              اید...
+                            </p>
+                            <div class="mt-4">
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-primary"
+                                >شروع به خرید کنید</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Wishlist Popup End -->
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Modal End -->
+            <!-- Table Start -->
+            <div class="col mt-4 pt-2" id="tables">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">جدول</h4>
+                </div>
+                <div class="p-4">
+                  <div class="table-responsive bg-white shadow rounded">
+                    <table class="table mb-0 table-center">
+                      <thead>
+                        <tr>
+                          <th scope="col" class="border-bottom">#</th>
+                          <th scope="col" class="border-bottom">اول</th>
+                          <th scope="col" class="border-bottom">دوم</th>
+                          <th scope="col" class="border-bottom">سوم</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>مارک</td>
+                          <td>اوتو</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>جاکوب</td>
+                          <td>ناری</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>هری</td>
+                          <td>پاتر</td>
+                          <td>@hpt</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Table End -->
+            <!-- Blockquotes Start -->
+            <div class="col mt-4 pt-2" id="blockquotes">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">نقل قول ها</h4>
+                </div>
+                <div class="p-4">
+                  <blockquote class="blockquote p-3 mb-0">
+                    <p class="text-muted mb-0 fst-italic">
+                      " تعداد زیادی از معابر لورم اپیسون در دسترس است ، اما اکثر
+                      آنها به نوعی دچار تغییر شده اند, با شوخ طبعی تزریق شده ،
+                      یا کلمات تصادفی که حتی کمی باورپذیر به نظر نمی رسند. "
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Blockquotes End -->
+            <!-- Icons Start -->
+            <div class="col mt-4 pt-2" id="icons">
+              <div class="component-wrapper rounded shadow">
+                <div class="p-4 border-bottom">
+                  <h4 class="title mb-0">آیکن ها</h4>
+                </div>
+                <div class="p-4">
+                  <h6>نمادهای پر</h6>
+                  <p class="text-muted">
+                    280+ نماد پر وجود دارد و می توانید تمام اطلاعات آیکون ها را
+                    از اینجا دریافت کنید:
+                    <a href="https://feathericons.com/" target="_blank"
+                      ><code class="text-primary"
+                        >https://feathericons.com/</code
+                      ></a
+                    >
+                  </p>
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;i data-feather="mail" class="fea icon-sm"&gt;
+                      &lt;/i&gt;</code
+                    >
+                  </h6>
+                  <i data-feather="user" class="fea icon-ex-md me-2"></i>
+                  <i data-feather="facebook" class="fea icon-ex-md me-2"></i>
+                  <i data-feather="map-pin" class="fea icon-ex-md me-2"></i>
+                  <i data-feather="linkedin" class="fea icon-ex-md me-2"></i>
+                  <i data-feather="camera" class="fea icon-ex-md me-2"></i>
+                  <i data-feather="mail" class="fea icon-ex-md me-2"></i>
+                  <h6 class="mt-4">آیکن های طراحی متریال</h6>
+                  <p class="text-muted">
+                    بیش از 4400+ آیکن طراحی متریال وجود دارد و می توانید تمام
+                    اطلاعات آیکون ها را از اینجا دریافت کنید:
+                    <a href="https://materialdesignicons.com/" target="_blank"
+                      ><code class="text-primary"
+                        >https://materialdesignicons.com/</code
+                      ></a
+                    >
+                  </p>
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      >&lt;i class="mdi mdi-home"&gt; &lt;/i&gt;</code
+                    >
+                  </h6>
+                  <i class="mdi mdi-home h4 me-2"></i>
+                  <i class="mdi mdi-facebook h4 me-2"></i>
+                  <i class="mdi mdi-chevron-tight h4 me-2"></i>
+                  <i class="mdi mdi-camera-image h4 me-2"></i>
+                  <i class="mdi mdi-car-light-high h4 me-2"></i>
+                  <i class="mdi mdi-silverware-fork-knife h4 me-2"></i>
+                  <h6 class="mt-4">آیکن های Flaticon</h6>
+                  <p class="text-muted">
+                    آیکن های Flaticon وجود دارد و می توانید تمام اطلاعات آیکون
+                    ها را از اینجا دریافت کنید:
+                    <a
+                      href="https://www.flaticon.com/packs/basic-icon"
+                      target="_blank"
+                      ><code class="text-primary"
+                        >https://www.flaticon.com/packs/basic-icon</code
+                      ></a
+                    >
+                  </p>
+                  <img
+                    src="~/assets/images/icon/Email.svg"
+                    height="50"
+                    class="me-3"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/icon/bitcoin.svg"
+                    height="50"
+                    class="me-3"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/icon/calendar.svg"
+                    height="50"
+                    class="me-3"
+                    alt=""
+                  />
+                  <img
+                    src="~/assets/images/icon/location.svg"
+                    height="50"
+                    class="me-3"
+                    alt=""
+                  />
+                  <h6 class="mt-4">Iconscout (Unicons) آیکن های</h6>
+                  <p class="text-muted">
+                    1100+ Iconscout (Icons) آیکن های وجود دارد و می توانید تمام
+                    اطلاعات آیکون ها را از اینجا دریافت کنید:
+                    <a href="https://iconscout.com/unicons" target="_blank"
+                      ><code class="text-primary"
+                        >https://www.flaticon.com/packs/basic-icon</code
+                      ></a
+                    >
+                  </p>
+                  <h6 class="text-muted mb-4 pb-2">
+                    مثال:
+                    <code class="text-danger"
+                      ><br />&lt;span class="h3 text-primary me-2"&gt;<br />&nbsp;
+                      &lt;i class="uil uil-0-plus"&gt;&lt;/i&gt;<br />&lt;/span&gt;</code
+                    >
+                  </h6>
+                  <span class="h3 text-primary me-2"
+                    ><i class="uil uil-0-plus"></i
+                  ></span>
+                  <span class="h3 text-primary me-2"
+                    ><i class="uil uil-android"></i
+                  ></span>
+                  <span class="h3 text-primary me-2"
+                    ><i class="uil uil-bitcoin"></i
+                  ></span>
+                  <span class="h3 text-primary me-2"
+                    ><i class="uil uil-calendar-alt"></i
+                  ></span>
+                  <span class="h3 text-primary"
+                    ><i class="uil uil-chart-pie-alt"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+            <!-- Icons End -->
+          </div>
+          <!--end row-->
+        </div>
+      </div>
+    </div>
+    <!--end container-->
+  </section>
+  <!--end section-->
+  <!-- End -->
+</template>
 <script setup lang="ts">
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
-<style scoped></style>
+
+<style></style>

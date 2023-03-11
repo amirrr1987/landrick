@@ -478,7 +478,7 @@
                           type="password"
                           class="form-control ps-5"
                           placeholder="رمز قدیمی"
-                          required=""
+                          :required="true"
                         />
                       </div>
                     </div>
@@ -494,7 +494,7 @@
                           type="password"
                           class="form-control ps-5"
                           placeholder="رمز جدید"
-                          required=""
+                          :required="true"
                         />
                       </div>
                     </div>
@@ -510,7 +510,7 @@
                           type="password"
                           class="form-control ps-5"
                           placeholder="رمز عبور جدید"
-                          required=""
+                          :required="true"
                         />
                       </div>
                     </div>
@@ -537,7 +537,10 @@
   <!--end section-->
   <!-- End -->
 </template>
+<script setup lang="ts">
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+</script>
 
-<script setup lang="ts"></script>
-
-<style scoped></style>
+<style></style>

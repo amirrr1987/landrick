@@ -650,7 +650,7 @@
                                             <div class="form-icon position-relative">
                                                 <i data-feather="user" class="fea icon-sm icons"></i>
                                                 <input name="name" id="name3" type="text" class="form-control ps-5"
-                                                    placeholder="نام" required="">
+                                                    placeholder="نام" :required="true">
                                             </div>
                                         </div>
                                     </div><!--end col-->
@@ -661,7 +661,7 @@
                                             <div class="form-icon position-relative">
                                                 <i data-feather="mail" class="fea icon-sm icons"></i>
                                                 <input type="email" id="email3" class="form-control ps-5"
-                                                    placeholder="ایمیل" name="email" required="">
+                                                    placeholder="ایمیل" name="email" :required="true">
                                             </div>
                                         </div>
                                     </div><!--end col-->
@@ -672,7 +672,7 @@
                                             <div class="form-icon position-relative">
                                                 <i data-feather="phone" class="fea icon-sm icons"></i>
                                                 <input name="number" id="number" type="number" class="form-control ps-5"
-                                                    placeholder=" شماره تلفن: " required="">
+                                                    placeholder=" شماره تلفن: " :required="true">
                                             </div>
                                         </div>
                                     </div><!--end col-->
@@ -694,7 +694,9 @@
 </template>
 
 <script setup lang="ts">
-
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
-<style scoped></style>
+<style></style>

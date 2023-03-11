@@ -607,6 +607,10 @@
 
 <script setup lang="ts">
 import accountBg from "~/assets/images/account/bg.png";
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
-<style scoped></style>
+<style></style>

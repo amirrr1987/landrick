@@ -463,6 +463,10 @@
 
 <script setup lang="ts">
 import bgImg from '~/assets/images/2.jpg'
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
-<style scoped></style>
+<style></style>

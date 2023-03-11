@@ -703,7 +703,7 @@
                                             <div class="form-icon position-relative">
                                                 <i data-feather="user" class="fea icon-sm icons"></i>
                                                 <input type="text" class="form-control ps-5" placeholder="نام" name="name"
-                                                    required="">
+                                                    :required="true">
                                             </div>
                                         </div>
                                     </div><!--end col-->
@@ -714,7 +714,7 @@
                                             <div class="form-icon position-relative">
                                                 <i data-feather="mail" class="fea icon-sm icons"></i>
                                                 <input type="email" class="form-control ps-5" placeholder="ایمیل"
-                                                    name="email" required="">
+                                                    name="email" :required="true">
                                             </div>
                                         </div>
                                     </div><!--end col-->
@@ -725,7 +725,7 @@
                                             <div class="form-icon position-relative">
                                                 <i data-feather="phone" class="fea icon-sm icons"></i>
                                                 <input type="number" id="number" class="form-control ps-5"
-                                                    placeholder="تلفن" required="">
+                                                    placeholder="تلفن" :required="true">
                                             </div>
                                         </div>
                                     </div><!--end col-->
@@ -943,7 +943,9 @@
 </template>
 
 <script setup lang="ts">
-
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
-<style scoped></style>
+<style></style>

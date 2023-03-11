@@ -38,7 +38,7 @@
                                                 <div class="form-icon position-relative">
                                                     <i data-feather="user" class="fea icon-sm icons"></i>
                                                     <input type="text" class="form-control ps-5" placeholder="نام اصلی "
-                                                        name="s" required="">
+                                                        name="s" :required="true">
                                                 </div>
                                             </div>
                                         </div><!--end col-->
@@ -49,7 +49,7 @@
                                                 <div class="form-icon position-relative">
                                                     <i data-feather="mail" class="fea icon-sm icons"></i>
                                                     <input type="email" class="form-control ps-5" placeholder="ایمیل"
-                                                        name="email" required="">
+                                                        name="email" :required="true">
                                                 </div>
                                             </div>
                                         </div><!--end col-->
@@ -60,7 +60,7 @@
                                                 <div class="form-icon position-relative">
                                                     <i data-feather="key" class="fea icon-sm icons"></i>
                                                     <input type="password" class="form-control ps-5" placeholder="رمز عبور "
-                                                        required="">
+                                                        :required="true">
                                                 </div>
                                             </div>
                                         </div><!--end col-->
@@ -95,7 +95,7 @@
                                                 <div class="form-icon position-relative">
                                                     <i data-feather="user" class="fea icon-sm icons"></i>
                                                     <input type="text" class="form-control ps-5" placeholder="نام اصلی "
-                                                        name="s" required="">
+                                                        name="s" :required="true">
                                                 </div>
                                             </div>
                                         </div><!--end col-->
@@ -106,7 +106,7 @@
                                                 <div class="form-icon position-relative">
                                                     <i data-feather="mail" class="fea icon-sm icons"></i>
                                                     <input type="email" class="form-control ps-5" placeholder="ایمیل"
-                                                        name="email" required="">
+                                                        name="email" :required="true">
                                                 </div>
                                             </div>
                                         </div><!--end col-->
@@ -117,7 +117,7 @@
                                                 <div class="form-icon position-relative">
                                                     <i data-feather="key" class="fea icon-sm icons"></i>
                                                     <input type="password" class="form-control ps-5" placeholder="رمز عبور "
-                                                        required="">
+                                                        :required="true">
                                                 </div>
                                             </div>
                                         </div><!--end col-->
@@ -673,7 +673,7 @@
                             <div class="text-center subcribe-form">
                                 <form class="mb-4">
                                     <input name="number" id="number" type="number" class="form-control rounded-pill"
-                                        placeholder="شماره تلفن شما :" required="" aria-describedby="cellnumber">
+                                        placeholder="شماره تلفن شما :" :required="true" aria-describedby="cellnumber">
                                     <button class="btn btn-pills btn-primary submitBnt" type="submit" id="cellnumber">ارسال
                                         پیوند برنامه</button>
                                 </form><!--end form-->
@@ -702,7 +702,9 @@
 </template>
 
 <script setup lang="ts">
-
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
-<style scoped></style>
+<style></style>

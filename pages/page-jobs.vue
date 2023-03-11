@@ -37,7 +37,10 @@
   <div class="position-relative">
     <div class="shape overflow-hidden text-white">
       <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        <path
+          d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+          fill="currentColor"
+        ></path>
       </svg>
     </div>
   </div>
@@ -62,8 +65,11 @@
                 <div class="form custom-form">
                   <div class="">
                     <label class="form-label">انواع مشاغل :</label>
-                    <select class="form-select form-control" aria-label="به طور پیش فرض مثال انتخاب کنید"
-                      id="Sortbylist-job">
+                    <select
+                      class="form-select form-control"
+                      aria-label="به طور پیش فرض مثال انتخاب کنید"
+                      id="Sortbylist-job"
+                    >
                       <option selected>تمام کارها</option>
                       <option>تمام وقت</option>
                       <option>نیمه وقت</option>
@@ -94,7 +100,11 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/full.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -124,34 +134,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Circleci.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Circleci.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">کایرکل
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >کایرکل
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -163,7 +189,11 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/full.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -193,34 +223,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Codepen.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Codepen.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">کد نویسی
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >کد نویسی
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -232,11 +278,17 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/part.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/part.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
-                <a href="page-job-detail.html" class="text-dark">طراحان تجربه کاربری</a>
+                <a href="page-job-detail.html" class="text-dark"
+                  >طراحان تجربه کاربری</a
+                >
                 <ul class="list-unstyled h6 mb-0 text-warning">
                   <li class="list-inline-item mb-0">
                     <i class="mdi mdi-star"></i>
@@ -262,34 +314,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Discord.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Discord.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">اختلاف
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >اختلاف
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -301,7 +369,11 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/full.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -331,34 +403,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Eslint.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Eslint.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">اسلینت
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >اسلینت
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -370,11 +458,17 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/remote.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/remote.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
-                <a href="page-job-detail.html" class="text-dark">توسعه دهنده بک اند</a>
+                <a href="page-job-detail.html" class="text-dark"
+                  >توسعه دهنده بک اند</a
+                >
                 <ul class="list-unstyled h6 mb-0 text-warning">
                   <li class="list-inline-item mb-0">
                     <i class="mdi mdi-star"></i>
@@ -400,34 +494,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Gitlab.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Gitlab.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">گیتلاب
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >گیتلاب
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -439,7 +549,11 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/part.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/part.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -469,34 +583,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Gradle.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Gradle.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">گریدل
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >گریدل
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -508,7 +638,11 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/full.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -538,34 +672,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Mg.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Mg.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">مجله
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >مجله
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -577,11 +727,17 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/part.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/part.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
-                <a href="page-job-detail.html" class="text-dark">طراح فرانت اند</a>
+                <a href="page-job-detail.html" class="text-dark"
+                  >طراح فرانت اند</a
+                >
                 <ul class="list-unstyled h6 mb-0 text-warning">
                   <li class="list-inline-item mb-0">
                     <i class="mdi mdi-star"></i>
@@ -607,34 +763,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Sketch.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Sketch.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">طرح
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >طرح
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -646,7 +818,11 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/remote.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/remote.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -676,34 +852,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Twilio.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Twilio.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">توئلیو
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >توئلیو
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -715,11 +907,17 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/part.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/part.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
-                <a href="page-job-detail.html" class="text-dark">توسعه دهنده php</a>
+                <a href="page-job-detail.html" class="text-dark"
+                  >توسعه دهنده php</a
+                >
                 <ul class="list-unstyled h6 mb-0 text-warning">
                   <li class="list-inline-item mb-0">
                     <i class="mdi mdi-star"></i>
@@ -745,34 +943,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Udemy.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Udemy.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">آموزشی
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >آموزشی
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -784,7 +998,11 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/full.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -814,34 +1032,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Webhooks.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Webhooks.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">وب هوک
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >وب هوک
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -853,11 +1087,17 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/assets/images/job/remote.jpg" class="img-fluid" alt="" />
+                <img
+                  src="~/assets/images/job/remote.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
-                <a href="page-job-detail.html" class="text-dark">توسعه دهنده پایتون</a>
+                <a href="page-job-detail.html" class="text-dark"
+                  >توسعه دهنده پایتون</a
+                >
                 <ul class="list-unstyled h6 mb-0 text-warning">
                   <li class="list-inline-item mb-0">
                     <i class="mdi mdi-star"></i>
@@ -883,34 +1123,50 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/assets/images/job/Circleci.svg" class="avatar avatar-md-sm" alt="" />
+                <img
+                  src="~/assets/images/job/Circleci.svg"
+                  class="avatar avatar-md-sm"
+                  alt=""
+                />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
-                  <a href="page-job-company.html" class="text-dark company-name">کایرکل
+                  <a href="page-job-company.html" class="text-dark company-name"
+                    >کایرکل
                   </a>
                 </h5>
                 <p class="text-muted">
-                  <a href="#" class="text-muted"><i data-feather="map-pin" class="fea icon-sm"></i>
-                    ایران</a>
+                  <a href="#" class="text-muted"
+                    ><i data-feather="map-pin" class="fea icon-sm"></i> ایران</a
+                  >
                 </p>
               </div>
               <ul class="job-facts list-unstyled">
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   2 تجربه کار
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   ساعت کار - 6
                 </li>
                 <li class="list-inline-item text-muted">
-                  <i data-feather="check" class="fea icon-sm text-success me-1"></i>
+                  <i
+                    data-feather="check"
+                    class="fea icon-sm text-success me-1"
+                  ></i>
                   استراتژی اطلاعات
                 </li>
               </ul>
               <div class="d-grid">
-                <a href="page-job-detail.html" class="btn btn-outline-primary">اعمال کنید
+                <a href="page-job-detail.html" class="btn btn-outline-primary"
+                  >اعمال کنید
                 </a>
               </div>
             </div>
@@ -922,7 +1178,11 @@
         <div class="col-12 mt-4 pt-2">
           <ul class="pagination justify-content-center mb-0">
             <li class="page-item">
-              <a class="page-link" href="javascript:void(0)" aria-label="Previous">قبلی
+              <a
+                class="page-link"
+                href="javascript:void(0)"
+                aria-label="Previous"
+                >قبلی
               </a>
             </li>
             <li class="page-item active">
@@ -935,7 +1195,8 @@
               <a class="page-link" href="javascript:void(0)">3</a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="javascript:void(0)" aria-label="Next">بعدی
+              <a class="page-link" href="javascript:void(0)" aria-label="Next"
+                >بعدی
               </a>
             </li>
           </ul>
@@ -952,7 +1213,9 @@
 </template>
 
 <script setup lang="ts">
-
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
-<style scoped></style>
+<style></style>

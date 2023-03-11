@@ -35,7 +35,10 @@
   <div class="position-relative">
     <div class="shape overflow-hidden text-white">
       <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        <path
+          d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+          fill="currentColor"
+        ></path>
       </svg>
     </div>
   </div>
@@ -48,30 +51,44 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/assets/images/blog/01.jpg" class="card-img-top" alt="..." />
+              <img
+                src="~/assets/images/blog/01.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
               <h5>
-                <a href="javascript:void(0)" class="card-title title text-dark">برنامه های خود را به روش خود طراحی
-                  کنید</a>
+                <a href="javascript:void(0)" class="card-title title text-dark"
+                  >برنامه های خود را به روش خود طراحی کنید</a
+                >
               </h5>
               <div class="post-meta d-flex justify-content-between mt-3">
                 <ul class="list-unstyled mb-0">
                   <li class="list-inline-item me-2 mb-0">
-                    <a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a>
+                    <a href="javascript:void(0)" class="text-muted like"
+                      ><i class="uil uil-heart me-1"></i>33</a
+                    >
                   </li>
                   <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a>
+                    <a href="javascript:void(0)" class="text-muted comments"
+                      ><i class="uil uil-comment me-1"></i>08</a
+                    >
                   </li>
                 </ul>
-                <a href="page-blog-detail.html" class="text-muted readmore">ادامه مطلب <i
-                    class="uil uil-angle-left-b align-middle"></i></a>
+                <a href="page-blog-detail.html" class="text-muted readmore"
+                  >ادامه مطلب <i class="uil uil-angle-left-b align-middle"></i
+                ></a>
               </div>
             </div>
             <div class="author">
-              <small class="text-light user d-block"><i class="uil uil-user"></i> کالوین لورس</small>
-              <small class="text-light date"><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small>
+              <small class="text-light user d-block"
+                ><i class="uil uil-user"></i> کالوین لورس</small
+              >
+              <small class="text-light date"
+                ><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small
+              >
             </div>
           </div>
         </div>
@@ -80,30 +97,44 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/assets/images/blog/02.jpg" class="card-img-top" alt="..." />
+              <img
+                src="~/assets/images/blog/02.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
               <h5>
-                <a href="javascript:void(0)" class="card-title title text-dark">برنامه ها چگونه دنیای اطلاعات را تغییر می
-                  دهند</a>
+                <a href="javascript:void(0)" class="card-title title text-dark"
+                  >برنامه ها چگونه دنیای اطلاعات را تغییر می دهند</a
+                >
               </h5>
               <div class="post-meta d-flex justify-content-between mt-3">
                 <ul class="list-unstyled mb-0">
                   <li class="list-inline-item me-2 mb-0">
-                    <a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a>
+                    <a href="javascript:void(0)" class="text-muted like"
+                      ><i class="uil uil-heart me-1"></i>33</a
+                    >
                   </li>
                   <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a>
+                    <a href="javascript:void(0)" class="text-muted comments"
+                      ><i class="uil uil-comment me-1"></i>08</a
+                    >
                   </li>
                 </ul>
-                <a href="page-blog-detail.html" class="text-muted readmore">ادامه مطلب <i
-                    class="uil uil-angle-left-b align-middle"></i></a>
+                <a href="page-blog-detail.html" class="text-muted readmore"
+                  >ادامه مطلب <i class="uil uil-angle-left-b align-middle"></i
+                ></a>
               </div>
             </div>
             <div class="author">
-              <small class="text-light user d-block"><i class="uil uil-user"></i> کالوین لورس</small>
-              <small class="text-light date"><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small>
+              <small class="text-light user d-block"
+                ><i class="uil uil-user"></i> کالوین لورس</small
+              >
+              <small class="text-light date"
+                ><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small
+              >
             </div>
           </div>
         </div>
@@ -112,30 +143,44 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/assets/images/blog/03.jpg" class="card-img-top" alt="..." />
+              <img
+                src="~/assets/images/blog/03.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
               <h5>
-                <a href="javascript:void(0)" class="card-title title text-dark">هوشمندترین برنامه ها برای تجارت و کار
+                <a href="javascript:void(0)" class="card-title title text-dark"
+                  >هوشمندترین برنامه ها برای تجارت و کار
                 </a>
               </h5>
               <div class="post-meta d-flex justify-content-between mt-3">
                 <ul class="list-unstyled mb-0">
                   <li class="list-inline-item me-2 mb-0">
-                    <a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a>
+                    <a href="javascript:void(0)" class="text-muted like"
+                      ><i class="uil uil-heart me-1"></i>33</a
+                    >
                   </li>
                   <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a>
+                    <a href="javascript:void(0)" class="text-muted comments"
+                      ><i class="uil uil-comment me-1"></i>08</a
+                    >
                   </li>
                 </ul>
-                <a href="page-blog-detail.html" class="text-muted readmore">ادامه مطلب <i
-                    class="uil uil-angle-left-b align-middle"></i></a>
+                <a href="page-blog-detail.html" class="text-muted readmore"
+                  >ادامه مطلب <i class="uil uil-angle-left-b align-middle"></i
+                ></a>
               </div>
             </div>
             <div class="author">
-              <small class="text-light user d-block"><i class="uil uil-user"></i> کالوین لورس</small>
-              <small class="text-light date"><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small>
+              <small class="text-light user d-block"
+                ><i class="uil uil-user"></i> کالوین لورس</small
+              >
+              <small class="text-light date"
+                ><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small
+              >
             </div>
           </div>
         </div>
@@ -144,30 +189,44 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/assets/images/blog/04.jpg" class="card-img-top" alt="..." />
+              <img
+                src="~/assets/images/blog/04.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
               <h5>
-                <a href="javascript:void(0)" class="card-title title text-dark">برنامه ها چگونه دنیای اطلاعات را تغییر می
-                  دهند</a>
+                <a href="javascript:void(0)" class="card-title title text-dark"
+                  >برنامه ها چگونه دنیای اطلاعات را تغییر می دهند</a
+                >
               </h5>
               <div class="post-meta d-flex justify-content-between mt-3">
                 <ul class="list-unstyled mb-0">
                   <li class="list-inline-item me-2 mb-0">
-                    <a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a>
+                    <a href="javascript:void(0)" class="text-muted like"
+                      ><i class="uil uil-heart me-1"></i>33</a
+                    >
                   </li>
                   <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a>
+                    <a href="javascript:void(0)" class="text-muted comments"
+                      ><i class="uil uil-comment me-1"></i>08</a
+                    >
                   </li>
                 </ul>
-                <a href="page-blog-detail.html" class="text-muted readmore">ادامه مطلب <i
-                    class="uil uil-angle-left-b align-middle"></i></a>
+                <a href="page-blog-detail.html" class="text-muted readmore"
+                  >ادامه مطلب <i class="uil uil-angle-left-b align-middle"></i
+                ></a>
               </div>
             </div>
             <div class="author">
-              <small class="text-light user d-block"><i class="uil uil-user"></i> کالوین لورس</small>
-              <small class="text-light date"><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small>
+              <small class="text-light user d-block"
+                ><i class="uil uil-user"></i> کالوین لورس</small
+              >
+              <small class="text-light date"
+                ><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small
+              >
             </div>
           </div>
         </div>
@@ -176,30 +235,44 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/assets/images/blog/05.jpg" class="card-img-top" alt="..." />
+              <img
+                src="~/assets/images/blog/05.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
               <h5>
-                <a href="javascript:void(0)" class="card-title title text-dark">برنامه های خود را به روش خود طراحی
-                  کنید</a>
+                <a href="javascript:void(0)" class="card-title title text-dark"
+                  >برنامه های خود را به روش خود طراحی کنید</a
+                >
               </h5>
               <div class="post-meta d-flex justify-content-between mt-3">
                 <ul class="list-unstyled mb-0">
                   <li class="list-inline-item me-2 mb-0">
-                    <a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a>
+                    <a href="javascript:void(0)" class="text-muted like"
+                      ><i class="uil uil-heart me-1"></i>33</a
+                    >
                   </li>
                   <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a>
+                    <a href="javascript:void(0)" class="text-muted comments"
+                      ><i class="uil uil-comment me-1"></i>08</a
+                    >
                   </li>
                 </ul>
-                <a href="page-blog-detail.html" class="text-muted readmore">ادامه مطلب <i
-                    class="uil uil-angle-left-b align-middle"></i></a>
+                <a href="page-blog-detail.html" class="text-muted readmore"
+                  >ادامه مطلب <i class="uil uil-angle-left-b align-middle"></i
+                ></a>
               </div>
             </div>
             <div class="author">
-              <small class="text-light user d-block"><i class="uil uil-user"></i> کالوین لورس</small>
-              <small class="text-light date"><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small>
+              <small class="text-light user d-block"
+                ><i class="uil uil-user"></i> کالوین لورس</small
+              >
+              <small class="text-light date"
+                ><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small
+              >
             </div>
           </div>
         </div>
@@ -208,30 +281,44 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/assets/images/blog/06.jpg" class="card-img-top" alt="..." />
+              <img
+                src="~/assets/images/blog/06.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
               <h5>
-                <a href="javascript:void(0)" class="card-title title text-dark">هوشمندترین برنامه ها برای تجارت و کار
+                <a href="javascript:void(0)" class="card-title title text-dark"
+                  >هوشمندترین برنامه ها برای تجارت و کار
                 </a>
               </h5>
               <div class="post-meta d-flex justify-content-between mt-3">
                 <ul class="list-unstyled mb-0">
                   <li class="list-inline-item me-2 mb-0">
-                    <a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a>
+                    <a href="javascript:void(0)" class="text-muted like"
+                      ><i class="uil uil-heart me-1"></i>33</a
+                    >
                   </li>
                   <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a>
+                    <a href="javascript:void(0)" class="text-muted comments"
+                      ><i class="uil uil-comment me-1"></i>08</a
+                    >
                   </li>
                 </ul>
-                <a href="page-blog-detail.html" class="text-muted readmore">ادامه مطلب <i
-                    class="uil uil-angle-left-b align-middle"></i></a>
+                <a href="page-blog-detail.html" class="text-muted readmore"
+                  >ادامه مطلب <i class="uil uil-angle-left-b align-middle"></i
+                ></a>
               </div>
             </div>
             <div class="author">
-              <small class="text-light user d-block"><i class="uil uil-user"></i> کالوین لورس</small>
-              <small class="text-light date"><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small>
+              <small class="text-light user d-block"
+                ><i class="uil uil-user"></i> کالوین لورس</small
+              >
+              <small class="text-light date"
+                ><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small
+              >
             </div>
           </div>
         </div>
@@ -240,30 +327,44 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/assets/images/blog/07.jpg" class="card-img-top" alt="..." />
+              <img
+                src="~/assets/images/blog/07.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
               <h5>
-                <a href="javascript:void(0)" class="card-title title text-dark">برنامه های خود را به روش خود طراحی
-                  کنید</a>
+                <a href="javascript:void(0)" class="card-title title text-dark"
+                  >برنامه های خود را به روش خود طراحی کنید</a
+                >
               </h5>
               <div class="post-meta d-flex justify-content-between mt-3">
                 <ul class="list-unstyled mb-0">
                   <li class="list-inline-item me-2 mb-0">
-                    <a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a>
+                    <a href="javascript:void(0)" class="text-muted like"
+                      ><i class="uil uil-heart me-1"></i>33</a
+                    >
                   </li>
                   <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a>
+                    <a href="javascript:void(0)" class="text-muted comments"
+                      ><i class="uil uil-comment me-1"></i>08</a
+                    >
                   </li>
                 </ul>
-                <a href="page-blog-detail.html" class="text-muted readmore">ادامه مطلب <i
-                    class="uil uil-angle-left-b align-middle"></i></a>
+                <a href="page-blog-detail.html" class="text-muted readmore"
+                  >ادامه مطلب <i class="uil uil-angle-left-b align-middle"></i
+                ></a>
               </div>
             </div>
             <div class="author">
-              <small class="text-light user d-block"><i class="uil uil-user"></i> کالوین لورس</small>
-              <small class="text-light date"><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small>
+              <small class="text-light user d-block"
+                ><i class="uil uil-user"></i> کالوین لورس</small
+              >
+              <small class="text-light date"
+                ><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small
+              >
             </div>
           </div>
         </div>
@@ -272,30 +373,44 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/assets/images/blog/08.jpg" class="card-img-top" alt="..." />
+              <img
+                src="~/assets/images/blog/08.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
               <h5>
-                <a href="javascript:void(0)" class="card-title title text-dark">هوشمندترین برنامه ها برای تجارت و کار
+                <a href="javascript:void(0)" class="card-title title text-dark"
+                  >هوشمندترین برنامه ها برای تجارت و کار
                 </a>
               </h5>
               <div class="post-meta d-flex justify-content-between mt-3">
                 <ul class="list-unstyled mb-0">
                   <li class="list-inline-item me-2 mb-0">
-                    <a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a>
+                    <a href="javascript:void(0)" class="text-muted like"
+                      ><i class="uil uil-heart me-1"></i>33</a
+                    >
                   </li>
                   <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a>
+                    <a href="javascript:void(0)" class="text-muted comments"
+                      ><i class="uil uil-comment me-1"></i>08</a
+                    >
                   </li>
                 </ul>
-                <a href="page-blog-detail.html" class="text-muted readmore">ادامه مطلب <i
-                    class="uil uil-angle-left-b align-middle"></i></a>
+                <a href="page-blog-detail.html" class="text-muted readmore"
+                  >ادامه مطلب <i class="uil uil-angle-left-b align-middle"></i
+                ></a>
               </div>
             </div>
             <div class="author">
-              <small class="text-light user d-block"><i class="uil uil-user"></i> کالوین لورس</small>
-              <small class="text-light date"><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small>
+              <small class="text-light user d-block"
+                ><i class="uil uil-user"></i> کالوین لورس</small
+              >
+              <small class="text-light date"
+                ><i class="uil uil-calendar-alt"></i> اردیبهشت 1400</small
+              >
             </div>
           </div>
         </div>
@@ -305,7 +420,11 @@
         <div class="col-12">
           <ul class="pagination justify-content-center mb-0">
             <li class="page-item">
-              <a class="page-link" href="javascript:void(0)" aria-label="Previous">قبلی
+              <a
+                class="page-link"
+                href="javascript:void(0)"
+                aria-label="Previous"
+                >قبلی
               </a>
             </li>
             <li class="page-item active">
@@ -318,7 +437,8 @@
               <a class="page-link" href="javascript:void(0)">3</a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="javascript:void(0)" aria-label="Next">بعدی
+              <a class="page-link" href="javascript:void(0)" aria-label="Next"
+                >بعدی
               </a>
             </li>
           </ul>
@@ -335,7 +455,9 @@
 </template>
 
 <script setup lang="ts">
-
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
-<style scoped></style>
+<style></style>

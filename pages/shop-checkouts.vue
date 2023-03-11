@@ -403,7 +403,10 @@
   <!-- End -->
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+</script>
 
-<style scoped></style>
-]
+<style></style>
