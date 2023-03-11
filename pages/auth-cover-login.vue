@@ -56,7 +56,7 @@
                                                                     <label class="form-check-label" for="flexCheckDefault">مرا به خاطر بسپار </label>
                                                                 </div>
                                                             </div>
-                                                            <p class="forgot-pass mb-0"><a href="auth-cover-re-password.html" class="text-dark fw-bold">فراموشی رمز عبور؟ </a></p>
+                                                            <p class="forgot-pass mb-0"><NuxtLink to="/auth-cover-re-password" class="text-dark fw-bold">فراموشی رمز عبور؟ </NuxtLink></p>
                                                         </div>
                                                     </div><!--end col-->
 
@@ -84,7 +84,7 @@
                                                     </div><!--end col-->
 
                                                     <div class="col-12 text-center">
-                                                        <p class="mb-0 mt-3"><small class="text-dark me-2">حسابی ندارید؟ </small> <a href="auth-cover-signup.html" class="text-dark fw-bold">ثبت نام کنید </a></p>
+                                                        <p class="mb-0 mt-3"><small class="text-dark me-2">حسابی ندارید؟ </small> <NuxtLink to="/auth-cover-signup" class="text-dark fw-bold">ثبت نام کنید </NuxtLink></p>
                                                     </div><!--end col-->
                                                 </div><!--end row-->
                                             </form>
@@ -95,7 +95,7 @@
                         </div> <!-- end about detail -->
                     </div> <!-- end col -->    
 
-                    <div class="col-lg-8 offset-lg-4 padding-less img order-1" style="background-image:url('images/user/01.jpg')" data-jarallax='{"speed": 0.5}'></div><!-- end col -->    
+                    <div class="col-lg-8 offset-lg-4 padding-less img order-1" :style="`background-image:url(${bgImg})`" data-jarallax='{"speed": 0.5}'></div><!-- end col -->    
                 </div><!--end row-->
             </div><!--end container fluid-->
         </section><!--end section-->
@@ -105,7 +105,7 @@
 </template>
 
 <script setup lang="ts">
-
+import bgImg from '~/assets/images/user/01.jpg'
 </script>
 
 <style scoped>
