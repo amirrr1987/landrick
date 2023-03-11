@@ -13,7 +13,8 @@
         <div class="col-lg-4 col-md-5 col-12">
           <div class="card job-profile shadow border-0">
             <div class="text-center py-5 border-bottom rounded-top">
-              <img src="~/aseets/images/client/01.jpg" class="avatar avatar-medium mx-auto rounded-circle shadow d-block" alt="" />
+              <img src="~/assets/images/client/01.jpg" class="avatar avatar-medium mx-auto rounded-circle shadow d-block"
+                alt="" />
               <h5 class="mt-3 mb-0">توماس ردیگر</h5>
               <p class="text-muted mb-0">توسعه وب سینور</p>
             </div>
@@ -155,7 +156,8 @@
               <div class="col-lg-12 mt-4 pt-2">
                 <div class="d-flex">
                   <div class="company-logo text-muted h6 me-3 text-center">
-                    <img src="~/aseets/images/job/Codepen.svg" class="avatar avatar-md-sm mx-auto d-block mb-2" alt="" />1397-98
+                    <img src="~/assets/images/job/Codepen.svg" class="avatar avatar-md-sm mx-auto d-block mb-2"
+                      alt="" />1397-98
                   </div>
                   <div class="flex-1">
                     <h5 class="title mb-0">توسعه دهنده بک اند</h5>
@@ -174,7 +176,8 @@
               <div class="col-lg-12 mt-4 pt-2">
                 <div class="d-flex">
                   <div class="company-logo text-muted h6 me-3 text-center">
-                    <img src="~/aseets/images/job/Circleci.svg" class="avatar avatar-md-sm mx-auto d-block mb-2" alt="" />1394-95
+                    <img src="~/assets/images/job/Circleci.svg" class="avatar avatar-md-sm mx-auto d-block mb-2"
+                      alt="" />1394-95
                   </div>
                   <div class="flex-1">
                     <h5 class="title mb-0">طراحی سایت</h5>
@@ -199,8 +202,8 @@
               <div class="col-md-6 col-12 mt-4 pt-2">
                 <div class="card border-0 work-container work-classic">
                   <div class="card-body p-0">
-                    <a href="page-portfolio-detail.html"><img src="~/aseets/images/work/1.jpg" class="img-fluid rounded work-image"
-                        alt="" /></a>
+                    <a href="page-portfolio-detail.html"><img src="~/assets/images/work/1.jpg"
+                        class="img-fluid rounded work-image" alt="" /></a>
                     <div class="content pt-3">
                       <h5 class="mb-0">
                         <a href="page-portfolio-detail.html" class="text-dark title">ماکت آیفون</a>
@@ -215,8 +218,8 @@
               <div class="col-md-6 col-12 mt-4 pt-2">
                 <div class="card border-0 work-container work-classic">
                   <div class="card-body p-0">
-                    <a href="page-portfolio-detail.html"><img src="~/aseets/images/work/2.jpg" class="img-fluid rounded work-image"
-                        alt="" /></a>
+                    <a href="page-portfolio-detail.html"><img src="~/assets/images/work/2.jpg"
+                        class="img-fluid rounded work-image" alt="" /></a>
                     <div class="content pt-3">
                       <h5 class="mb-0">
                         <a href="page-portfolio-detail.html" class="text-dark title">مجموعه ماکت</a>
@@ -231,8 +234,8 @@
               <div class="col-md-6 col-12 mt-4 pt-2">
                 <div class="card border-0 work-container work-classic">
                   <div class="card-body p-0">
-                    <a href="page-portfolio-detail.html"><img src="~/aseets/images/work/3.jpg" class="img-fluid rounded work-image"
-                        alt="" /></a>
+                    <a href="page-portfolio-detail.html"><img src="~/assets/images/work/3.jpg"
+                        class="img-fluid rounded work-image" alt="" /></a>
                     <div class="content pt-3">
                       <h5 class="mb-0">
                         <a href="page-portfolio-detail.html" class="text-dark title">تصاویر انتزاعی</a>
@@ -247,8 +250,8 @@
               <div class="col-md-6 col-12 mt-4 pt-2">
                 <div class="card border-0 work-container work-classic">
                   <div class="card-body p-0">
-                    <a href="page-portfolio-detail.html"><img src="~/aseets/images/work/4.jpg" class="img-fluid rounded work-image"
-                        alt="" /></a>
+                    <a href="page-portfolio-detail.html"><img src="~/assets/images/work/4.jpg"
+                        class="img-fluid rounded work-image" alt="" /></a>
                     <div class="content pt-3">
                       <h5 class="mb-0">
                         <a href="page-portfolio-detail.html" class="text-dark title">پس زمینه زرد با کتاب</a>

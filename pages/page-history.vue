@@ -55,7 +55,7 @@
                 <!--end col-->
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <div class="card event event-description-right rounded shadow border-0 overflow-hidden float-start">
-                    <img src="~/aseets/images/blog/01.jpg" class="img-fluid" alt="" />
+                    <img src="~/assets/images/blog/01.jpg" class="img-fluid" alt="" />
                     <div class="card-body">
                       <h5 class="mb-0 text-capitalize">تاسیس</h5>
                       <p class="mt-3 mb-0 text-muted">
@@ -78,7 +78,7 @@
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2">
                   <div class="card event event-description-left rounded shadow border-0 overflow-hidden float-start">
-                    <img src="~/aseets/images/blog/02.jpg" class="img-fluid" alt="" />
+                    <img src="~/assets/images/blog/02.jpg" class="img-fluid" alt="" />
                     <div class="card-body">
                       <h5 class="mb-0 text-capitalize">شراکت</h5>
                       <p class="mt-3 mb-0 text-muted">
@@ -113,7 +113,7 @@
                 <!--end col-->
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <div class="card event event-description-right rounded shadow border-0 overflow-hidden float-start">
-                    <img src="~/aseets/images/blog/03.jpg" class="img-fluid" alt="" />
+                    <img src="~/assets/images/blog/03.jpg" class="img-fluid" alt="" />
                     <div class="card-body">
                       <h5 class="mb-0 text-capitalize">امنیت</h5>
                       <p class="mt-3 mb-0 text-muted">
@@ -136,7 +136,7 @@
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2">
                   <div class="card event event-description-left rounded shadow border-0 overflow-hidden float-start">
-                    <img src="~/aseets/images/blog/04.jpg" class="img-fluid" alt="" />
+                    <img src="~/assets/images/blog/04.jpg" class="img-fluid" alt="" />
                     <div class="card-body">
                       <h5 class="mb-0 text-capitalize">برند</h5>
                       <p class="mt-3 mb-0 text-muted">
@@ -171,7 +171,7 @@
                 <!--end col-->
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <div class="card event event-description-right rounded shadow border-0 overflow-hidden float-start">
-                    <img src="~/aseets/images/blog/05.jpg" class="img-fluid" alt="" />
+                    <img src="~/assets/images/blog/05.jpg" class="img-fluid" alt="" />
                     <div class="card-body">
                       <h5 class="mb-0 text-capitalize">جهانی شدن</h5>
                       <p class="mt-3 mb-0 text-muted">
@@ -194,7 +194,7 @@
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2">
                   <div class="card event event-description-left rounded shadow border-0 overflow-hidden float-start">
-                    <img src="~/aseets/images/blog/06.jpg" class="img-fluid" alt="" />
+                    <img src="~/assets/images/blog/06.jpg" class="img-fluid" alt="" />
                     <div class="card-body">
                       <h5 class="mb-0 text-capitalize">معروف</h5>
                       <p class="mt-3 mb-0 text-muted">

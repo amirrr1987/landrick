@@ -87,7 +87,7 @@
                 </li>
               </ul>
 
-              <img src="~/aseets/images/blog/bg1.jpg" class="img-fluid rounded-md shadow" alt="" />
+              <img src="~/assets/images/blog/bg1.jpg" class="img-fluid rounded-md shadow" alt="" />
 
               <h5 class="mt-4">
                 صبح ها فقط به دلیل راز یک زندگی فوق العاده موفق است
@@ -109,8 +109,8 @@
                   <div class="d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                       <a class="pe-3" href="#">
-                        <img src="~/aseets/images/client/01.jpg" class="img-fluid avatar avatar-md-sm rounded-circle shadow"
-                          alt="img" />
+                        <img src="~/assets/images/client/01.jpg"
+                          class="img-fluid avatar avatar-md-sm rounded-circle shadow" alt="img" />
                       </a>
                       <div class="flex-1 commentor-detail">
                         <h6 class="mb-0">
@@ -135,8 +135,8 @@
                   <div class="d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                       <a class="pe-3" href="#">
-                        <img src="~/aseets/images/client/02.jpg" class="img-fluid avatar avatar-md-sm rounded-circle shadow"
-                          alt="img" />
+                        <img src="~/assets/images/client/02.jpg"
+                          class="img-fluid avatar avatar-md-sm rounded-circle shadow" alt="img" />
                       </a>
                       <div class="flex-1 commentor-detail">
                         <h6 class="mb-0">
@@ -161,8 +161,8 @@
                   <div class="d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                       <a class="pe-3" href="#">
-                        <img src="~/aseets/images/client/03.jpg" class="img-fluid avatar avatar-md-sm rounded-circle shadow"
-                          alt="img" />
+                        <img src="~/assets/images/client/03.jpg"
+                          class="img-fluid avatar avatar-md-sm rounded-circle shadow" alt="img" />
                       </a>
                       <div class="flex-1 commentor-detail">
                         <h6 class="mb-0">
@@ -188,8 +188,8 @@
                       <div class="d-flex justify-content-between">
                         <div class="d-flex align-items-center">
                           <a class="pe-3" href="#">
-                            <img src="~/aseets/images/client/01.jpg" class="img-fluid avatar avatar-md-sm rounded-circle shadow"
-                              alt="img" />
+                            <img src="~/assets/images/client/01.jpg"
+                              class="img-fluid avatar avatar-md-sm rounded-circle shadow" alt="img" />
                           </a>
                           <div class="flex-1 commentor-detail">
                             <h6 class="mb-0">

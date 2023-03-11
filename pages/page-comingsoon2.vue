@@ -4,14 +4,15 @@
         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
         <!--Here is your webm not YouTube-->
 
-        <!-- <source src="images/1.mp4" type="video/mp4"> -->
+        <!-- <source src="~/assets/images/1.mp4" type="video/mp4"> -->
         <!-- Here is your videos path link -->
     </video>
     <section class="bg-home bg-animation-left dark-left d-flex align-items-center" id="home">
         <div class="container position-relative text-md-start text-center" style="z-index: 1;">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="javascript:void(0)" class="logo h5"><img src="~/aseets/images/logo-light.png" height="24" alt=""></a>
+                    <a href="javascript:void(0)" class="logo h5"><img src="~/assets/images/logo-light.png" height="24"
+                            alt=""></a>
                     <h1 class="text-uppercase text-white title-dark mt-2 mb-4 coming-soon"><span
                             class="text-white typewrite" data-period="2000"
                             data-type='[ "ما به زودی می آییم...", "ما آماده ایم تا", "با ما در ارتباط هستیم" ]'> <span

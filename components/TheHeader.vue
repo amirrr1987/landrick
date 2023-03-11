@@ -1,5 +1,5 @@
 <template>
-  <header id="topnav" class="defaultscroll sticky">
+  <header id="topnav" class="defaultscroll sticky bg-white shadow">
     <div class="container">
       <!-- Logo container-->
       <div>

@@ -1,6 +1,6 @@
 <template>
   <!-- Hero Start -->
-  <section class="bg-half d-table w-100" style="background: url('images/2.jpg') center center">
+  <section class="bg-half d-table w-100" :style="`background: url(${bgImg}) center center`">
     <div class="bg-overlay"></div>
     <div class="container">
       <div class="row justify-content-center">
@@ -69,7 +69,7 @@
       <div id="grid" class="row">
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["business"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/1.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/1.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-primary">کسب و کار
@@ -91,7 +91,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["marketing"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/2.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/2.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-warning">بازاریابی</a>
@@ -112,7 +112,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["finance"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/3.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/3.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-success">مالی
@@ -134,7 +134,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["human"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/4.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/4.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-info">HR</a>
@@ -155,7 +155,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["business"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/5.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/5.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-primary">کسب و کار
@@ -178,7 +178,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["marketing"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/6.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/6.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-warning">بازاریابی</a>
@@ -199,7 +199,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["finance"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/7.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/7.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-success">مالی
@@ -221,7 +221,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["human"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/8.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/8.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-info">HR</a>
@@ -242,7 +242,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2 picture-item" data-groups='["human"]'>
           <div class="card blog border-0 work-container work-classic shadow rounded-md overflow-hidden">
-            <img src="~/aseets/images/work/9.jpg" class="img-fluid work-image" alt="" />
+            <img src="~/assets/images/work/9.jpg" class="img-fluid work-image" alt="" />
             <div class="card-body">
               <div class="content">
                 <a href="javascript:void(0)" class="badge badge-link bg-info">HR</a>
@@ -269,7 +269,7 @@
 </template>
 
 <script setup lang="ts">
-
+import bgImg from '~/assets/images/2.jpg'
 </script>
 
 <style scoped></style>

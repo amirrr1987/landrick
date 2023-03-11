@@ -9,7 +9,7 @@
                         <div class="page-next">
                             <nav aria-label="breadcrumb" class="d-inline-block">
                                 <ul class="breadcrumb bg-white rounded shadow mb-0">
-                                    <li class="breadcrumb-item"><a href="index.html">لنـدریـک </a></li>
+                                    <li class="breadcrumb-item"><NuxtLink to="/">لنـدریـک </NuxtLink></li>
                                     <li class="breadcrumb-item"><a href="#">مستند </a></li>
                                     <li class="breadcrumb-item active" aria-current="page">ویجت </li>
                                 </ul>

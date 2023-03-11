@@ -14,7 +14,8 @@
           <div class="job-profile position-relative">
             <div class="rounded shadow bg-white">
               <div class="text-center py-5 border-bottom">
-                <img src="~/aseets/images/job/Circleci.svg" class="avatar avatar-medium mx-auto rounded-circle d-block" alt="" />
+                <img src="~/assets/images/job/Circleci.svg" class="avatar avatar-medium mx-auto rounded-circle d-block"
+                  alt="" />
                 <h5 class="mt-3 mb-0">کایرل کل</h5>
                 <p class="text-muted mb-0">خدمات اینترنتی</p>
               </div>

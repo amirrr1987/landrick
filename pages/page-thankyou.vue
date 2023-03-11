@@ -13,7 +13,7 @@
                             </div>
                             <h1 class="my-4 fw-bold">ممنون از شما</h1>
                             <p class="text-muted para-desc mx-auto">کمپین خود را راه اندازی کنید و از تخصص ما در زمینه طراحی و مدیریت صفحه بوت استرپ v5 html تبدیل محور بهره مند شوید.</p>
-                            <a href="index.html" class="btn btn-soft-primary mt-3">برو صفحه اصلی </a>
+                            <NuxtLink to="/" class="btn btn-soft-primary mt-3">برو صفحه اصلی </NuxtLink>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->

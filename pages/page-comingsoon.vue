@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-12 text-center">
-                    <a href="javascript:void(0)" class="logo h5"><img src="~/aseets/images/logo-light.png" height="24"
+                    <a href="javascript:void(0)" class="logo h5"><img src="~/assets/images/logo-light.png" height="24"
                             alt=""></a>
                     <div class="text-uppercase title-dark text-white mt-2 mb-4 coming-soon">ما به زودی می آییم...</div>
                     <p class="text-light para-desc para-dark mx-auto">شروع به کار با <span class="text-primary fw-bold">

@@ -9,8 +9,12 @@
                         <div class="page-next">
                             <nav aria-label="breadcrumb" class="d-inline-block">
                                 <ul class="breadcrumb bg-white rounded shadow mb-0">
-                                    <li class="breadcrumb-item"><a href="index.html">لنـدریـک </a></li>
-                                    <li class="breadcrumb-item"><a href="index-shop.html">فروشگاه </a></li>
+                                    <li class="breadcrumb-item">
+                                        <NuxtLink to="/">لنـدریـک </NuxtLink>
+                                    </li>
+                                    <li class="breadcrumb-item">
+                                        <NuxtLink to="/index-shop">فروشگاه </NuxtLink>
+                                    </li>
                                     <li class="breadcrumb-item active" aria-current="page">جزئیات محصول </li>
                                 </ul>
                             </nav>
@@ -402,24 +406,28 @@
                                         </a></li>
                                 </ul>
                                 <div class="shop-image position-relative overflow-hidden rounded shadow">
-                                    <a href="shop-product-detail.html"><img src="~/assets/images/shop/product/s1.jpg"
-                                            class="img-fluid" alt=""></a>
-                                    <a href="shop-product-detail.html" class="overlay-work">
+                                    <NuxtLink to="/shop-product-detail"><img src="~/assets/images/shop/product/s1.jpg"
+                                            class="img-fluid" alt=""></NuxtLink>
+                                    <NuxtLink to="/shop-product-detail" class="overlay-work">
                                         <img src="~/assets/images/shop/product/s-1.jpg" class="img-fluid" alt="">
-                                    </a>
+                                    </NuxtLink>
                                     <ul class="list-unstyled shop-icons">
                                         <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i
                                                     data-feather="heart" class="icons"></i></a></li>
-                                        <li class="mt-2"><a href="shop-product-detail.html"
+                                        <li class="mt-2">
+                                            <NuxtLink to="/shop-product-detail"
                                                 class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye"
-                                                    class="icons"></i></a></li>
-                                        <li class="mt-2"><a href="shop-cart.html"
-                                                class="btn btn-icon btn-pills btn-soft-warning"><i
-                                                    data-feather="shopping-cart" class="icons"></i></a></li>
+                                                    class="icons"></i></NuxtLink>
+                                        </li>
+                                        <li class="mt-2">
+                                            <NuxtLink to="/shop-cart" class="btn btn-icon btn-pills btn-soft-warning"><i
+                                                    data-feather="shopping-cart" class="icons"></i></NuxtLink>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="card-body content pt-4 p-2">
-                                    <a href="shop-product-detail.html" class="text-dark product-name h6">تی شرت بردان </a>
+                                    <NuxtLink to="/shop-product-detail" class="text-dark product-name h6">تی شرت بردان
+                                    </NuxtLink>
                                     <div class="d-flex justify-content-between mt-1">
                                         <h6 class="text-muted small fst-italic mb-0 mt-1">16000 تومان<del
                                                 class="text-danger ms-2">21000 تومان</del> </h6>
@@ -438,24 +446,28 @@
                         <div class="tiny-slide">
                             <div class="card shop-list border-0 position-relative m-2">
                                 <div class="shop-image position-relative overflow-hidden rounded shadow">
-                                    <a href="shop-product-detail.html"><img src="~/assets/images/shop/product/s2.jpg"
-                                            class="img-fluid" alt=""></a>
+                                    <NuxtLink to="/shop-product-detail"><img src="~/assets/images/shop/product/s2.jpg"
+                                            class="img-fluid" alt=""></NuxtLink>
                                     <a href="shop-product-detail.html" class="overlay-work">
                                         <img src="~/assets/images/shop/product/s-2.jpg" class="img-fluid" alt="">
                                     </a>
                                     <ul class="list-unstyled shop-icons">
                                         <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i
                                                     data-feather="heart" class="icons"></i></a></li>
-                                        <li class="mt-2"><a href="shop-product-detail.html"
+                                        <li class="mt-2">
+                                            <NuxtLink to="/shop-product-detail"
                                                 class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye"
-                                                    class="icons"></i></a></li>
-                                        <li class="mt-2"><a href="shop-cart.html"
-                                                class="btn btn-icon btn-pills btn-soft-warning"><i
-                                                    data-feather="shopping-cart" class="icons"></i></a></li>
+                                                    class="icons"></i></NuxtLink>
+                                        </li>
+                                        <li class="mt-2">
+                                            <NuxtLink to="/shop-cart" class="btn btn-icon btn-pills btn-soft-warning"><i
+                                                    data-feather="shopping-cart" class="icons"></i></NuxtLink>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="card-body content pt-4 p-2">
-                                    <a href="shop-product-detail.html" class="text-dark product-name h6">کیسه خرید </a>
+                                    <NuxtLink to="/shop-product-detail" class="text-dark product-name h6">کیسه خرید
+                                    </NuxtLink>
                                     <div class="d-flex justify-content-between mt-1">
                                         <h6 class="text-muted small fst-italic mb-0 mt-1">21000 تومان <del
                                                 class="text-danger ms-2">25000 تومان</del> </h6>
@@ -478,24 +490,28 @@
                                         </a></li>
                                 </ul>
                                 <div class="shop-image position-relative overflow-hidden rounded shadow">
-                                    <a href="shop-product-detail.html"><img src="~/assets/images/shop/product/s3.jpg"
-                                            class="img-fluid" alt=""></a>
-                                    <a href="shop-product-detail.html" class="overlay-work">
+                                    <NuxtLink to="/shop-product-detail"><img src="~/assets/images/shop/product/s3.jpg"
+                                            class="img-fluid" alt=""></NuxtLink>
+                                    <NuxtLink to="/shop-product-detail" class="overlay-work">
                                         <img src="~/assets/images/shop/product/s-3.jpg" class="img-fluid" alt="">
-                                    </a>
+                                    </NuxtLink>
                                     <ul class="list-unstyled shop-icons">
                                         <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i
                                                     data-feather="heart" class="icons"></i></a></li>
-                                        <li class="mt-2"><a href="shop-product-detail.html"
+                                        <li class="mt-2">
+                                            <NuxtLink to="/shop-product-detail"
                                                 class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye"
-                                                    class="icons"></i></a></li>
-                                        <li class="mt-2"><a href="shop-cart.html"
-                                                class="btn btn-icon btn-pills btn-soft-warning"><i
-                                                    data-feather="shopping-cart" class="icons"></i></a></li>
+                                                    class="icons"></i></NuxtLink>
+                                        </li>
+                                        <li class="mt-2">
+                                            <NuxtLink to="/shop-cart" class="btn btn-icon btn-pills btn-soft-warning">
+                                                <i data-feather="shopping-cart" class="icons"></i>
+                                            </NuxtLink>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="card-body content pt-4 p-2">
-                                    <a href="shop-product-detail.html" class="text-dark product-name h6">ساعت الگنت </a>
+                                    <NuxtLink to="/shop-product-detail" class="text-dark product-name h6">ساعت الگنت </NuxtLink>
                                     <div class="d-flex justify-content-between mt-1">
                                         <h6 class="text-muted small fst-italic mb-0 mt-1">50000 تومان <span
                                                 class="text-success ms-1">30% تخفیف</span> </h6>
@@ -605,150 +621,151 @@
                                                 class="btn btn-icon btn-pills btn-soft-warning"><i
                                                     data-feather="shopping-cart" class="icons"></i></a></li>
                                     </ul>
-                            </div>
-                            <div class="card-body content pt-4 p-2">
-                                <a href="shop-product-detail.html" class="text-dark product-name h6">لیوان زیبا</a>
-                                <div class="d-flex justify-content-between mt-1">
-                                    <h6 class="text-muted small fst-italic mb-0 mt-1">4500 تومان <del
-                                            class="text-danger ms-2">6500 تومان</del> </h6>
-                                    <ul class="list-unstyled text-warning mb-0">
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                    </ul>
+                                </div>
+                                <div class="card-body content pt-4 p-2">
+                                    <a href="shop-product-detail.html" class="text-dark product-name h6">لیوان زیبا</a>
+                                    <div class="d-flex justify-content-between mt-1">
+                                        <h6 class="text-muted small fst-italic mb-0 mt-1">4500 تومان <del
+                                                class="text-danger ms-2">6500 تومان</del> </h6>
+                                        <ul class="list-unstyled text-warning mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="tiny-slide">
-                        <div class="card shop-list border-0 position-relative m-2">
-                            <div class="shop-image position-relative overflow-hidden rounded shadow">
-                                <a href="shop-product-detail.html"><img src="~/assets/images/shop/product/s7.jpg"
-                                        class="img-fluid" alt=""></a>
-                                <a href="shop-product-detail.html" class="overlay-work">
-                                    <img src="~/assets/images/shop/product/s-7.jpg" class="img-fluid" alt="">
-                                </a>
-                                <ul class="list-unstyled shop-icons">
-                                    <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i
-                                                data-feather="heart" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="shop-product-detail.html"
-                                            class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye"
-                                                class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="shop-cart.html"
-                                            class="btn btn-icon btn-pills btn-soft-warning"><i
-                                                data-feather="shopping-cart" class="icons"></i></a></li>
+                        <div class="tiny-slide">
+                            <div class="card shop-list border-0 position-relative m-2">
+                                <div class="shop-image position-relative overflow-hidden rounded shadow">
+                                    <a href="shop-product-detail.html"><img src="~/assets/images/shop/product/s7.jpg"
+                                            class="img-fluid" alt=""></a>
+                                    <a href="shop-product-detail.html" class="overlay-work">
+                                        <img src="~/assets/images/shop/product/s-7.jpg" class="img-fluid" alt="">
+                                    </a>
+                                    <ul class="list-unstyled shop-icons">
+                                        <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i
+                                                    data-feather="heart" class="icons"></i></a></li>
+                                        <li class="mt-2"><a href="shop-product-detail.html"
+                                                class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye"
+                                                    class="icons"></i></a></li>
+                                        <li class="mt-2"><a href="shop-cart.html"
+                                                class="btn btn-icon btn-pills btn-soft-warning"><i
+                                                    data-feather="shopping-cart" class="icons"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body content pt-4 p-2">
+                                    <a href="shop-product-detail.html" class="text-dark product-name h6">هدفون سونی</a>
+                                    <div class="d-flex justify-content-between mt-1">
+                                        <h6 class="text-muted small fst-italic mb-0 mt-1">9000 تومان <span
+                                                class="text-success ms-2">20% تخفیف</span> </h6>
+                                        <ul class="list-unstyled text-warning mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tiny-slide">
+                            <div class="card shop-list border-0 position-relative m-2">
+                                <ul class="label list-unstyled mb-0">
+                                    <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-success">ویژه
+                                            ها </a></li>
                                 </ul>
-                            </div>
-                            <div class="card-body content pt-4 p-2">
-                                <a href="shop-product-detail.html" class="text-dark product-name h6">هدفون سونی</a>
-                                <div class="d-flex justify-content-between mt-1">
-                                    <h6 class="text-muted small fst-italic mb-0 mt-1">9000 تومان <span
-                                            class="text-success ms-2">20% تخفیف</span> </h6>
-                                    <ul class="list-unstyled text-warning mb-0">
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                <div class="shop-image position-relative overflow-hidden rounded shadow">
+                                    <a href="shop-product-detail.html"><img src="~/assets/images/shop/product/s8.jpg"
+                                            class="img-fluid" alt=""></a>
+                                    <a href="shop-product-detail.html" class="overlay-work">
+                                        <img src="~/assets/images/shop/product/s-8.jpg" class="img-fluid" alt="">
+                                    </a>
+                                    <ul class="list-unstyled shop-icons">
+                                        <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i
+                                                    data-feather="heart" class="icons"></i></a></li>
+                                        <li class="mt-2"><a href="shop-product-detail.html"
+                                                class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye"
+                                                    class="icons"></i></a></li>
+                                        <li class="mt-2"><a href="shop-cart.html"
+                                                class="btn btn-icon btn-pills btn-soft-warning"><i
+                                                    data-feather="shopping-cart" class="icons"></i></a></li>
                                     </ul>
+                                </div>
+                                <div class="card-body content pt-4 p-2">
+                                    <a href="shop-product-detail.html" class="text-dark product-name h6">چهارپایه چوبی</a>
+                                    <div class="d-flex justify-content-between mt-1">
+                                        <h6 class="text-muted small fst-italic mb-0 mt-1">22000 تومان <del
+                                                class="text-danger ms-2">25000 تومان</del> </h6>
+                                        <ul class="list-unstyled text-warning mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
 
-                    <div class="tiny-slide">
-                        <div class="card shop-list border-0 position-relative m-2">
-                            <ul class="label list-unstyled mb-0">
-                                <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-success">ویژه
-                                        ها </a></li>
-                            </ul>
-                            <div class="shop-image position-relative overflow-hidden rounded shadow">
-                                <a href="shop-product-detail.html"><img src="~/assets/images/shop/product/s8.jpg"
-                                        class="img-fluid" alt=""></a>
-                                <a href="shop-product-detail.html" class="overlay-work">
-                                    <img src="~/assets/images/shop/product/s-8.jpg" class="img-fluid" alt="">
+        <div class="container-fluid mt-100 mt-60 px-0">
+            <div class="py-5 bg-light">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="shop-product-detail.html" class="text-dark align-items-center">
+                                    <span class="pro-icons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-left fea icon-sm">
+                                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                                            <polyline points="12 19 5 12 12 5"></polyline>
+                                        </svg></span>
+                                    <span class="text-muted d-none d-md-inline-block">توسعه وب </span>
+                                    <img src="~/assets/images/work/6.jpg" class="avatar avatar-small rounded shadow ms-2"
+                                        style="height:auto;" alt="">
                                 </a>
-                                <ul class="list-unstyled shop-icons">
-                                    <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i
-                                                data-feather="heart" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="shop-product-detail.html"
-                                            class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye"
-                                                class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="shop-cart.html"
-                                            class="btn btn-icon btn-pills btn-soft-warning"><i
-                                                data-feather="shopping-cart" class="icons"></i></a></li>
-                                </ul>
+
+                                <a href="index.html" class="btn btn-lg btn-pills btn-icon btn-soft-primary"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-home icons">
+                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                    </svg></a>
+
+                                <a href="shop-product-detail.html" class="text-dark align-items-center">
+                                    <img src="~/assets/images/work/7.jpg" class="avatar avatar-small rounded shadow me-2"
+                                        style="height:auto;" alt="">
+                                    <span class="text-muted d-none d-md-inline-block">طراحی وب</span>
+                                    <span class="pro-icons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right fea icon-sm">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg></span>
+                                </a>
                             </div>
-                            <div class="card-body content pt-4 p-2">
-                                <a href="shop-product-detail.html" class="text-dark product-name h6">چهارپایه چوبی</a>
-                                <div class="d-flex justify-content-between mt-1">
-                                    <h6 class="text-muted small fst-italic mb-0 mt-1">22000 تومان <del
-                                            class="text-danger ms-2">25000 تومان</del> </h6>
-                                    <ul class="list-unstyled text-warning mb-0">
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-        </div><!--end row-->
-    </div><!--end container-->
-
-    <div class="container-fluid mt-100 mt-60 px-0">
-        <div class="py-5 bg-light">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <a href="shop-product-detail.html" class="text-dark align-items-center">
-                                <span class="pro-icons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round"
-                                        class="feather feather-arrow-left fea icon-sm">
-                                        <line x1="19" y1="12" x2="5" y2="12"></line>
-                                        <polyline points="12 19 5 12 12 5"></polyline>
-                                    </svg></span>
-                                <span class="text-muted d-none d-md-inline-block">توسعه وب </span>
-                                <img src="~/assets/images/work/6.jpg" class="avatar avatar-small rounded shadow ms-2"
-                                    style="height:auto;" alt="">
-                            </a>
-
-                            <a href="index.html" class="btn btn-lg btn-pills btn-icon btn-soft-primary"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-home icons">
-                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                </svg></a>
-
-                            <a href="shop-product-detail.html" class="text-dark align-items-center">
-                                <img src="~/assets/images/work/7.jpg" class="avatar avatar-small rounded shadow me-2"
-                                    style="height:auto;" alt="">
-                                <span class="text-muted d-none d-md-inline-block">طراحی وب</span>
-                                <span class="pro-icons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round"
-                                        class="feather feather-arrow-right fea icon-sm">
-                                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                                        <polyline points="12 5 19 12 12 19"></polyline>
-                                    </svg></span>
-                            </a>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-        </div><!--end div-->
-    </div>
-</section><!--end section--></template>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end div-->
+        </div>
+    </section><!--end section-->
+</template>
 
 <script setup lang="ts">
 

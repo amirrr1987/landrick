@@ -48,7 +48,7 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/aseets/images/blog/01.jpg" class="card-img-top" alt="..." />
+              <img src="~/assets/images/blog/01.jpg" class="card-img-top" alt="..." />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
@@ -80,7 +80,7 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/aseets/images/blog/02.jpg" class="card-img-top" alt="..." />
+              <img src="~/assets/images/blog/02.jpg" class="card-img-top" alt="..." />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
@@ -112,7 +112,7 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/aseets/images/blog/03.jpg" class="card-img-top" alt="..." />
+              <img src="~/assets/images/blog/03.jpg" class="card-img-top" alt="..." />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
@@ -144,7 +144,7 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/aseets/images/blog/04.jpg" class="card-img-top" alt="..." />
+              <img src="~/assets/images/blog/04.jpg" class="card-img-top" alt="..." />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
@@ -176,7 +176,7 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/aseets/images/blog/05.jpg" class="card-img-top" alt="..." />
+              <img src="~/assets/images/blog/05.jpg" class="card-img-top" alt="..." />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
@@ -208,7 +208,7 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/aseets/images/blog/06.jpg" class="card-img-top" alt="..." />
+              <img src="~/assets/images/blog/06.jpg" class="card-img-top" alt="..." />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
@@ -240,7 +240,7 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/aseets/images/blog/07.jpg" class="card-img-top" alt="..." />
+              <img src="~/assets/images/blog/07.jpg" class="card-img-top" alt="..." />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">
@@ -272,7 +272,7 @@
         <div class="col-lg-4 col-md-6 mb-4 pb-2">
           <div class="card blog rounded border-0 shadow overflow-hidden">
             <div class="position-relative">
-              <img src="~/aseets/images/blog/08.jpg" class="card-img-top" alt="..." />
+              <img src="~/assets/images/blog/08.jpg" class="card-img-top" alt="..." />
               <div class="overlay rounded-top bg-dark"></div>
             </div>
             <div class="card-body content">

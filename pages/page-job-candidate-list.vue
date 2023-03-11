@@ -79,7 +79,7 @@
               </ul>
 
               <div class="content text-center">
-                <img src="~/aseets/images/client/01.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
+                <img src="~/assets/images/client/01.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
                 <ul class="list-unstyled mb-1 mt-2">
                   <li class="list-inline-item">
                     <i class="mdi mdi-star text-warning"></i>
@@ -146,7 +146,7 @@
               </ul>
 
               <div class="content text-center">
-                <img src="~/aseets/images/client/02.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
+                <img src="~/assets/images/client/02.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
                 <ul class="list-unstyled mb-1 mt-2">
                   <li class="list-inline-item">
                     <i class="mdi mdi-star text-warning"></i>
@@ -213,7 +213,7 @@
               </ul>
 
               <div class="content text-center">
-                <img src="~/aseets/images/client/03.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
+                <img src="~/assets/images/client/03.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
                 <ul class="list-unstyled mb-1 mt-2">
                   <li class="list-inline-item">
                     <i class="mdi mdi-star text-warning"></i>
@@ -280,7 +280,7 @@
               </ul>
 
               <div class="content text-center">
-                <img src="~/aseets/images/client/04.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
+                <img src="~/assets/images/client/04.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
                 <ul class="list-unstyled mb-1 mt-2">
                   <li class="list-inline-item">
                     <i class="mdi mdi-star text-warning"></i>
@@ -348,7 +348,7 @@
               </ul>
 
               <div class="content text-center">
-                <img src="~/aseets/images/client/05.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
+                <img src="~/assets/images/client/05.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
                 <ul class="list-unstyled mb-1 mt-2">
                   <li class="list-inline-item">
                     <i class="mdi mdi-star text-warning"></i>
@@ -416,7 +416,7 @@
               </ul>
 
               <div class="content text-center">
-                <img src="~/aseets/images/client/06.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
+                <img src="~/assets/images/client/06.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
                 <ul class="list-unstyled mb-1 mt-2">
                   <li class="list-inline-item">
                     <i class="mdi mdi-star text-warning"></i>
@@ -484,7 +484,7 @@
               </ul>
 
               <div class="content text-center">
-                <img src="~/aseets/images/client/07.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
+                <img src="~/assets/images/client/07.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
                 <ul class="list-unstyled mb-1 mt-2">
                   <li class="list-inline-item">
                     <i class="mdi mdi-star text-warning"></i>
@@ -551,7 +551,7 @@
               </ul>
 
               <div class="content text-center">
-                <img src="~/aseets/images/client/08.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
+                <img src="~/assets/images/client/08.jpg" class="avatar avatar-md-md shadow-md rounded-circle" alt="" />
                 <ul class="list-unstyled mb-1 mt-2">
                   <li class="list-inline-item">
                     <i class="mdi mdi-star text-warning"></i>

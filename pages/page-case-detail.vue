@@ -6,7 +6,7 @@
           <div class="section-title">
             <div class="text-center">
               <h4 class="title mb-4">شبکه سوشیال و کسب و کار کوچک شماست</h4>
-              <img src="~/aseets/images/blog/05.jpg" class="img-fluid rounded-md shadow-md" alt="" />
+              <img src="~/assets/images/blog/05.jpg" class="img-fluid rounded-md shadow-md" alt="" />
             </div>
             <p class="text-muted mb-0 mt-4">
               این مورد زمانی الزامی است که مثلاً متن نهایی هنوز در دسترس نیست.
@@ -54,7 +54,7 @@
             <div class="row" id="counter">
               <div class="col-md-4 col-6 mt-4 pt-2">
                 <div class="counter-box text-center">
-                  <img src="~/aseets/images/illustrator/Asset190.svg" class="avatar avatar-small" alt="" />
+                  <img src="~/assets/images/illustrator/Asset190.svg" class="avatar avatar-small" alt="" />
                   <h2 class="mb-0 mt-4">
                     <span class="counter-value" data-target="15">3</span>%
                   </h2>
@@ -65,7 +65,7 @@
 
               <div class="col-md-4 col-6 mt-4 pt-2">
                 <div class="counter-box text-center">
-                  <img src="~/aseets/images/illustrator/Asset189.svg" class="avatar avatar-small" alt="" />
+                  <img src="~/assets/images/illustrator/Asset189.svg" class="avatar avatar-small" alt="" />
                   <h2 class="mb-0 mt-4">
                     <span class="counter-value" data-target="195">1</span>%
                   </h2>
@@ -76,7 +76,7 @@
 
               <div class="col-md-4 col-6 mt-4 pt-2">
                 <div class="counter-box text-center">
-                  <img src="~/aseets/images/illustrator/Asset187.svg" class="avatar avatar-small" alt="" />
+                  <img src="~/assets/images/illustrator/Asset187.svg" class="avatar avatar-small" alt="" />
                   <h2 class="mb-0 mt-4">
                     <span class="counter-value" data-target="98">3</span>%
                   </h2>
@@ -95,7 +95,7 @@
                 که تنها تکه هایی از متن اصلی در متن لورم اپیسوم که امروزه
                 استفاده می شود باقی مانده است. "
               </p>
-              <img src="~/aseets/images/client/01.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
+              <img src="~/assets/images/client/01.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
                 alt="" />
               <ul class="list-unstyled mb-0 mt-3">
                 <li class="list-inline-item">

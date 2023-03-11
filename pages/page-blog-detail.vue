@@ -56,7 +56,7 @@
         <!-- BLog Start -->
         <div class="col-lg-8 col-md-6">
           <div class="card blog blog-detail border-0 shadow rounded">
-            <img src="~/aseets/images/blog/01.jpg" class="img-fluid rounded-top" alt="" />
+            <img src="~/assets/images/blog/01.jpg" class="img-fluid rounded-top" alt="" />
             <div class="card-body content">
               <h6>
                 <i class="mdi mdi-tag text-primary me-1"></i><a href="javscript:void(0)" class="text-primary">نرم افزار
@@ -107,8 +107,8 @@
                   <div class="d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                       <a class="pe-3" href="#">
-                        <img src="~/aseets/images/client/01.jpg" class="img-fluid avatar avatar-md-sm rounded-circle shadow"
-                          alt="img" />
+                        <img src="~/assets/images/client/01.jpg"
+                          class="img-fluid avatar avatar-md-sm rounded-circle shadow" alt="img" />
                       </a>
                       <div class="commentor-detail">
                         <h6 class="mb-0">
@@ -133,8 +133,8 @@
                   <div class="d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                       <a class="pe-3" href="#">
-                        <img src="~/aseets/images/client/02.jpg" class="img-fluid avatar avatar-md-sm rounded-circle shadow"
-                          alt="img" />
+                        <img src="~/assets/images/client/02.jpg"
+                          class="img-fluid avatar avatar-md-sm rounded-circle shadow" alt="img" />
                       </a>
                       <div class="commentor-detail">
                         <h6 class="mb-0">
@@ -159,8 +159,8 @@
                   <div class="d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                       <a class="pe-3" href="#">
-                        <img src="~/aseets/images/client/03.jpg" class="img-fluid avatar avatar-md-sm rounded-circle shadow"
-                          alt="img" />
+                        <img src="~/assets/images/client/03.jpg"
+                          class="img-fluid avatar avatar-md-sm rounded-circle shadow" alt="img" />
                       </a>
                       <div class="commentor-detail">
                         <h6 class="mb-0">
@@ -186,8 +186,8 @@
                       <div class="d-flex justify-content-between">
                         <div class="d-flex align-items-center">
                           <a class="pe-3" href="#">
-                            <img src="~/aseets/images/client/01.jpg" class="img-fluid avatar avatar-md-sm rounded-circle shadow"
-                              alt="img" />
+                            <img src="~/assets/images/client/01.jpg"
+                              class="img-fluid avatar avatar-md-sm rounded-circle shadow" alt="img" />
                           </a>
                           <div class="commentor-detail">
                             <h6 class="mb-0">
@@ -279,7 +279,7 @@
                 <div class="col-lg-6 mt-4 pt-2">
                   <div class="card blog rounded border-0 shadow">
                     <div class="position-relative">
-                      <img src="~/aseets/images/blog/01.jpg" class="card-img-top rounded-top" alt="..." />
+                      <img src="~/assets/images/blog/01.jpg" class="card-img-top rounded-top" alt="..." />
                       <div class="overlay rounded-top bg-dark"></div>
                     </div>
                     <div class="card-body content">
@@ -313,7 +313,7 @@
                 <div class="col-lg-6 mt-4 pt-2">
                   <div class="card blog rounded border-0 shadow">
                     <div class="position-relative">
-                      <img src="~/aseets/images/blog/02.jpg" class="card-img-top rounded-top" alt="..." />
+                      <img src="~/assets/images/blog/02.jpg" class="card-img-top rounded-top" alt="..." />
                       <div class="overlay rounded-top bg-dark"></div>
                     </div>
                     <div class="card-body content">
@@ -402,7 +402,7 @@
                   <div class="clearfix post-recent">
                     <div class="post-recent-thumb float-start">
                       <a href="jvascript:void(0)">
-                        <img alt="img" src="images/blog/07.jpg" class="img-fluid rounded" /></a>
+                        <img alt="img" src="~/assets/images/blog/07.jpg" class="img-fluid rounded" /></a>
                     </div>
                     <div class="post-recent-content float-start">
                       <a href="jvascript:void(0)">مشاوره شرکتی </a><span class="text-muted mt-2">اردیبهشت 1400</span>
@@ -411,7 +411,7 @@
                   <div class="clearfix post-recent">
                     <div class="post-recent-thumb float-start">
                       <a href="jvascript:void(0)">
-                        <img alt="img" src="images/blog/08.jpg" class="img-fluid rounded" /></a>
+                        <img alt="img" src="~/assets/images/blog/08.jpg" class="img-fluid rounded" /></a>
                     </div>
                     <div class="post-recent-content float-start">
                       <a href="jvascript:void(0)">به تعادل باشکوه نگاه کنید</a>
@@ -421,7 +421,7 @@
                   <div class="clearfix post-recent">
                     <div class="post-recent-thumb float-start">
                       <a href="jvascript:void(0)">
-                        <img alt="img" src="images/blog/01.jpg" class="img-fluid rounded" /></a>
+                        <img alt="img" src="~/assets/images/blog/01.jpg" class="img-fluid rounded" /></a>
                     </div>
                     <div class="post-recent-content float-start">
                       <a href="jvascript:void(0)">تحقیقات مالی.</a>

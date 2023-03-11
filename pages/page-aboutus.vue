@@ -46,7 +46,7 @@
       <div class="row align-items-center">
         <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
           <div class="position-relative">
-            <img src="~/aseets/images/company/about.jpg" class="rounded img-fluid mx-auto d-block" alt="" />
+            <img src="~/assets/images/company/about.jpg" class="rounded img-fluid mx-auto d-block" alt="" />
             <div class="play-icon">
               <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="play-btn lightbox">
                 <i class="mdi mdi-play text-primary rounded-circle bg-white shadow"></i>
@@ -240,7 +240,7 @@
           <div class="card team text-center bg-transparent border-0">
             <div class="card-body p-0">
               <div class="position-relative">
-                <img src="~/aseets/images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle" alt="" />
+                <img src="~/assets/images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle" alt="" />
                 <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
                   <li class="list-inline-item">
                     <a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
@@ -276,7 +276,7 @@
           <div class="card team text-center bg-transparent border-0">
             <div class="card-body p-0">
               <div class="position-relative">
-                <img src="~/aseets/images/client/04.jpg" class="img-fluid avatar avatar-ex-large rounded-circle" alt="" />
+                <img src="~/assets/images/client/04.jpg" class="img-fluid avatar avatar-ex-large rounded-circle" alt="" />
                 <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
                   <li class="list-inline-item">
                     <a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
@@ -312,7 +312,7 @@
           <div class="card team text-center bg-transparent border-0">
             <div class="card-body p-0">
               <div class="position-relative">
-                <img src="~/aseets/images/client/02.jpg" class="img-fluid avatar avatar-ex-large rounded-circle" alt="" />
+                <img src="~/assets/images/client/02.jpg" class="img-fluid avatar avatar-ex-large rounded-circle" alt="" />
                 <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
                   <li class="list-inline-item">
                     <a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
@@ -348,7 +348,7 @@
           <div class="card team text-center bg-transparent border-0">
             <div class="card-body p-0">
               <div class="position-relative">
-                <img src="~/aseets/images/client/03.jpg" class="img-fluid avatar avatar-ex-large rounded-circle" alt="" />
+                <img src="~/assets/images/client/03.jpg" class="img-fluid avatar avatar-ex-large rounded-circle" alt="" />
                 <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
                   <li class="list-inline-item">
                     <a href="javascript:void(0)" class="rounded"><i data-feather="facebook"

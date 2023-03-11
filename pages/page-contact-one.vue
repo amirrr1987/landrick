@@ -152,7 +152,7 @@
                 <div class="col-lg-7 col-md-6 order-1 order-md-2">
                     <div class="card border-0">
                         <div class="card-body p-0">
-                            <img src="~/aseets/images/contact.svg" class="img-fluid" alt="">
+                            <img src="~/assets/images/contact.svg" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div><!--end col-->

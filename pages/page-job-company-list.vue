@@ -67,7 +67,8 @@
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
           <div class="company-list card border-0 rounded shadow bg-white">
             <div class="text-center py-5 border-bottom">
-              <img src="~/aseets/images/job/Circleci.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3" alt="" />
+              <img src="~/assets/images/job/Circleci.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3"
+                alt="" />
               <a href="page-job-company.html" class="text-dark h5 name">کاریکل
               </a>
               <p class="text-muted mt-1 mb-0">خدمات اینترنتی</p>
@@ -124,7 +125,8 @@
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
           <div class="company-list card border-0 rounded shadow bg-white">
             <div class="text-center py-5 border-bottom">
-              <img src="~/aseets/images/job/Mg.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3" alt="" />
+              <img src="~/assets/images/job/Mg.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3"
+                alt="" />
               <a href="page-job-company.html" class="text-dark h5 name">مجله
               </a>
               <p class="text-muted mt-1 mb-0">خدمات اینترنتی</p>
@@ -181,7 +183,8 @@
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
           <div class="company-list card border-0 rounded shadow bg-white">
             <div class="text-center py-5 border-bottom">
-              <img src="~/aseets/images/job/Twilio.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3" alt="" />
+              <img src="~/assets/images/job/Twilio.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3"
+                alt="" />
               <a href="page-job-company.html" class="text-dark h5 name">تولیو
               </a>
               <p class="text-muted mt-1 mb-0">خدمات اینترنتی</p>
@@ -238,7 +241,8 @@
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
           <div class="company-list card border-0 rounded shadow bg-white">
             <div class="text-center py-5 border-bottom">
-              <img src="~/aseets/images/job/Udemy.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3" alt="" />
+              <img src="~/assets/images/job/Udemy.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3"
+                alt="" />
               <a href="page-job-company.html" class="text-dark h5 name">ایدومی
               </a>
               <p class="text-muted mt-1 mb-0">خدمات اینترنتی</p>
@@ -295,7 +299,8 @@
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
           <div class="company-list card border-0 rounded shadow bg-white">
             <div class="text-center py-5 border-bottom">
-              <img src="~/aseets/images/job/Webhooks.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3" alt="" />
+              <img src="~/assets/images/job/Webhooks.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3"
+                alt="" />
               <a href="page-job-company.html" class="text-dark h5 name">وب هوک</a>
               <p class="text-muted mt-1 mb-0">خدمات اینترنتی</p>
             </div>
@@ -351,7 +356,8 @@
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
           <div class="company-list card border-0 rounded shadow bg-white">
             <div class="text-center py-5 border-bottom">
-              <img src="~/aseets/images/job/Discord.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3" alt="" />
+              <img src="~/assets/images/job/Discord.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3"
+                alt="" />
               <a href="page-job-company.html" class="text-dark h5 name">دیسکارد
               </a>
               <p class="text-muted mt-1 mb-0">خدمات اینترنتی</p>
@@ -408,7 +414,8 @@
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
           <div class="company-list card border-0 rounded shadow bg-white">
             <div class="text-center py-5 border-bottom">
-              <img src="~/aseets/images/job/Eslint.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3" alt="" />
+              <img src="~/assets/images/job/Eslint.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3"
+                alt="" />
               <a href="page-job-company.html" class="text-dark h5 name">اسلینت
               </a>
               <p class="text-muted mt-1 mb-0">خدمات اینترنتی</p>
@@ -465,7 +472,8 @@
         <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
           <div class="company-list card border-0 rounded shadow bg-white">
             <div class="text-center py-5 border-bottom">
-              <img src="~/aseets/images/job/Gitlab.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3" alt="" />
+              <img src="~/assets/images/job/Gitlab.svg" class="avatar avatar-small mx-auto rounded-circle d-block mb-3"
+                alt="" />
               <a href="page-job-company.html" class="text-dark h5 name">گیتلب
               </a>
               <p class="text-muted mt-1 mb-0">خدمات اینترنتی</p>

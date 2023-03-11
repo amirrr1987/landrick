@@ -46,7 +46,7 @@
     <div class="container">
       <div class="row align-items-center" id="counter">
         <div class="col-md-6">
-          <img src="~/aseets/images/company/about2.png" class="img-fluid" alt="" />
+          <img src="~/assets/images/company/about2.png" class="img-fluid" alt="" />
         </div>
         <!--end col-->
 
@@ -84,32 +84,32 @@
     <div class="container mt-4">
       <div class="row justify-content-center">
         <div class="col-lg-2 col-md-2 col-6 text-center pt-4">
-          <img src="~/aseets/images/client/amazon.svg" class="avatar avatar-ex-sm" alt="" />
+          <img src="~/assets/images/client/amazon.svg" class="avatar avatar-ex-sm" alt="" />
         </div>
         <!--end col-->
 
         <div class="col-lg-2 col-md-2 col-6 text-center pt-4">
-          <img src="~/aseets/images/client/google.svg" class="avatar avatar-ex-sm" alt="" />
+          <img src="~/assets/images/client/google.svg" class="avatar avatar-ex-sm" alt="" />
         </div>
         <!--end col-->
 
         <div class="col-lg-2 col-md-2 col-6 text-center pt-4">
-          <img src="~/aseets/images/client/lenovo.svg" class="avatar avatar-ex-sm" alt="" />
+          <img src="~/assets/images/client/lenovo.svg" class="avatar avatar-ex-sm" alt="" />
         </div>
         <!--end col-->
 
         <div class="col-lg-2 col-md-2 col-6 text-center pt-4">
-          <img src="~/aseets/images/client/paypal.svg" class="avatar avatar-ex-sm" alt="" />
+          <img src="~/assets/images/client/paypal.svg" class="avatar avatar-ex-sm" alt="" />
         </div>
         <!--end col-->
 
         <div class="col-lg-2 col-md-2 col-6 text-center pt-4">
-          <img src="~/aseets/images/client/shopify.svg" class="avatar avatar-ex-sm" alt="" />
+          <img src="~/assets/images/client/shopify.svg" class="avatar avatar-ex-sm" alt="" />
         </div>
         <!--end col-->
 
         <div class="col-lg-2 col-md-2 col-6 text-center pt-4">
-          <img src="~/aseets/images/client/spotify.svg" class="avatar avatar-ex-sm" alt="" />
+          <img src="~/assets/images/client/spotify.svg" class="avatar avatar-ex-sm" alt="" />
         </div>
         <!--end col-->
       </div>
@@ -272,7 +272,7 @@
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade bg-white show active p-4 rounded shadow" id="developing" role="tabpanel"
               aria-labelledby="webdeveloping">
-              <img src="~/aseets/images/work/7.jpg" class="img-fluid rounded shadow" alt="" />
+              <img src="~/assets/images/work/7.jpg" class="img-fluid rounded shadow" alt="" />
               <div class="mt-4">
                 <p class="text-muted">
                   این مورد زمانی الزامی است که مثلاً متن نهایی هنوز در دسترس
@@ -288,7 +288,7 @@
 
             <div class="tab-pane fade bg-white p-4 rounded shadow" id="data-analise" role="tabpanel"
               aria-labelledby="database">
-              <img src="~/aseets/images/work/8.jpg" class="img-fluid rounded shadow" alt="" />
+              <img src="~/assets/images/work/8.jpg" class="img-fluid rounded shadow" alt="" />
               <div class="mt-4">
                 <p class="text-muted">
                   این مورد زمانی الزامی است که مثلاً متن نهایی هنوز در دسترس
@@ -303,7 +303,7 @@
             <!--end teb pane-->
 
             <div class="tab-pane fade bg-white p-4 rounded shadow" id="security" role="tabpanel" aria-labelledby="server">
-              <img src="~/aseets/images/work/9.jpg" class="img-fluid rounded shadow" alt="" />
+              <img src="~/assets/images/work/9.jpg" class="img-fluid rounded shadow" alt="" />
               <div class="mt-4">
                 <p class="text-muted">
                   این مورد زمانی الزامی است که مثلاً متن نهایی هنوز در دسترس
@@ -319,7 +319,7 @@
 
             <div class="tab-pane fade bg-white p-4 rounded shadow" id="designing" role="tabpanel"
               aria-labelledby="webdesigning">
-              <img src="~/aseets/images/work/12.jpg" class="img-fluid rounded shadow" alt="" />
+              <img src="~/assets/images/work/12.jpg" class="img-fluid rounded shadow" alt="" />
               <div class="mt-4">
                 <p class="text-muted">
                   این مورد زمانی الزامی است که مثلاً متن نهایی هنوز در دسترس
@@ -350,7 +350,7 @@
         <div class="col-12 text-center">
           <div class="video-solution-cta position-relative" style="z-index: 1">
             <div class="position-relative">
-              <img src="~/aseets/images/cta-bg.jpg" class="img-fluid rounded-md shadow-lg" alt="" />
+              <img src="~/assets/images/cta-bg.jpg" class="img-fluid rounded-md shadow-lg" alt="" />
               <div class="play-icon">
                 <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="play-btn lightbox">
                   <i class="mdi mdi-play text-primary rounded-circle bg-white shadow-lg"></i>

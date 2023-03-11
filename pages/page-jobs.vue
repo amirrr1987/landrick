@@ -94,7 +94,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -124,7 +124,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Circleci.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Circleci.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -163,7 +163,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -193,7 +193,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Codepen.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Codepen.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -232,7 +232,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/part.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/part.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -262,7 +262,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Discord.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Discord.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -301,7 +301,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -331,7 +331,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Eslint.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Eslint.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -370,7 +370,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/remote.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/remote.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -400,7 +400,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Gitlab.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Gitlab.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -439,7 +439,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/part.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/part.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -469,7 +469,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Gradle.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Gradle.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -508,7 +508,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -538,7 +538,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Mg.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Mg.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -577,7 +577,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/part.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/part.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -607,7 +607,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Sketch.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Sketch.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -646,7 +646,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/remote.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/remote.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -676,7 +676,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Twilio.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Twilio.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -715,7 +715,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/part.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/part.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -745,7 +745,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Udemy.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Udemy.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -784,7 +784,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/full.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/full.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -814,7 +814,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Webhooks.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Webhooks.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">
@@ -853,7 +853,7 @@
           <div class="card job-box rounded shadow border-0 overflow-hidden">
             <div class="border-bottom">
               <div class="position-relative">
-                <img src="~/aseets/images/job/remote.jpg" class="img-fluid" alt="" />
+                <img src="~/assets/images/job/remote.jpg" class="img-fluid" alt="" />
                 <div class="job-overlay bg-white"></div>
               </div>
               <h5 class="mb-0 position">
@@ -883,7 +883,7 @@
 
             <div class="card-body content position-relative">
               <div class="firm-logo rounded-circle shadow bg-light text-center">
-                <img src="~/aseets/images/job/Circleci.svg" class="avatar avatar-md-sm" alt="" />
+                <img src="~/assets/images/job/Circleci.svg" class="avatar avatar-md-sm" alt="" />
               </div>
               <div class="company-detail text-center mt-3">
                 <h5 class="mb-0">

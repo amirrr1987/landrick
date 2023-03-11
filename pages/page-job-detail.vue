@@ -5,7 +5,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
           <div class="page-next-level">
-            <img src="~/aseets/images/job/Gradle.svg" class="avatar avatar-small" alt="" />
+            <img src="~/assets/images/job/Gradle.svg" class="avatar avatar-small" alt="" />
             <h4 class="title mt-4 mb-3">توسعه دهنده بک اند</h4>
             <p class="para-desc mx-auto text-muted">
               کمپین خود را راه اندازی کنید و از تخصص ما در زمینه طراحی و

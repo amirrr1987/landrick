@@ -51,7 +51,7 @@
             <div class="col-lg-6 col-md-12 mb-4 pb-2">
               <div class="card blog rounded border-0 shadow">
                 <div class="position-relative">
-                  <img src="~/aseets/images/blog/01.jpg" class="card-img-top rounded-top" alt="..." />
+                  <img src="~/assets/images/blog/01.jpg" class="card-img-top rounded-top" alt="..." />
                   <div class="overlay rounded-top bg-dark"></div>
                 </div>
                 <div class="card-body content">
@@ -84,7 +84,7 @@
             <div class="col-lg-6 col-md-12 mb-4 pb-2">
               <div class="card blog rounded border-0 shadow">
                 <div class="position-relative">
-                  <img src="~/aseets/images/blog/02.jpg" class="card-img-top rounded-top" alt="..." />
+                  <img src="~/assets/images/blog/02.jpg" class="card-img-top rounded-top" alt="..." />
                   <div class="overlay rounded-top bg-dark"></div>
                 </div>
                 <div class="card-body content">
@@ -117,7 +117,7 @@
             <div class="col-lg-6 col-md-12 mb-4 pb-2">
               <div class="card blog rounded border-0 shadow">
                 <div class="position-relative">
-                  <img src="~/aseets/images/blog/03.jpg" class="card-img-top rounded-top" alt="..." />
+                  <img src="~/assets/images/blog/03.jpg" class="card-img-top rounded-top" alt="..." />
                   <div class="overlay rounded-top bg-dark"></div>
                 </div>
                 <div class="card-body content">
@@ -151,7 +151,7 @@
             <div class="col-lg-6 col-md-12 mb-4 pb-2">
               <div class="card blog rounded border-0 shadow">
                 <div class="position-relative">
-                  <img src="~/aseets/images/blog/04.jpg" class="card-img-top rounded-top" alt="..." />
+                  <img src="~/assets/images/blog/04.jpg" class="card-img-top rounded-top" alt="..." />
                   <div class="overlay rounded-top bg-dark"></div>
                 </div>
                 <div class="card-body content">
@@ -184,7 +184,7 @@
             <div class="col-lg-6 col-md-12 mb-4 pb-2">
               <div class="card blog rounded border-0 shadow">
                 <div class="position-relative">
-                  <img src="~/aseets/images/blog/05.jpg" class="card-img-top rounded-top" alt="..." />
+                  <img src="~/assets/images/blog/05.jpg" class="card-img-top rounded-top" alt="..." />
                   <div class="overlay rounded-top bg-dark"></div>
                 </div>
                 <div class="card-body content">
@@ -217,7 +217,7 @@
             <div class="col-lg-6 col-md-12 mb-4 pb-2">
               <div class="card blog rounded border-0 shadow">
                 <div class="position-relative">
-                  <img src="~/aseets/images/blog/06.jpg" class="card-img-top rounded-top" alt="..." />
+                  <img src="~/assets/images/blog/06.jpg" class="card-img-top rounded-top" alt="..." />
                   <div class="overlay rounded-top bg-dark"></div>
                 </div>
                 <div class="card-body content">
@@ -330,7 +330,7 @@
                   <div class="clearfix post-recent">
                     <div class="post-recent-thumb float-start">
                       <a href="jvascript:void(0)">
-                        <img alt="img" src="images/blog/07.jpg" class="img-fluid rounded" /></a>
+                        <img alt="img" src="~/assets/images/blog/07.jpg" class="img-fluid rounded" /></a>
                     </div>
                     <div class="post-recent-content float-start">
                       <a href="jvascript:void(0)">مشاوره شرکتی </a><span class="text-muted mt-2">اردیبهشت 1400</span>
@@ -339,7 +339,7 @@
                   <div class="clearfix post-recent">
                     <div class="post-recent-thumb float-start">
                       <a href="jvascript:void(0)">
-                        <img alt="img" src="images/blog/08.jpg" class="img-fluid rounded" /></a>
+                        <img alt="img" src="~/assets/images/blog/08.jpg" class="img-fluid rounded" /></a>
                     </div>
                     <div class="post-recent-content float-start">
                       <a href="jvascript:void(0)">به تعادل باشکوه نگاه کنید</a>
@@ -349,7 +349,7 @@
                   <div class="clearfix post-recent">
                     <div class="post-recent-thumb float-start">
                       <a href="jvascript:void(0)">
-                        <img alt="img" src="images/blog/01.jpg" class="img-fluid rounded" /></a>
+                        <img alt="img" src="~/assets/images/blog/01.jpg" class="img-fluid rounded" /></a>
                     </div>
                     <div class="post-recent-content float-start">
                       <a href="jvascript:void(0)">تحقیقات مالی.</a>

@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-12 text-center">
-                    <img src="~/aseets/images/404.svg" class="img-fluid" alt="">
+                    <img src="~/assets/images/404.svg" class="img-fluid" alt="">
                     <div class="text-uppercase mt-4 display-3">وای نه!</div>
                     <div class="text-capitalize text-dark mb-4 error-page">صفحه ای یافت نشد</div>
                     <p class="text-muted para-desc mx-auto">شروع به کار با <span class="text-primary fw-bold"> لنـدریـک
