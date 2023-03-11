@@ -88,7 +88,7 @@
                                                     </div><!--end col-->
 
                                                     <div class="mx-auto">
-                                                        <p class="mb-0 mt-3"><small class="text-dark me-2">قبلاً حساب دارید؟</small> <a href="auth-cover-login.html" class="text-dark fw-bold">وارد شوید </a></p>
+                                                        <p class="mb-0 mt-3"><small class="text-dark me-2">قبلاً حساب دارید؟</small> <NuxtLink to="/auth-cover-login" class="text-dark fw-bold">وارد شوید </NuxtLink></p>
                                                     </div>
                                                 </div><!--end row-->
                                             </form>  

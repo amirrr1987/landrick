@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       src: "bootstrap/dist/js/bootstrap.bundle.min.js",
     },
   ],
-  modules: ["nuxt-icon"],
+  modules: ["nuxt-icon", "@unocss/nuxt"],
   scrollBehavior: function (to, from, savedPosition) {
     return { x: 0, y: 0 };
   },
