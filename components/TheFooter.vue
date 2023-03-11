@@ -130,10 +130,23 @@
             <div class="row align-items-center">
                 <div class="col-sm-6">
                     <div class="text-sm-start">
-                        <p class="mb-0">© {{ new Date().getFullYear() }} لنـدریــک. طراحی شده با <i
-                                class="mdi mdi-heart text-danger"></i> توسط <a
-                                href="https://www.rtl-theme.com/author/tn_plugin/" target="_blank" class="text-reset">جعفر
-                                عباسی </a>.</p>
+                        <p class="mb-0">
+                            ©
+                                {{ new Date().getFullYear() }}
+                            پیاده‌سازی شده توسط 
+                            <NuxtLink to="https://amirmaghami.ir/" target="_blank" class="text-reset">
+                                    امیر
+                                    مقامی
+                                </NuxtLink>
+
+                            <!-- ©
+                            {{ new Date().getFullYear() }}
+                            لنـدریــک. پیاده سازی شده با
+                            <i class="mdi mdi-heart text-danger"></i>
+                            توسط
+                            
+                            . -->
+                        </p>
                     </div>
                 </div><!--end col-->
 

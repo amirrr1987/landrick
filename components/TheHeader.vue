@@ -9,10 +9,11 @@
       </div>
       <div class="buy-button">
         <NuxtLink
-          to="/https://www.rtl-theme.com/?p=133270"
+          to="https://amirmaghami.ir/"
           target="_blank"
-          class="btn btn-primary"
-          >خرید از راست چین
+          >
+          امیر مقامی
+
         </NuxtLink>
       </div>
       <!--end login button-->
